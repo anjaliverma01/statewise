@@ -1,0 +1,1298 @@
+{
+  "schemaVersion": 1,
+  "bankVersion": "2026-11-initial",
+  "scheduleTimezone": "player-local",
+  "questions": [
+    {
+      "id": "ladakh-001",
+      "answer": "Ladakh",
+      "group": "north",
+      "clues": [
+        {
+          "title": "Camels in a cold desert",
+          "text": "Double-humped Bactrian camels walk among the sand dunes of Nubra Valley. Which union territory hides this unexpected meeting of desert and mountains?",
+          "factKey": "ladakh:nubra-bactrian-camels",
+          "source": "https://www.incredibleindia.gov.in/en/ladakh"
+        },
+        {
+          "title": "A festival behind monastery walls",
+          "text": "At Hemis, masked dancers take part in a Buddhist monastery festival. Which high-altitude union territory is home to this tradition?",
+          "factKey": "ladakh:hemis-festival",
+          "source": "https://www.incredibleindia.gov.in/en/ladakh"
+        },
+        {
+          "title": "Leh is your signpost",
+          "text": "Leh, Pangong Lake and the stark landscapes around the Indus are some of its best-known sights. Which union territory are we looking for?",
+          "factKey": "ladakh:leh-pangong-indus",
+          "source": "https://www.incredibleindia.gov.in/en/ladakh"
+        }
+      ],
+      "takeaway": "Nubra Valley is a cold desert: sand dunes and high mountains can belong to the same landscape.",
+      "sources": [
+        {
+          "label": "Explore Ladakh",
+          "url": "https://www.incredibleindia.gov.in/en/ladakh"
+        }
+      ]
+    },
+    {
+      "id": "jammu-and-kashmir-001",
+      "answer": "Jammu and Kashmir",
+      "group": "north",
+      "clues": [
+        {
+          "title": "An elusive deer",
+          "text": "Dachigam National Park protects the hangul, also called the Kashmir stag. In which union territory would you find this rare deer?",
+          "factKey": "jammu-and-kashmir:dachigam-hangul",
+          "source": "https://www.incredibleindia.gov.in/en/jammu-and-kashmir"
+        },
+        {
+          "title": "Threads and flowers",
+          "text": "Think of fine pashmina shawls and the saffron fields around Pampore. Which union territory brings these two traditions together?",
+          "factKey": "jammu-and-kashmir:pashmina-pampore-saffron",
+          "source": "https://www.incredibleindia.gov.in/en/jammu-and-kashmir"
+        },
+        {
+          "title": "A lake full of shikaras",
+          "text": "Srinagar’s Dal Lake is famous for its shikaras and houseboats, while Jammu is another major city here. Name this union territory.",
+          "factKey": "jammu-and-kashmir:srinagar-dal-shikaras",
+          "source": "https://www.incredibleindia.gov.in/en/jammu-and-kashmir"
+        }
+      ],
+      "takeaway": "Pampore is closely associated with saffron cultivation, while Dachigam is a refuge for the hangul.",
+      "sources": [
+        {
+          "label": "Explore Jammu and Kashmir",
+          "url": "https://www.incredibleindia.gov.in/en/jammu-and-kashmir"
+        }
+      ]
+    },
+    {
+      "id": "himachal-pradesh-001",
+      "answer": "Himachal Pradesh",
+      "group": "north",
+      "clues": [
+        {
+          "title": "A monastery in the cold desert",
+          "text": "Tabo Monastery stands in the stark mountain landscape of Spiti. Which state would you travel to for this ancient Buddhist monastery?",
+          "factKey": "himachal-pradesh:tabo-spiti-monastery",
+          "source": "https://www.incredibleindia.gov.in/en/himachal-pradesh"
+        },
+        {
+          "title": "A home in the hills",
+          "text": "Dharamshala and nearby McLeod Ganj are closely associated with the Dalai Lama and Tibetan culture. Which state are you in?",
+          "factKey": "himachal-pradesh:dharamshala-dalai-lama",
+          "source": "https://www.incredibleindia.gov.in/en/himachal-pradesh"
+        },
+        {
+          "title": "Follow the mountain railway",
+          "text": "Shimla is its capital and Manali is one of its most popular mountain towns. Which state connects these familiar destinations?",
+          "factKey": "himachal-pradesh:shimla-manali",
+          "source": "https://www.incredibleindia.gov.in/en/himachal-pradesh"
+        }
+      ],
+      "takeaway": "The state contains very different mountain environments, from green hill towns to the cold desert of Spiti.",
+      "sources": [
+        {
+          "label": "Explore Himachal Pradesh",
+          "url": "https://www.incredibleindia.gov.in/en/himachal-pradesh"
+        }
+      ]
+    },
+    {
+      "id": "punjab-001",
+      "answer": "Punjab",
+      "group": "north",
+      "clues": [
+        {
+          "title": "Sport beyond the stadium",
+          "text": "The rural sports festival at Kila Raipur brings unusual contests and athletic traditions to a village near Ludhiana. Which state hosts it?",
+          "factKey": "punjab:kila-raipur-rural-sports",
+          "source": "https://www.incredibleindia.gov.in/en/punjab"
+        },
+        {
+          "title": "A harvest in motion",
+          "text": "Bhangra and the spring festival of Baisakhi are deeply associated with this state’s farming culture. Which state comes to mind?",
+          "factKey": "punjab:bhangra-baisakhi",
+          "source": "https://www.incredibleindia.gov.in/en/punjab"
+        },
+        {
+          "title": "An unmistakable golden landmark",
+          "text": "Amritsar’s Golden Temple is one of its most famous landmarks. Which state are we looking for?",
+          "factKey": "punjab:amritsar-golden-temple",
+          "source": "https://www.incredibleindia.gov.in/en/punjab"
+        }
+      ],
+      "takeaway": "Kila Raipur’s sports festival is often nicknamed the Rural Olympics.",
+      "sources": [
+        {
+          "label": "Explore Punjab",
+          "url": "https://www.incredibleindia.gov.in/en/punjab"
+        }
+      ]
+    },
+    {
+      "id": "chandigarh-001",
+      "answer": "Chandigarh",
+      "group": "north",
+      "clues": [
+        {
+          "title": "An open hand",
+          "text": "A giant Open Hand monument expresses the idea of being open to give and receive. Which city and union territory uses it as an emblem?",
+          "factKey": "chandigarh:open-hand-emblem",
+          "source": "https://www.incredibleindia.gov.in/en/chandigarh"
+        },
+        {
+          "title": "Art made from the discarded",
+          "text": "Nek Chand transformed broken objects and discarded materials into the extraordinary Rock Garden. Which union territory is home to it?",
+          "factKey": "chandigarh:nek-chand-rock-garden",
+          "source": "https://www.incredibleindia.gov.in/en/chandigarh"
+        },
+        {
+          "title": "One city, two capitals",
+          "text": "This union territory serves as the capital of both Punjab and Haryana. Can you name it?",
+          "factKey": "chandigarh:capital-punjab-haryana",
+          "source": "https://www.incredibleindia.gov.in/en/chandigarh"
+        }
+      ],
+      "takeaway": "Chandigarh’s Rock Garden turns discarded everyday materials into sculpture and architecture.",
+      "sources": [
+        {
+          "label": "Explore Chandigarh",
+          "url": "https://www.incredibleindia.gov.in/en/chandigarh"
+        }
+      ]
+    },
+    {
+      "id": "haryana-001",
+      "answer": "Haryana",
+      "group": "north",
+      "clues": [
+        {
+          "title": "A city beneath the soil",
+          "text": "Archaeologists at Rakhigarhi study one of the major settlements of the Harappan civilisation. Which state contains this ancient site?",
+          "factKey": "haryana:rakhigarhi-harappan",
+          "source": "https://www.incredibleindia.gov.in/en/haryana"
+        },
+        {
+          "title": "A battlefield in the history books",
+          "text": "Panipat, remembered for three major battles, lies in this state. Which state links this historic city with Kurukshetra?",
+          "factKey": "haryana:panipat-kurukshetra",
+          "source": "https://www.incredibleindia.gov.in/en/haryana"
+        },
+        {
+          "title": "A modern skyline near Delhi",
+          "text": "Gurugram, once commonly called Gurgaon, is here. It shares Chandigarh as its capital with Punjab. Which state is it?",
+          "factKey": "haryana:gurugram-chandigarh",
+          "source": "https://www.incredibleindia.gov.in/en/haryana"
+        }
+      ],
+      "takeaway": "Rakhigarhi offers a glimpse of urban life thousands of years before Gurugram’s modern skyline.",
+      "sources": [
+        {
+          "label": "Explore Haryana",
+          "url": "https://www.incredibleindia.gov.in/en/haryana"
+        }
+      ]
+    },
+    {
+      "id": "delhi-001",
+      "answer": "Delhi",
+      "group": "north",
+      "clues": [
+        {
+          "title": "Steps beneath the city",
+          "text": "Agrasen ki Baoli is a historic stepwell tucked into a busy urban landscape. In which union territory would you descend its stone steps?",
+          "factKey": "delhi:agrasen-stepwell",
+          "source": "https://www.incredibleindia.gov.in/en/delhi"
+        },
+        {
+          "title": "A poet’s old address",
+          "text": "The haveli of Urdu poet Mirza Ghalib stands in Ballimaran, in the old city. Which union territory holds this literary landmark?",
+          "factKey": "delhi:ghalib-ballimaran",
+          "source": "https://www.incredibleindia.gov.in/en/delhi"
+        },
+        {
+          "title": "The nation’s capital",
+          "text": "The Red Fort, India Gate and the Qutub Minar are all here. Which national capital territory are we looking for?",
+          "factKey": "delhi:red-fort-india-gate-qutub",
+          "source": "https://www.incredibleindia.gov.in/en/delhi"
+        }
+      ],
+      "takeaway": "The city’s stepwells were water infrastructure long before they became heritage attractions.",
+      "sources": [
+        {
+          "label": "Explore Delhi",
+          "url": "https://www.incredibleindia.gov.in/en/delhi"
+        }
+      ]
+    },
+    {
+      "id": "uttarakhand-001",
+      "answer": "Uttarakhand",
+      "group": "north",
+      "clues": [
+        {
+          "title": "Patterns at the threshold",
+          "text": "Aipan, a ceremonial folk-art tradition of Kumaon, often uses white designs on a red ground. Which Himalayan state is its home?",
+          "factKey": "uttarakhand:aipan-kumaon",
+          "source": "https://www.incredibleindia.gov.in/en/uttarakhand"
+        },
+        {
+          "title": "Protecting a forest",
+          "text": "Gaura Devi and the women of Reni are remembered for their role in the Chipko movement. In which present-day state is their village?",
+          "factKey": "uttarakhand:gaura-devi-reni-chipko",
+          "source": "https://www.incredibleindia.gov.in/en/uttarakhand"
+        },
+        {
+          "title": "A river and two sacred towns",
+          "text": "Haridwar and Rishikesh sit along the Ganga in this state, whose capital is Dehradun. Which state is it?",
+          "factKey": "uttarakhand:haridwar-rishikesh-dehradun",
+          "source": "https://www.incredibleindia.gov.in/en/uttarakhand"
+        }
+      ],
+      "takeaway": "Aipan is a living art tradition, used for rituals and special occasions in Kumaon.",
+      "sources": [
+        {
+          "label": "Explore Uttarakhand",
+          "url": "https://www.incredibleindia.gov.in/en/uttarakhand"
+        }
+      ]
+    },
+    {
+      "id": "rajasthan-001",
+      "answer": "Rajasthan",
+      "group": "north",
+      "clues": [
+        {
+          "title": "Dance with a serpent’s rhythm",
+          "text": "Kalbelia dancers are known for flowing movements and swirling black skirts. This UNESCO-recognised tradition belongs to which state?",
+          "factKey": "rajasthan:kalbelia-dance",
+          "source": "https://www.incredibleindia.gov.in/en/rajasthan"
+        },
+        {
+          "title": "A warrior of Mewar",
+          "text": "Maharana Pratap and the history of Mewar are closely tied to this state. Which state are we tracing?",
+          "factKey": "rajasthan:maharana-pratap-mewar",
+          "source": "https://www.incredibleindia.gov.in/en/rajasthan"
+        },
+        {
+          "title": "Think pink, then think desert",
+          "text": "Jaipur, the Pink City, is its capital, and the Thar Desert stretches across much of its west. Name the state.",
+          "factKey": "rajasthan:jaipur-thar",
+          "source": "https://www.incredibleindia.gov.in/en/rajasthan"
+        }
+      ],
+      "takeaway": "Kalbelia music and dance carry the community’s knowledge and stories through performance.",
+      "sources": [
+        {
+          "label": "Explore Rajasthan",
+          "url": "https://www.incredibleindia.gov.in/en/rajasthan"
+        },
+        {
+          "label": "UNESCO: Kalbelia",
+          "url": "https://ich.unesco.org/en/RL/kalbelia-folk-songs-and-dances-of-rajasthan-00340"
+        }
+      ]
+    },
+    {
+      "id": "gujarat-001",
+      "answer": "Gujarat",
+      "group": "north",
+      "clues": [
+        {
+          "title": "A palace that goes down",
+          "text": "Rani ki Vav at Patan is a richly carved stepwell rather than a palace above ground. Which state contains this UNESCO World Heritage Site?",
+          "factKey": "gujarat:rani-ki-vav-patan",
+          "source": "https://www.incredibleindia.gov.in/en/gujarat"
+        },
+        {
+          "title": "Where a familiar story began",
+          "text": "Mahatma Gandhi was born in Porbandar and established his famous ashram beside the Sabarmati. Which state links these places?",
+          "factKey": "gujarat:gandhi-porbandar-sabarmati",
+          "source": "https://www.incredibleindia.gov.in/en/gujarat"
+        },
+        {
+          "title": "Lions and a towering statue",
+          "text": "Gir’s Asiatic lions and the Statue of Unity are two of its best-known attractions. Which state are we looking for?",
+          "factKey": "gujarat:gir-statue-unity",
+          "source": "https://www.incredibleindia.gov.in/en/gujarat"
+        }
+      ],
+      "takeaway": "Rani ki Vav shows how a functional water structure could also become an intricate work of art.",
+      "sources": [
+        {
+          "label": "Explore Gujarat",
+          "url": "https://www.incredibleindia.gov.in/en/gujarat"
+        }
+      ]
+    },
+    {
+      "id": "maharashtra-001",
+      "answer": "Maharashtra",
+      "group": "north",
+      "clues": [
+        {
+          "title": "A lake made by an impact",
+          "text": "Lonar Lake fills a crater formed by a meteorite impact. In which state would you find this unusual landscape?",
+          "factKey": "maharashtra:lonar-impact-crater",
+          "source": "https://www.incredibleindia.gov.in/en/maharashtra"
+        },
+        {
+          "title": "A rhythm with a story",
+          "text": "Lavani combines expressive performance with the beat of the dholki. Which state is especially associated with this tradition?",
+          "factKey": "maharashtra:lavani-dholki",
+          "source": "https://www.incredibleindia.gov.in/en/maharashtra"
+        },
+        {
+          "title": "A gateway beside the sea",
+          "text": "Mumbai, the Gateway of India and much of the Hindi film industry are here. Which state are we looking for?",
+          "factKey": "maharashtra:mumbai-gateway-film",
+          "source": "https://www.incredibleindia.gov.in/en/maharashtra"
+        }
+      ],
+      "takeaway": "Lonar’s crater is a striking reminder that India’s landscapes have also been shaped by events from space.",
+      "sources": [
+        {
+          "label": "Explore Maharashtra",
+          "url": "https://www.incredibleindia.gov.in/en/maharashtra"
+        }
+      ]
+    },
+    {
+      "id": "dadra-and-nagar-haveli-and-daman-and-diu-001",
+      "answer": "Dadra and Nagar Haveli and Daman and Diu",
+      "group": "north",
+      "clues": [
+        {
+          "title": "A shrine beside the waves",
+          "text": "Near Diu’s Fudam village, the Gangeshwar Temple sits beside the sea. Which present-day union territory contains this coastal shrine?",
+          "factKey": "dadra-and-nagar-haveli-and-daman-and-diu:gangeshwar-fudam",
+          "source": "https://www.incredibleindia.gov.in/en/dadra-and-nagar-haveli-and-daman-and-diu/diu"
+        },
+        {
+          "title": "A fort on the coast",
+          "text": "Diu Fort and its Portuguese-era heritage belong to this union territory. Which one joins Diu with other western coastal enclaves?",
+          "factKey": "dadra-and-nagar-haveli-and-daman-and-diu:diu-portuguese-fort",
+          "source": "https://www.incredibleindia.gov.in/en/dadra-and-nagar-haveli-and-daman-and-diu/diu"
+        },
+        {
+          "title": "A union of names",
+          "text": "Daman, Diu and Silvassa are all part of this union territory, formed by merging two territories in 2020. Can you name it?",
+          "factKey": "dadra-and-nagar-haveli-and-daman-and-diu:merged-ut-2020-daman-silvassa",
+          "source": "https://www.incredibleindia.gov.in/en/dadra-and-nagar-haveli-and-daman-and-diu/diu"
+        }
+      ],
+      "takeaway": "The present-day union territory brings together geographically separated areas on India’s western side.",
+      "sources": [
+        {
+          "label": "Explore Dadra and Nagar Haveli and Daman and Diu",
+          "url": "https://www.incredibleindia.gov.in/en/dadra-and-nagar-haveli-and-daman-and-diu/diu"
+        }
+      ]
+    },
+    {
+      "id": "karnataka-001",
+      "answer": "Karnataka",
+      "group": "south",
+      "clues": [
+        {
+          "title": "Stone that seems to sing",
+          "text": "At Hampi’s Vittala Temple, pillars are famous for their musical qualities. Which state holds these remains of the Vijayanagara capital?",
+          "factKey": "karnataka:hampi-vittala-pillars",
+          "source": "https://www.incredibleindia.gov.in/en/karnataka"
+        },
+        {
+          "title": "A city lights up",
+          "text": "Mysuru Dasara fills a palace city with celebration, processions and lights. Which state is home to this festival?",
+          "factKey": "karnataka:mysuru-dasara",
+          "source": "https://www.incredibleindia.gov.in/en/karnataka"
+        },
+        {
+          "title": "A familiar tech address",
+          "text": "Bengaluru is its capital, while Mysuru and Hampi are among its famous destinations. Which state is it?",
+          "factKey": "karnataka:bengaluru-capital",
+          "source": "https://www.incredibleindia.gov.in/en/karnataka"
+        }
+      ],
+      "takeaway": "Hampi’s monuments preserve the history of Vijayanagara beside a remarkable landscape of granite boulders.",
+      "sources": [
+        {
+          "label": "Explore Karnataka",
+          "url": "https://www.incredibleindia.gov.in/en/karnataka"
+        }
+      ]
+    },
+    {
+      "id": "kerala-001",
+      "answer": "Kerala",
+      "group": "south",
+      "clues": [
+        {
+          "title": "An art that transforms the performer",
+          "text": "In Theyyam, elaborate costume, make-up and ritual performance create a striking sacred art. With which state’s northern districts is it closely associated?",
+          "factKey": "kerala:theyyam-northern-kerala",
+          "source": "https://www.incredibleindia.gov.in/en/kerala"
+        },
+        {
+          "title": "Stories told through eyes and hands",
+          "text": "Kathakali performers use detailed make-up, expressive eyes and hand gestures to tell epic stories. Which state is its home?",
+          "factKey": "kerala:kathakali",
+          "source": "https://www.incredibleindia.gov.in/en/kerala"
+        },
+        {
+          "title": "Follow the backwaters",
+          "text": "Alappuzha’s houseboats and the backwaters are famous here. Thiruvananthapuram is its capital. Which state are we looking for?",
+          "factKey": "kerala:alappuzha-backwaters-thiruvananthapuram",
+          "source": "https://www.incredibleindia.gov.in/en/kerala"
+        }
+      ],
+      "takeaway": "Theyyam and Kathakali are distinct performance traditions; they should not be treated as the same art form.",
+      "sources": [
+        {
+          "label": "Explore Kerala",
+          "url": "https://www.incredibleindia.gov.in/en/kerala"
+        }
+      ]
+    },
+    {
+      "id": "tamil-nadu-001",
+      "answer": "Tamil Nadu",
+      "group": "south",
+      "clues": [
+        {
+          "title": "A forest with waterways for paths",
+          "text": "At Pichavaram, boats pass through waterways among mangrove roots. Which state contains this coastal forest near Chidambaram?",
+          "factKey": "tamil-nadu:pichavaram-mangroves",
+          "source": "https://www.incredibleindia.gov.in/en/tamil-nadu"
+        },
+        {
+          "title": "A classical language of movement",
+          "text": "Bharatanatyam grew from this state’s performance traditions. Which state is known for this classical dance form?",
+          "factKey": "tamil-nadu:bharatanatyam",
+          "source": "https://www.incredibleindia.gov.in/en/tamil-nadu"
+        },
+        {
+          "title": "A capital by a long beach",
+          "text": "Chennai and its Marina Beach are here, alongside the temple cities of Madurai and Thanjavur. Which state is it?",
+          "factKey": "tamil-nadu:chennai-marina-madurai",
+          "source": "https://www.incredibleindia.gov.in/en/tamil-nadu"
+        }
+      ],
+      "takeaway": "Mangrove forests such as Pichavaram create habitat where land and sea meet.",
+      "sources": [
+        {
+          "label": "Explore Tamil Nadu",
+          "url": "https://www.incredibleindia.gov.in/en/tamil-nadu"
+        }
+      ]
+    },
+    {
+      "id": "andhra-pradesh-001",
+      "answer": "Andhra Pradesh",
+      "group": "south",
+      "clues": [
+        {
+          "title": "A pillar with a surprise",
+          "text": "Lepakshi’s Veerabhadra Temple is famous for a pillar that appears not to rest fully on the floor. Which state contains this architectural curiosity?",
+          "factKey": "andhra-pradesh:lepakshi-hanging-pillar",
+          "source": "https://www.incredibleindia.gov.in/en/andhra-pradesh"
+        },
+        {
+          "title": "A village gives a dance its name",
+          "text": "Kuchipudi, one of India’s classical dance forms, takes its name from a village in this state. Which state is it?",
+          "factKey": "andhra-pradesh:kuchipudi-village-dance",
+          "source": "https://www.incredibleindia.gov.in/en/andhra-pradesh"
+        },
+        {
+          "title": "A celebrated pilgrimage",
+          "text": "Tirupati and the hill temple of Sri Venkateswara at Tirumala are here. Which state are we looking for?",
+          "factKey": "andhra-pradesh:tirupati-tirumala",
+          "source": "https://www.incredibleindia.gov.in/en/andhra-pradesh"
+        }
+      ],
+      "takeaway": "Lepakshi is also known for its monumental Nandi sculpture.",
+      "sources": [
+        {
+          "label": "Explore Andhra Pradesh",
+          "url": "https://www.incredibleindia.gov.in/en/andhra-pradesh"
+        },
+        {
+          "label": "Lepakshi",
+          "url": "https://www.incredibleindia.gov.in/en/rural-tourism/lepakshi"
+        }
+      ]
+    },
+    {
+      "id": "telangana-001",
+      "answer": "Telangana",
+      "group": "south",
+      "clues": [
+        {
+          "title": "A temple with lightweight bricks",
+          "text": "The Ramappa Temple is known for its intricate carving and lightweight bricks. Which state contains this UNESCO-listed Kakatiya monument?",
+          "factKey": "telangana:ramappa-lightweight-bricks",
+          "source": "https://www.incredibleindia.gov.in/en/telangana"
+        },
+        {
+          "title": "Flowers arranged for a festival",
+          "text": "Bathukamma celebrates with layered arrangements of seasonal flowers and women gathering to sing and dance. Which state is especially associated with it?",
+          "factKey": "telangana:bathukamma-flowers",
+          "source": "https://www.incredibleindia.gov.in/en/telangana"
+        },
+        {
+          "title": "Four minarets in a famous city",
+          "text": "Hyderabad’s Charminar is its best-known landmark. Which state, formed in 2014, has Hyderabad as its capital?",
+          "factKey": "telangana:hyderabad-charminar-2014",
+          "source": "https://www.incredibleindia.gov.in/en/telangana"
+        }
+      ],
+      "takeaway": "Ramappa Temple is named after the sculptor associated with its creation, an unusual distinction for a temple.",
+      "sources": [
+        {
+          "label": "Explore Telangana",
+          "url": "https://www.incredibleindia.gov.in/en/telangana"
+        }
+      ]
+    },
+    {
+      "id": "puducherry-001",
+      "answer": "Puducherry",
+      "group": "south",
+      "clues": [
+        {
+          "title": "A trading port beneath the ground",
+          "text": "Arikamedu is an archaeological site associated with ancient maritime trade near this union territory’s main city. Which territory is it?",
+          "factKey": "puducherry:arikamedu-trade",
+          "source": "https://www.incredibleindia.gov.in/en/puducherry"
+        },
+        {
+          "title": "An ashram and a thinker",
+          "text": "Sri Aurobindo’s ashram is one of its best-known institutions. Which union territory is home to this spiritual community?",
+          "factKey": "puducherry:sri-aurobindo-ashram",
+          "source": "https://www.incredibleindia.gov.in/en/puducherry"
+        },
+        {
+          "title": "A French quarter beside the sea",
+          "text": "White Town, French street names and the seafront Promenade give its main city a distinctive character. Which union territory was once called Pondicherry?",
+          "factKey": "puducherry:white-town-pondicherry",
+          "source": "https://www.incredibleindia.gov.in/en/puducherry"
+        }
+      ],
+      "takeaway": "Puducherry is a union territory whose separate districts are spread across different parts of southern India.",
+      "sources": [
+        {
+          "label": "Explore Puducherry",
+          "url": "https://www.incredibleindia.gov.in/en/puducherry"
+        }
+      ]
+    },
+    {
+      "id": "lakshadweep-001",
+      "answer": "Lakshadweep",
+      "group": "south",
+      "clues": [
+        {
+          "title": "A lighthouse with a long view",
+          "text": "Minicoy’s lighthouse dates to 1885. Which island union territory would you visit to see this maritime landmark?",
+          "factKey": "lakshadweep:minicoy-lighthouse-1885",
+          "source": "https://www.incredibleindia.gov.in/en/lakshadweep"
+        },
+        {
+          "title": "Life around a lagoon",
+          "text": "Agatti and Bangaram are known for coral reefs and turquoise lagoons. Which union territory do these islands belong to?",
+          "factKey": "lakshadweep:agatti-bangaram-coral",
+          "source": "https://www.incredibleindia.gov.in/en/lakshadweep"
+        },
+        {
+          "title": "Look west of Kerala",
+          "text": "Kavaratti is its capital, and its coral islands lie in the Arabian Sea. Which union territory are we looking for?",
+          "factKey": "lakshadweep:kavaratti-arabian-sea",
+          "source": "https://www.incredibleindia.gov.in/en/lakshadweep"
+        }
+      ],
+      "takeaway": "Coral reefs are living ecosystems, not simply colourful rocks beneath clear water.",
+      "sources": [
+        {
+          "label": "Explore Lakshadweep",
+          "url": "https://www.incredibleindia.gov.in/en/lakshadweep"
+        }
+      ]
+    },
+    {
+      "id": "andaman-and-nicobar-islands-001",
+      "answer": "Andaman and Nicobar Islands",
+      "group": "south",
+      "clues": [
+        {
+          "title": "An island that still erupts",
+          "text": "Barren Island is home to India’s active volcano. Which island union territory contains it?",
+          "factKey": "andaman-and-nicobar-islands:barren-island-volcano",
+          "source": "https://www.incredibleindia.gov.in/en/andaman-and-nicobar-islands"
+        },
+        {
+          "title": "Walls that remember the freedom struggle",
+          "text": "The Cellular Jail stands as a memorial to those imprisoned during British rule. In which union territory is it located?",
+          "factKey": "andaman-and-nicobar-islands:cellular-jail",
+          "source": "https://www.incredibleindia.gov.in/en/andaman-and-nicobar-islands"
+        },
+        {
+          "title": "An island chain in the east",
+          "text": "These islands lie in the Bay of Bengal. Their capital, once called Port Blair, is now named Sri Vijaya Puram. Which union territory is it?",
+          "factKey": "andaman-and-nicobar-islands:bay-bengal-sri-vijaya-puram",
+          "source": "https://www.incredibleindia.gov.in/en/andaman-and-nicobar-islands"
+        }
+      ],
+      "takeaway": "India’s island union territories sit in different seas: this one is in the Bay of Bengal, east of the mainland.",
+      "sources": [
+        {
+          "label": "Explore Andaman and Nicobar Islands",
+          "url": "https://www.incredibleindia.gov.in/en/andaman-and-nicobar-islands"
+        }
+      ]
+    },
+    {
+      "id": "goa-001",
+      "answer": "Goa",
+      "group": "south",
+      "clues": [
+        {
+          "title": "A lake with a bubbling secret",
+          "text": "Netravali’s bubbling lake, also called Budbudyanchi Tali, is a little-known inland attraction. Which coastal state contains it?",
+          "factKey": "goa:netravali-bubbling-lake",
+          "source": "https://www.incredibleindia.gov.in/en/goa"
+        },
+        {
+          "title": "A basilica with a famous name",
+          "text": "The Basilica of Bom Jesus holds the relics of St Francis Xavier. Which state’s Portuguese-era heritage are we exploring?",
+          "factKey": "goa:bom-jesus-francis-xavier",
+          "source": "https://www.incredibleindia.gov.in/en/goa"
+        },
+        {
+          "title": "A small state with a long beach list",
+          "text": "Panaji is its capital, and Calangute, Baga and Palolem are well-known beaches. Which state is it?",
+          "factKey": "goa:panaji-beaches",
+          "source": "https://www.incredibleindia.gov.in/en/goa"
+        }
+      ],
+      "takeaway": "There is much more to the state than its beaches: its inland villages, forests and heritage sites tell different stories.",
+      "sources": [
+        {
+          "label": "Explore Goa",
+          "url": "https://www.incredibleindia.gov.in/en/goa"
+        }
+      ]
+    },
+    {
+      "id": "madhya-pradesh-001",
+      "answer": "Madhya Pradesh",
+      "group": "south",
+      "clues": [
+        {
+          "title": "Paintings older than cities",
+          "text": "The rock shelters at Bhimbetka preserve ancient paintings. Which state holds this remarkable record of human life?",
+          "factKey": "madhya-pradesh:bhimbetka-rock-art",
+          "source": "https://www.incredibleindia.gov.in/en/madhya-pradesh"
+        },
+        {
+          "title": "A stupa on a hill",
+          "text": "Sanchi’s Great Stupa is one of India’s most celebrated Buddhist monuments. Which state would you visit to see it?",
+          "factKey": "madhya-pradesh:sanchi-great-stupa",
+          "source": "https://www.incredibleindia.gov.in/en/madhya-pradesh"
+        },
+        {
+          "title": "In the heart of the map",
+          "text": "Bhopal is its capital and Khajuraho is one of its famous heritage destinations. Which central Indian state are we looking for?",
+          "factKey": "madhya-pradesh:bhopal-khajuraho",
+          "source": "https://www.incredibleindia.gov.in/en/madhya-pradesh"
+        }
+      ],
+      "takeaway": "Bhimbetka’s rock shelters and Sanchi’s monuments reveal very different periods of India’s past.",
+      "sources": [
+        {
+          "label": "Explore Madhya Pradesh",
+          "url": "https://www.incredibleindia.gov.in/en/madhya-pradesh"
+        }
+      ]
+    },
+    {
+      "id": "chhattisgarh-001",
+      "answer": "Chhattisgarh",
+      "group": "south",
+      "clues": [
+        {
+          "title": "Metal shaped by a disappearing mould",
+          "text": "Bastar is celebrated for Dhokra metalwork made using the lost-wax process. Which state contains this craft region?",
+          "factKey": "chhattisgarh:bastar-dhokra",
+          "source": "https://www.incredibleindia.gov.in/en/chhattisgarh"
+        },
+        {
+          "title": "A river falls in a horseshoe",
+          "text": "Chitrakote Falls on the Indravati River is one of this state’s best-known natural sights. Which state is it?",
+          "factKey": "chhattisgarh:chitrakote-indravati",
+          "source": "https://www.incredibleindia.gov.in/en/chhattisgarh"
+        },
+        {
+          "title": "Raipur is the key",
+          "text": "Its capital is Raipur, and it became a separate state from Madhya Pradesh in 2000. Can you name it?",
+          "factKey": "chhattisgarh:raipur-formed-2000",
+          "source": "https://www.incredibleindia.gov.in/en/chhattisgarh"
+        }
+      ],
+      "takeaway": "In lost-wax casting, a wax model helps create a mould and is removed before molten metal takes its place.",
+      "sources": [
+        {
+          "label": "Explore Chhattisgarh",
+          "url": "https://www.incredibleindia.gov.in/en/chhattisgarh"
+        }
+      ]
+    },
+    {
+      "id": "odisha-001",
+      "answer": "Odisha",
+      "group": "south",
+      "clues": [
+        {
+          "title": "A shore that becomes a nursery",
+          "text": "Olive ridley turtles gather for mass nesting along the Rushikulya coast. Which state protects this remarkable wildlife spectacle?",
+          "factKey": "odisha:rushikulya-olive-ridley",
+          "source": "https://www.incredibleindia.gov.in/en/odisha"
+        },
+        {
+          "title": "Sculpture comes to life",
+          "text": "Odissi is a classical dance form deeply associated with this state’s temple and performance traditions. Which state is it?",
+          "factKey": "odisha:odissi-dance",
+          "source": "https://www.incredibleindia.gov.in/en/odisha"
+        },
+        {
+          "title": "A chariot made of stone",
+          "text": "Konark’s Sun Temple and Puri’s Jagannath Temple are famous landmarks here. Bhubaneswar is its capital. Name the state.",
+          "factKey": "odisha:konark-puri-bhubaneswar",
+          "source": "https://www.incredibleindia.gov.in/en/odisha"
+        }
+      ],
+      "takeaway": "Mass nesting by olive ridley turtles is often called an arribada.",
+      "sources": [
+        {
+          "label": "Explore Odisha",
+          "url": "https://www.incredibleindia.gov.in/en/odisha"
+        }
+      ]
+    },
+    {
+      "id": "manipur-001",
+      "answer": "Manipur",
+      "group": "east",
+      "clues": [
+        {
+          "title": "A lily with a tiny home",
+          "text": "The Shirui lily grows naturally in the Shirui Hills of Ukhrul and is this state’s official flower. Which northeastern state is its home?",
+          "factKey": "manipur:shirui-lily-ukhrul",
+          "source": "https://manipurtourism.gov.in/shirui-lily-festival/"
+        },
+        {
+          "title": "A champion with a silver lift",
+          "text": "Weightlifter Mirabai Chanu, who won silver at the Tokyo 2020 Olympics, comes from this state. Which state are we looking for?",
+          "factKey": "manipur:mirabai-chanu-tokyo",
+          "source": "https://www.olympedia.org/athletes/130576"
+        },
+        {
+          "title": "The dance gives it away",
+          "text": "Its name is shared with Manipuri, the graceful classical dance tradition known for Raas Leela performances. Which state gives this dance its name?",
+          "factKey": "manipur:manipuri-raas-leela",
+          "source": "https://manipurtourism.gov.in/art-culture/"
+        }
+      ],
+      "takeaway": "The Shirui lily is the state flower. Its natural home in the Shirui Hills makes protecting this habitat especially important.",
+      "sources": [
+        {
+          "label": "Shirui lily",
+          "url": "https://manipurtourism.gov.in/shirui-lily-festival/"
+        },
+        {
+          "label": "Mirabai Chanu: Olympedia",
+          "url": "https://www.olympedia.org/athletes/130576"
+        },
+        {
+          "label": "Dance and culture",
+          "url": "https://manipurtourism.gov.in/art-culture/"
+        }
+      ]
+    },
+    {
+      "id": "assam-001",
+      "answer": "Assam",
+      "group": "east",
+      "clues": [
+        {
+          "title": "An island of monasteries",
+          "text": "Majuli, a river island in the Brahmaputra, is known for its satras and mask-making traditions. Which state is its home?",
+          "factKey": "assam:majuli-satras",
+          "source": "https://www.incredibleindia.gov.in/en/assam"
+        },
+        {
+          "title": "Three celebrations of the farming year",
+          "text": "Rongali, Bhogali and Kongali are the three forms of Bihu. Which state’s agricultural calendar do these festivals celebrate?",
+          "factKey": "assam:bihu-three-festivals",
+          "source": "https://www.incredibleindia.gov.in/en/assam"
+        },
+        {
+          "title": "Tea, a river and a rhino",
+          "text": "Guwahati and Kaziranga National Park are here, in a state famous for tea and the one-horned rhinoceros. Which state is it?",
+          "factKey": "assam:guwahati-kaziranga-tea",
+          "source": "https://www.incredibleindia.gov.in/en/assam"
+        }
+      ],
+      "takeaway": "A satra is a centre of the Neo-Vaishnavite religious and cultural tradition, not simply a tourist monument.",
+      "sources": [
+        {
+          "label": "Explore Assam",
+          "url": "https://www.incredibleindia.gov.in/en/assam"
+        }
+      ]
+    },
+    {
+      "id": "meghalaya-001",
+      "answer": "Meghalaya",
+      "group": "east",
+      "clues": [
+        {
+          "title": "A name you can sing",
+          "text": "In Kongthong, people use individual tunes as a way of calling one another. Which northeastern state contains this singing village?",
+          "factKey": "meghalaya:kongthong-name-tunes",
+          "source": "https://www.incredibleindia.gov.in/en/meghalaya"
+        },
+        {
+          "title": "A bridge that keeps growing",
+          "text": "Khasi and Jaintia communities guide living tree roots into bridges. Which state is famous for these living root bridges?",
+          "factKey": "meghalaya:living-root-bridges",
+          "source": "https://www.incredibleindia.gov.in/en/meghalaya"
+        },
+        {
+          "title": "The capital above the clouds",
+          "text": "Shillong is its capital, while Cherrapunji and Mawsynram are famous for extraordinary rainfall. Which state are we looking for?",
+          "factKey": "meghalaya:shillong-rainfall",
+          "source": "https://www.incredibleindia.gov.in/en/meghalaya"
+        }
+      ],
+      "takeaway": "Living root bridges are grown and maintained over generations; they are living infrastructure.",
+      "sources": [
+        {
+          "label": "Explore Meghalaya",
+          "url": "https://www.incredibleindia.gov.in/en/meghalaya"
+        }
+      ]
+    },
+    {
+      "id": "sikkim-001",
+      "answer": "Sikkim",
+      "group": "east",
+      "clues": [
+        {
+          "title": "A sacred lake in the hills",
+          "text": "Khecheopalri Lake near Pelling is revered by both Buddhists and Hindus. Which Himalayan state would you travel to?",
+          "factKey": "sikkim:khecheopalri-lake",
+          "source": "https://www.incredibleindia.gov.in/en/sikkim"
+        },
+        {
+          "title": "A monastery near the capital",
+          "text": "Rumtek Monastery is a major Buddhist landmark near Gangtok. Which state is its home?",
+          "factKey": "sikkim:rumtek-monastery",
+          "source": "https://www.incredibleindia.gov.in/en/sikkim"
+        },
+        {
+          "title": "A capital beneath a great mountain",
+          "text": "Gangtok is its capital, and Khangchendzonga is central to its landscape and culture. Which small Himalayan state is it?",
+          "factKey": "sikkim:gangtok-khangchendzonga",
+          "source": "https://www.incredibleindia.gov.in/en/sikkim"
+        }
+      ],
+      "takeaway": "The state’s lakes and mountains are not only scenic places; many also carry deep spiritual significance.",
+      "sources": [
+        {
+          "label": "Explore Sikkim",
+          "url": "https://www.incredibleindia.gov.in/en/sikkim"
+        },
+        {
+          "label": "Khecheopalri Lake",
+          "url": "https://www.incredibleindia.gov.in/en/sikkim/pelling/khecheopalri-lake"
+        }
+      ]
+    },
+    {
+      "id": "west-bengal-001",
+      "answer": "West Bengal",
+      "group": "east",
+      "clues": [
+        {
+          "title": "Stories in terracotta",
+          "text": "Bishnupur’s temples are famous for their detailed terracotta decoration. Which state preserves this distinctive temple-town heritage?",
+          "factKey": "west-bengal:bishnupur-terracotta",
+          "source": "https://www.incredibleindia.gov.in/en/west-bengal"
+        },
+        {
+          "title": "A poet and a place of learning",
+          "text": "Rabindranath Tagore’s Santiniketan is here. Which state is associated with this Nobel laureate and his educational vision?",
+          "factKey": "west-bengal:tagore-santiniketan",
+          "source": "https://www.incredibleindia.gov.in/en/west-bengal"
+        },
+        {
+          "title": "A bridge over the Hooghly",
+          "text": "Kolkata is its capital, and the Howrah Bridge is a familiar symbol of the city. Which state are we looking for?",
+          "factKey": "west-bengal:kolkata-howrah-hooghly",
+          "source": "https://www.incredibleindia.gov.in/en/west-bengal"
+        }
+      ],
+      "takeaway": "Terracotta literally means baked earth: clay becomes a durable medium for architectural storytelling.",
+      "sources": [
+        {
+          "label": "Explore West Bengal",
+          "url": "https://www.incredibleindia.gov.in/en/west-bengal"
+        }
+      ]
+    },
+    {
+      "id": "arunachal-pradesh-001",
+      "answer": "Arunachal Pradesh",
+      "group": "east",
+      "clues": [
+        {
+          "title": "Fish among the rice",
+          "text": "The Apatani people of Ziro are known for a farming system that combines wet-rice cultivation with fish. Which state contains their valley?",
+          "factKey": "arunachal-pradesh:ziro-apatani-rice-fish",
+          "source": "https://www.incredibleindia.gov.in/en/arunachal-pradesh"
+        },
+        {
+          "title": "A monastery in the mountains",
+          "text": "Tawang Monastery is one of this state’s most famous Buddhist landmarks. Which state would you travel to?",
+          "factKey": "arunachal-pradesh:tawang-monastery",
+          "source": "https://www.incredibleindia.gov.in/en/arunachal-pradesh"
+        },
+        {
+          "title": "A capital in the far northeast",
+          "text": "Itanagar is its capital, and it lies at the eastern edge of India’s Himalayan region. Which state is it?",
+          "factKey": "arunachal-pradesh:itanagar-capital",
+          "source": "https://www.incredibleindia.gov.in/en/arunachal-pradesh"
+        }
+      ],
+      "takeaway": "The Ziro Valley shows how cultural knowledge and farming practices can shape a distinctive landscape.",
+      "sources": [
+        {
+          "label": "Explore Arunachal Pradesh",
+          "url": "https://www.incredibleindia.gov.in/en/arunachal-pradesh"
+        }
+      ]
+    },
+    {
+      "id": "nagaland-001",
+      "answer": "Nagaland",
+      "group": "east",
+      "clues": [
+        {
+          "title": "A village with a conservation story",
+          "text": "Khonoma is known for community-led conservation and is often called a green village. In which northeastern state would you find it?",
+          "factKey": "nagaland:khonoma-conservation",
+          "source": "https://www.incredibleindia.gov.in/en/nagaland"
+        },
+        {
+          "title": "A festival named after a bird",
+          "text": "The Hornbill Festival brings together the cultures of many Naga communities. Which state hosts it?",
+          "factKey": "nagaland:hornbill-festival",
+          "source": "https://www.incredibleindia.gov.in/en/nagaland"
+        },
+        {
+          "title": "Kohima is your clue",
+          "text": "Kohima, remembered for a major Second World War battle, is its capital. Which state are we looking for?",
+          "factKey": "nagaland:kohima-wwii",
+          "source": "https://www.incredibleindia.gov.in/en/nagaland"
+        }
+      ],
+      "takeaway": "Khonoma is an example of communities taking an active role in protecting their local environment.",
+      "sources": [
+        {
+          "label": "Explore Nagaland",
+          "url": "https://www.incredibleindia.gov.in/en/nagaland"
+        }
+      ]
+    },
+    {
+      "id": "mizoram-001",
+      "answer": "Mizoram",
+      "group": "east",
+      "clues": [
+        {
+          "title": "A waterfall in a green valley",
+          "text": "Vantawng Falls near Thenzawl is one of this state’s best-known natural attractions. Which northeastern state contains it?",
+          "factKey": "mizoram:vantawng-thenzawl",
+          "source": "https://www.incredibleindia.gov.in/en/mizoram"
+        },
+        {
+          "title": "Dance between the bamboo",
+          "text": "In Cheraw, dancers step between moving bamboo poles. Which state is especially known for this performance tradition?",
+          "factKey": "mizoram:cheraw-bamboo",
+          "source": "https://www.incredibleindia.gov.in/en/mizoram"
+        },
+        {
+          "title": "Find Aizawl",
+          "text": "Aizawl is its capital. This hilly northeastern state shares international borders with Bangladesh and Myanmar. Which state is it?",
+          "factKey": "mizoram:aizawl-borders",
+          "source": "https://www.incredibleindia.gov.in/en/mizoram"
+        }
+      ],
+      "takeaway": "Cheraw requires close coordination between the dancers and the people moving the bamboo poles.",
+      "sources": [
+        {
+          "label": "Explore Mizoram",
+          "url": "https://www.incredibleindia.gov.in/en/mizoram"
+        }
+      ]
+    },
+    {
+      "id": "tripura-001",
+      "answer": "Tripura",
+      "group": "east",
+      "clues": [
+        {
+          "title": "Faces carved into a hillside",
+          "text": "Unakoti is famous for monumental rock-cut figures, including images of Shiva. Which northeastern state holds this striking site?",
+          "factKey": "tripura:unakoti-rock-carvings",
+          "source": "https://www.incredibleindia.gov.in/en/tripura"
+        },
+        {
+          "title": "A palace in a lake",
+          "text": "Neermahal stands in Rudrasagar Lake, combining royal architecture with a waterside setting. Which state is it in?",
+          "factKey": "tripura:neermahal-rudrasagar",
+          "source": "https://www.incredibleindia.gov.in/en/tripura"
+        },
+        {
+          "title": "The capital is Agartala",
+          "text": "Agartala is its capital, and Bangladesh wraps around much of its boundary. Which state are we looking for?",
+          "factKey": "tripura:agartala-bangladesh",
+          "source": "https://www.incredibleindia.gov.in/en/tripura"
+        }
+      ],
+      "takeaway": "Neermahal’s name means water palace, a fitting description of its setting in Rudrasagar Lake.",
+      "sources": [
+        {
+          "label": "Explore Tripura",
+          "url": "https://www.incredibleindia.gov.in/en/tripura"
+        }
+      ]
+    },
+    {
+      "id": "bihar-001",
+      "answer": "Bihar",
+      "group": "east",
+      "clues": [
+        {
+          "title": "A polished interior from the ancient world",
+          "text": "The Barabar caves are known for their ancient rock-cut chambers and highly polished walls. Which state contains these Mauryan-era caves?",
+          "factKey": "bihar:barabar-mauryan-caves",
+          "source": "https://www.incredibleindia.gov.in/en/bihar"
+        },
+        {
+          "title": "A tree in a world-changing story",
+          "text": "Bodh Gaya is revered as the place where the Buddha attained enlightenment. Which state would you visit?",
+          "factKey": "bihar:bodhgaya-enlightenment",
+          "source": "https://www.incredibleindia.gov.in/en/bihar"
+        },
+        {
+          "title": "A capital and an ancient university",
+          "text": "Patna is its capital and Nalanda is one of its famous historic sites. Which state is it?",
+          "factKey": "bihar:patna-nalanda",
+          "source": "https://www.incredibleindia.gov.in/en/bihar"
+        }
+      ],
+      "takeaway": "The Barabar caves and the remains of Nalanda connect the state to different chapters of ancient learning and belief.",
+      "sources": [
+        {
+          "label": "Explore Bihar",
+          "url": "https://www.incredibleindia.gov.in/en/bihar"
+        }
+      ]
+    },
+    {
+      "id": "jharkhand-001",
+      "answer": "Jharkhand",
+      "group": "east",
+      "clues": [
+        {
+          "title": "Paintings made from the earth",
+          "text": "Sohrai and Khovar paintings in the Hazaribagh region use locally available earth colours. Which state is home to this tradition?",
+          "factKey": "jharkhand:hazaribagh-sohrai-khovar",
+          "source": "https://www.incredibleindia.gov.in/en/jharkhand"
+        },
+        {
+          "title": "A leader remembered as Dharti Aba",
+          "text": "Birsa Munda is strongly associated with the region that became this state. Which state honours this tribal leader’s legacy?",
+          "factKey": "jharkhand:birsa-munda-dharti-aba",
+          "source": "https://www.incredibleindia.gov.in/en/jharkhand"
+        },
+        {
+          "title": "Ranchi and a city of steel",
+          "text": "Ranchi is its capital, and Jamshedpur is famous for its steel industry. Which state are we looking for?",
+          "factKey": "jharkhand:ranchi-jamshedpur",
+          "source": "https://www.incredibleindia.gov.in/en/jharkhand"
+        }
+      ],
+      "takeaway": "Sohrai and Khovar art are linked to community life, including harvest and marriage traditions.",
+      "sources": [
+        {
+          "label": "Explore Jharkhand",
+          "url": "https://www.incredibleindia.gov.in/en/jharkhand"
+        },
+        {
+          "label": "Art and culture",
+          "url": "https://tourism.jharkhand.gov.in/artandculture"
+        }
+      ]
+    },
+    {
+      "id": "uttar-pradesh-001",
+      "answer": "Uttar Pradesh",
+      "group": "east",
+      "clues": [
+        {
+          "title": "A city that captures fragrance",
+          "text": "Kannauj is famous for traditional attar, or perfume, distilled using long-established techniques. Which state contains this fragrant city?",
+          "factKey": "uttar-pradesh:kannauj-attar",
+          "source": "https://www.incredibleindia.gov.in/en/uttar-pradesh"
+        },
+        {
+          "title": "A city beside the sacred river",
+          "text": "Varanasi’s ghats line the Ganga and draw pilgrims from across India. Which state is it in?",
+          "factKey": "uttar-pradesh:varanasi-ganga",
+          "source": "https://www.incredibleindia.gov.in/en/uttar-pradesh"
+        },
+        {
+          "title": "A monument almost everyone knows",
+          "text": "Agra’s Taj Mahal is here, and Lucknow is the state capital. Which state are we looking for?",
+          "factKey": "uttar-pradesh:agra-taj-lucknow",
+          "source": "https://www.incredibleindia.gov.in/en/uttar-pradesh"
+        }
+      ],
+      "takeaway": "Attar-making turns flowers and other aromatic materials into concentrated fragrances with deep cultural associations.",
+      "sources": [
+        {
+          "label": "Explore Uttar Pradesh",
+          "url": "https://www.incredibleindia.gov.in/en/uttar-pradesh"
+        }
+      ]
+    }
+  ],
+  "days": [
+    {
+      "date": "2026-11-02",
+      "questionIds": [
+        "manipur-001",
+        "ladakh-001",
+        "karnataka-001"
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "questionIds": [
+        "assam-001",
+        "jammu-and-kashmir-001",
+        "kerala-001"
+      ]
+    },
+    {
+      "date": "2026-11-04",
+      "questionIds": [
+        "meghalaya-001",
+        "himachal-pradesh-001",
+        "tamil-nadu-001"
+      ]
+    },
+    {
+      "date": "2026-11-05",
+      "questionIds": [
+        "sikkim-001",
+        "punjab-001",
+        "andhra-pradesh-001"
+      ]
+    },
+    {
+      "date": "2026-11-06",
+      "questionIds": [
+        "west-bengal-001",
+        "chandigarh-001",
+        "telangana-001"
+      ]
+    },
+    {
+      "date": "2026-11-07",
+      "questionIds": [
+        "arunachal-pradesh-001",
+        "haryana-001",
+        "puducherry-001"
+      ]
+    },
+    {
+      "date": "2026-11-08",
+      "questionIds": [
+        "nagaland-001",
+        "delhi-001",
+        "lakshadweep-001"
+      ]
+    },
+    {
+      "date": "2026-11-09",
+      "questionIds": [
+        "mizoram-001",
+        "uttarakhand-001",
+        "andaman-and-nicobar-islands-001"
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "questionIds": [
+        "tripura-001",
+        "rajasthan-001",
+        "goa-001"
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "questionIds": [
+        "bihar-001",
+        "gujarat-001",
+        "madhya-pradesh-001"
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "questionIds": [
+        "jharkhand-001",
+        "maharashtra-001",
+        "chhattisgarh-001"
+      ]
+    },
+    {
+      "date": "2026-11-13",
+      "questionIds": [
+        "uttar-pradesh-001",
+        "dadra-and-nagar-haveli-and-daman-and-diu-001",
+        "odisha-001"
+      ]
+    }
+  ],
+  "retiredFacts": [
+    {
+      "factKey": "manipur:sangai-floating-meadows",
+      "text": "Imagine a deer stepping so delicately across floating meadows that it appears to dance. The endangered sangai is the state animal of which state?",
+      "reason": "Used in the original one-question trial"
+    },
+    {
+      "factKey": "manipur:mary-kom-2012",
+      "text": "Mary Kom grew from a village in this state to become a six-time world boxing champion and a London 2012 Olympic bronze medallist. Which state is her home?",
+      "reason": "Used in the original one-question trial"
+    },
+    {
+      "factKey": "manipur:imphal-loktak",
+      "text": "Head to India’s northeast, along the border with Myanmar. Imphal is its capital, and Loktak Lake is a famous landmark. Which state is it?",
+      "reason": "Used in the original one-question trial"
+    }
+  ]
+}
