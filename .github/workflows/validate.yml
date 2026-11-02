@@ -14,4 +14,4 @@ jobs:
         with:
           node-version: '22'
       - run: node scripts/validate-bank.cjs
-      - run: node --test tests/game-core.test.cjs
+      - run: node --test tests/*.test.cjs
