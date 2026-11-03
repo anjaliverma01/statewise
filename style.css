@@ -170,3 +170,9 @@ body.daily-complete:not(.show-results) .answer-bar button{min-height:44px;font-s
  body.daily-complete:not(.show-results) .answer-bar button{width:100%;font-size:14px}
  body.daily-complete:not(.show-results) .map-label{font-size:9px;max-width:90%;white-space:normal;text-align:center}
 }
+
+/* Keep revealed history above the current card in a card-sized mobile viewport. */
+@media(max-width:650px){
+ body.quiz-screen:not(.show-results) #clue-list{overflow-y:auto;overflow-x:hidden;overscroll-behavior:contain;scrollbar-width:thin}
+ body.quiz-screen:not(.show-results) #clue-list .previous-revealed{margin-bottom:10px}
+}
