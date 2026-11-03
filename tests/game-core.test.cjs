@@ -16,3 +16,22 @@ test('reject gaps and insecure source links',()=>{const b=clone();b.days.splice(
 test('scoring is 500, 300, 100 with a maximum of 1500',()=>{assert.deepEqual(core.POINTS,[500,300,100]);assert.equal(core.totalScore([{score:500},{score:500},{score:500}]),1500);assert.equal(core.totalScore([{score:500},{score:300},{score:100}]),900);});
 test('clock derives from the fixed deadline, including after a reload',()=>{const q=core.dailyQuestions(bank,bank.days[0].date),p=core.freshProgress(bank.days[0].date,q);p.started=true;p.deadline=121000;p.level=1;const restored=core.restoreProgress(JSON.stringify(p),p.date,q);assert.equal(restored.deadline,121000);assert.equal(core.remainingSeconds(restored.deadline,61000),60);assert.equal(core.remainingSeconds(restored.deadline,122000),0);});
 test('new date resets progress, invalid or corrupted scores are discarded',()=>{const day=bank.days[0],q=core.dailyQuestions(bank,day.date),p=core.freshProgress(day.date,q);p.results=[{id:q[0].id,score:999,won:true,timedOut:false,level:0,guesses:[]}];assert.deepEqual(core.restoreProgress(JSON.stringify(p),day.date,q),core.freshProgress(day.date,q));assert.deepEqual(core.restoreProgress('invalid JSON',day.date,q),core.freshProgress(day.date,q));assert.deepEqual(core.restoreProgress(JSON.stringify(p),'2027-01-01',q),core.freshProgress('2027-01-01',q));});
+
+test('the daily date switches exactly at midnight IST, including month and year boundaries',()=>{
+ for(const [before,after,oldDay,newDay] of [
+  ['2026-11-03T18:29:59.999Z','2026-11-03T18:30:00.000Z','2026-11-03','2026-11-04'],
+  ['2026-12-31T18:29:59.999Z','2026-12-31T18:30:00.000Z','2026-12-31','2027-01-01'],
+  ['2028-02-29T18:29:59.999Z','2028-02-29T18:30:00.000Z','2028-02-29','2028-03-01']
+ ]){assert.equal(core.dateKey(new Date(before)),oldDay);assert.equal(core.dateKey(new Date(after)),newDay);assert.equal(core.millisecondsUntilNextDay(Date.parse(before)),1);assert.equal(core.millisecondsUntilNextDay(Date.parse(after)),86400000);}
+});
+test('IST day selection is identical in different device timezones',()=>{
+ const previousTimezone=process.env.TZ;
+ try{for(const tz of ['UTC','Asia/Kolkata','America/Los_Angeles','Pacific/Auckland']){process.env.TZ=tz;assert.equal(core.dateKey(new Date('2026-11-03T18:30:00Z')),'2026-11-04',tz);}}
+ finally{if(previousTimezone===undefined)delete process.env.TZ;else process.env.TZ=previousTimezone;}
+});
+test('the next IST day chooses fresh mysteries and resets saved progress',()=>{
+ const before=core.dateKey(new Date('2026-11-03T18:29:59Z')),after=core.dateKey(new Date('2026-11-03T18:30:00Z'));
+ const old=core.dailyQuestions(bank,before),next=core.dailyQuestions(bank,after);assert.equal(old.length,3);assert.equal(next.length,3);assert.notDeepEqual(old.map(q=>q.id),next.map(q=>q.id));
+ const saved=core.freshProgress(before,old);saved.started=true;saved.deadline=Date.parse('2026-11-03T18:31:00Z');assert.deepEqual(core.restoreProgress(JSON.stringify(saved),after,next),core.freshProgress(after,next));
+ const invalid=clone();invalid.scheduleTimezone='player-local';assert.throws(()=>core.validateBank(invalid,regions),/Asia\/Kolkata/);
+});
