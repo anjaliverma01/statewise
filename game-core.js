@@ -3,6 +3,11 @@
 const POINTS=[500,300,100],SCHEMA_VERSION=1;
 function dateKey(date=new Date()){return [date.getFullYear(),String(date.getMonth()+1).padStart(2,'0'),String(date.getDate()).padStart(2,'0')].join('-');}
 function normalize(text){return text.toLowerCase().replace(/[^a-z0-9]+/g,' ').trim();}
+function clueNamesRegion(clue,regionNames){
+ const aliases=[...regionNames,'Kashmir','Kashmiri','Jammu','Dadra','Nagar Haveli','Daman','Diu','Pondicherry','Orissa','Odissi','Manipuri','Tamil','Bengal','Bengali','Naga','Assamese','Punjabi','Gujarati','Rajasthani','Bihari','Goan','Keralite','Sikkimese'];
+ const text=' '+normalize(clue.title+' '+clue.text)+' ';
+ return aliases.some(name=>text.includes(' '+normalize(name)+' '));
+}
 function validateBank(bank,regionNames){
  if(bank.schemaVersion!==SCHEMA_VERSION||!Array.isArray(bank.questions)||!Array.isArray(bank.days))throw Error('Unsupported question bank');
  const ids=new Set(),facts=new Set((bank.retiredFacts||[]).map(c=>c.factKey)),texts=new Set((bank.retiredFacts||[]).map(c=>normalize(c.text))),used=new Set(),dates=new Set();
@@ -30,6 +35,6 @@ function restoreProgress(raw,key,questions){
 }
 function remainingSeconds(deadline,now=Date.now()){return Math.max(0,Math.ceil((deadline-now)/1000));}
 function totalScore(results){return results.reduce((n,r)=>n+r.score,0);}
-const api={POINTS,dateKey,normalize,validateBank,dailyQuestions,freshProgress,restoreProgress,remainingSeconds,totalScore};
+const api={POINTS,dateKey,normalize,clueNamesRegion,validateBank,dailyQuestions,freshProgress,restoreProgress,remainingSeconds,totalScore};
 if(typeof module!=='undefined'&&module.exports)module.exports=api;else root.StatewiseCore=api;
 })(typeof window!=='undefined'?window:globalThis);

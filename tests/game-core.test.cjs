@@ -3,6 +3,11 @@ const test=require('node:test'),assert=require('node:assert/strict'),fs=require(
 const root=path.resolve(__dirname,'..'),base=fs.existsSync(path.join(root,'questions.json'))?root:path.join(root,'dist'),core=require(path.join(base,'game-core.js'));
 const bank=JSON.parse(fs.readFileSync(path.join(base,'questions.json'))),regions=new Set(JSON.parse(fs.readFileSync(path.join(base,'india.geojson'))).features.map(f=>f.properties.name));
 const clone=()=>JSON.parse(JSON.stringify(bank));
+test('clue titles and text contain no region names or revealing derivatives',()=>{
+ for(const q of bank.questions)for(const clue of q.clues)assert.equal(core.clueNamesRegion(clue,regions),false,q.id+' / '+clue.title);
+ for(const name of ['Kashmir stag','Kashmiri stag','Manipuri','Odissi','Pondicherry','Diu Fort','Madhya Pradesh'])assert(core.clueNamesRegion({title:name,text:'A clue'},regions),name);
+ assert.equal(core.clueNamesRegion({title:'Stone that seems to sing',text:'Vijayanagara and Kila Raipur'},regions),false);
+});
 test('bank covers all 36 regions with 108 unique facts and 12 non-repeating days',()=>{assert(core.validateBank(bank,regions));assert.equal(new Set(bank.questions.map(q=>q.answer)).size,36);assert(bank.days.length>=12);assert.equal(bank.questions.length%36,0);assert.equal(new Set(bank.days.flatMap(d=>d.questionIds)).size,bank.days.length*3);});
 test('daily selection is stable, has three distinct regions and never cycles after expiry',()=>{for(const day of bank.days){assert.deepEqual(core.dailyQuestions(bank,day.date).map(q=>q.id),day.questionIds);assert.equal(new Set(core.dailyQuestions(bank,day.date).map(q=>q.answer)).size,3);}assert.deepEqual(core.dailyQuestions(bank,'2030-01-01'),[]);});
 test('reject duplicate fact IDs even when the question has been reworded',()=>{const b=clone();b.questions[1].clues[0].factKey=b.questions[0].clues[0].factKey;assert.throws(()=>core.validateBank(b,regions),/Duplicate/);});
