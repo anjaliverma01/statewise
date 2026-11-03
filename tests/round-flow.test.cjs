@@ -24,10 +24,10 @@ test('completion opens a results page with all mystery reviews and returns to th
  f.run("$('#return-home').onclick()");assert.equal(f.get('#daily-results').hidden,true);assert.equal(f.get('#home').hidden,false);assert.equal(f.get('.game').hidden,false);assert.equal(f.get('#completed-review').hidden,true);assert(f.get('#body').classes.has('daily-complete'));assert(!f.get('#body').classes.has('show-results'));assert.equal(f.focused(),'submit');assert.equal(f.run('window.location.hash'),'');assert.equal(f.run('progress.summaryDismissed'),true);assert.match(f.get('#submit').innerHTML,/View today’s results/);
  f.run("$('#submit').onclick()");assert.equal(f.get('#daily-results').hidden,false);assert.equal(f.get('.game').hidden,true);assert.equal(f.run('progress.results.length'),3);
 });
-test('each active clue is complete with difficulty and an explicit reveal cost, without locked rows',()=>{
+test('revealed clues remain available in order, with one active clue and no locked rows',()=>{
  const f=fixture();f.run('startQuestion()');
  for(const [level,difficulty] of ['Hard','Medium','Easy'].entries()){
-  const html=f.get('#clue-list').innerHTML;assert.equal((html.match(/<article/g)||[]).length,1);assert(html.includes(f.run(`current().clues[${level}].text`)));assert.match(html,new RegExp(difficulty));assert.doesNotMatch(html,/LOCKED|class="locked"|previous-revealed/);
+  const html=f.get('#clue-list').innerHTML;assert.equal((html.match(/<article/g)||[]).length,level+1);assert.equal((html.match(/id="current-clue"/g)||[]).length,1);for(let earlier=0;earlier<=level;earlier++)assert(html.includes(f.run(`current().clues[${earlier}].text`)));for(let locked=level+1;locked<3;locked++)assert(!html.includes(f.run(`current().clues[${locked}].text`)));assert(html.includes(f.run(`current().clues[${level}].text`)));assert.match(html,new RegExp(difficulty));assert.doesNotMatch(html,/LOCKED|class="locked"/);
   if(level<2){assert.match(f.get('#next').innerHTML,/−200 pts/);assert.match(f.get('#next').attrs['aria-label'],/Reduces available points by 200/);f.run('nextClue()');}else assert.equal(f.get('#next').style.display,'none');
  }
 });

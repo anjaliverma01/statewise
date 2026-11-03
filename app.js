@@ -12,8 +12,17 @@ function updateTimer(){if(!progress||!progress.started||isFinished())return;cons
 function beginInterval(){clearInterval(timerInterval);timerInterval=setInterval(updateTimer,250);}
 function canPlay(){if(!progress?.started||isFinished())return false;updateTimer();return !isFinished();}
 function startQuestion(){if(!progress||progress.started||isFinished())return;progress.started=true;progress.deadline=Date.now()+120000;save();render();revealCurrentClue();updateTimer();beginInterval();}
-function revealCurrentClue(){const clue=$('#current-clue');if(!clue)return;$('#clue-announcement').textContent=`${difficulties[progress.level]} clue ${progress.level+1} of 3: ${current().clues[progress.level].title}`;$('#clue-list').scrollTop=0;clue.focus({preventScroll:true});clue.scrollIntoView({behavior:'instant',block:'nearest'});}
-function clueCard(c,i){return `<article id="current-clue" tabindex="-1" aria-labelledby="current-clue-title" class="clue clue-step-${i} current-clue"><div class="clue-tag"><b>${i+1}</b><span>CLUE ${i+1} OF 3</span><span class="clue-difficulty">${difficulties[i]}</span><span>· ${points[i]} PTS</span></div><h2 id="current-clue-title">${c.title}</h2><p>${c.text}</p></article>`;}
+function fitCurrentClue(){
+ const clue=$('#current-clue'),area=$('#clue-list');if(!clue)return;
+ if(window.matchMedia('(max-width: 650px)').matches){area.style.height=clue.offsetHeight+'px';area.scrollTop+=clue.getBoundingClientRect().top-area.getBoundingClientRect().top;}else area.style.height='';
+}
+let clueObserver;
+function revealCurrentClue(){
+ const clue=$('#current-clue');if(!clue)return;$('#clue-announcement').textContent=`${difficulties[progress.level]} clue ${progress.level+1} of 3: ${current().clues[progress.level].title}`;
+ clueObserver?.disconnect();fitCurrentClue();clue.focus({preventScroll:true});clue.scrollIntoView({behavior:'instant',block:'nearest'});
+ if(typeof ResizeObserver!=='undefined'){clueObserver=new ResizeObserver(fitCurrentClue);clueObserver.observe(clue);}
+}
+function clueCard(c,i){const active=i===progress.level;return `<article ${active?'id="current-clue" tabindex="-1" aria-labelledby="current-clue-title"':''} class="clue clue-step-${i} ${active?'current-clue':'previous-revealed'}"><div class="clue-tag"><b>${i+1}</b><span>CLUE ${i+1} OF 3</span><span class="clue-difficulty">${difficulties[i]}</span><span>· ${points[i]} PTS</span></div><h2 ${active?'id="current-clue-title"':''}>${c.title}</h2><p>${c.text}</p></article>`;}
 
 function render(){
  const q=current(),level=progress.level,done=isFinished(),r=progress.results[progress.index];
@@ -26,7 +35,7 @@ function render(){
  $('#daily-progress').innerHTML=questions.map((item,i)=>{const result=progress.results[i];return `<li class="${result?'complete':i===progress.index?'current':''}" ${i===progress.index?'aria-current="step"':''}><span class="progress-dot">${result?(result.won?'✓':'×'):i+1}</span><span>${result?item.answer:'Mystery '+(i+1)}<small>${result?result.score+' pts':i===progress.index?'Your current question':'Coming up'}</small></span></li>`;}).join('');
  if(isDailyComplete()){renderHome();return;}
  $('#home').hidden=true;$('.game').hidden=false;
- $('#clue-list').innerHTML=!progress.started?`<article class="clue ready ready-round-${progress.index}"><span class="mystery-number" aria-hidden="true">0${progress.index+1}</span><div class="clue-tag">MYSTERY ${progress.index+1} OF 3 · TWO MINUTES</div><h2>${['Your first discovery','A new place awaits','One last mystery'][progress.index]}</h2><p>${['Guess each state or UT from up to three clues. Fewer clues earn more points. Pin your choice, then lock it in. Three mysteries daily, two minutes each.','A different place, fresh clues and a fresh two-minute timer. Your daily score carries forward. Ready for the next discovery?','The final stop for today. Three fresh clues and two minutes to find one more place. Make this discovery count.'][progress.index]}</p><button id="start-question" class="start-question">${['Start mystery 1','Start mystery 2','Start the final mystery'][progress.index]}<span>2:00 ↗</span></button></article>`:clueCard(q.clues[level],level);
+ $('#clue-list').innerHTML=!progress.started?`<article class="clue ready ready-round-${progress.index}"><span class="mystery-number" aria-hidden="true">0${progress.index+1}</span><div class="clue-tag">MYSTERY ${progress.index+1} OF 3 · TWO MINUTES</div><h2>${['Your first discovery','A new place awaits','One last mystery'][progress.index]}</h2><p>${['Guess each state or UT from up to three clues. Fewer clues earn more points. Pin your choice, then lock it in. Three mysteries daily, two minutes each.','A different place, fresh clues and a fresh two-minute timer. Your daily score carries forward. Ready for the next discovery?','The final stop for today. Three fresh clues and two minutes to find one more place. Make this discovery count.'][progress.index]}</p><button id="start-question" class="start-question">${['Start mystery 1','Start mystery 2','Start the final mystery'][progress.index]}<span>2:00 ↗</span></button></article>`:q.clues.slice(0,level+1).map(clueCard).join('');
  $('#next').style.display=!progress.started||level===2||done?'none':'flex';
  const nextPoints=points[level+1]??points[level],cost=points[level]-nextPoints;
  $('#next').innerHTML=`Reveal clue ${level+2}<span>−${cost} pts · ${nextPoints} if correct ↗</span>`;
@@ -114,6 +123,7 @@ function buildMap(d){for(const f of d.features){const name=f.properties.name,p=d
 }
 function setZoom(z){zoom=Math.max(1,Math.min(2.5,z));const size=650/zoom;$('#map').setAttribute('viewBox',`${325-size/2} ${325-size/2} ${size} ${size}`);$('#zoom-in').disabled=zoom>=2.5;$('#zoom-out').disabled=zoom<=1;}
 function modal(html){$('#modal-content').innerHTML=html;$('#modal').showModal();}
+window.addEventListener('resize',()=>{if(progress?.started&&!isDailyComplete())fitCurrentClue();});
 window.addEventListener('popstate',()=>{if(isDailyComplete()){if(window.location.hash==='#results')showDailySummary(false);else returnHome(false);}});
 $('#clue-list').addEventListener('click',e=>{if(e.target.closest('#start-question'))startQuestion();});$('#next').onclick=()=>{$('#feedback').textContent='';nextClue();};$('#submit').onclick=()=>{if(!progress)return;if(isDailyComplete())showDailySummary();else if(isFinished())showRoundDialog();else submitAnswer();};
 $('#zoom-in').onclick=()=>setZoom(zoom+.3);$('#zoom-out').onclick=()=>setZoom(zoom-.3);$('#reset-map').onclick=()=>setZoom(1);$('#close-modal').onclick=()=>$('#modal').close();$('#modal').onclick=e=>{if(e.target===$('#modal')){const r=$('#modal').getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)$('#modal').close();}};
