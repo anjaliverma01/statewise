@@ -42,7 +42,7 @@
       "clues": [
         {
           "title": "An elusive deer",
-          "text": "Dachigam National Park protects the hangul, also called the Kashmir stag. In which union territory would you find this rare deer?",
+          "text": "Dachigam National Park protects the hangul, a rare deer. In which union territory would you find it?",
           "factKey": "jammu-and-kashmir:dachigam-hangul",
           "source": "https://www.incredibleindia.gov.in/en/jammu-and-kashmir"
         },
@@ -54,7 +54,7 @@
         },
         {
           "title": "A lake full of shikaras",
-          "text": "Srinagar’s Dal Lake is famous for its shikaras and houseboats, while Jammu is another major city here. Name this union territory.",
+          "text": "Srinagar’s Dal Lake is famous for its shikaras and houseboats. Name this union territory.",
           "factKey": "jammu-and-kashmir:srinagar-dal-shikaras",
           "source": "https://www.incredibleindia.gov.in/en/jammu-and-kashmir"
         }
@@ -150,7 +150,7 @@
         },
         {
           "title": "One city, two capitals",
-          "text": "This union territory serves as the capital of both Punjab and Haryana. Can you name it?",
+          "text": "This planned city and union territory serves as the shared capital of two neighbouring northern states. Can you name it?",
           "factKey": "chandigarh:capital-punjab-haryana",
           "source": "https://www.incredibleindia.gov.in/en/chandigarh"
         }
@@ -181,8 +181,8 @@
           "source": "https://www.incredibleindia.gov.in/en/haryana"
         },
         {
-          "title": "A modern skyline near Delhi",
-          "text": "Gurugram, once commonly called Gurgaon, is here. It shares Chandigarh as its capital with Punjab. Which state is it?",
+          "title": "A modern skyline",
+          "text": "Gurugram, once commonly called Gurgaon, is here. Which state contains this major business hub?",
           "factKey": "haryana:gurugram-chandigarh",
           "source": "https://www.incredibleindia.gov.in/en/haryana"
         }
@@ -366,19 +366,19 @@
       "clues": [
         {
           "title": "A shrine beside the waves",
-          "text": "Near Diu’s Fudam village, the Gangeshwar Temple sits beside the sea. Which present-day union territory contains this coastal shrine?",
+          "text": "Near Fudam village, the Gangeshwar Temple sits beside the sea. Which present-day union territory contains this coastal shrine?",
           "factKey": "dadra-and-nagar-haveli-and-daman-and-diu:gangeshwar-fudam",
           "source": "https://www.incredibleindia.gov.in/en/dadra-and-nagar-haveli-and-daman-and-diu/diu"
         },
         {
           "title": "A fort on the coast",
-          "text": "Diu Fort and its Portuguese-era heritage belong to this union territory. Which one joins Diu with other western coastal enclaves?",
+          "text": "A coastal fort with Portuguese-era heritage stands in this union territory. Which territory combines western coastal enclaves with an inland district?",
           "factKey": "dadra-and-nagar-haveli-and-daman-and-diu:diu-portuguese-fort",
           "source": "https://www.incredibleindia.gov.in/en/dadra-and-nagar-haveli-and-daman-and-diu/diu"
         },
         {
-          "title": "A union of names",
-          "text": "Daman, Diu and Silvassa are all part of this union territory, formed by merging two territories in 2020. Can you name it?",
+          "title": "Two territories become one",
+          "text": "Silvassa is part of this union territory, formed by merging two territories in 2020. Can you name it?",
           "factKey": "dadra-and-nagar-haveli-and-daman-and-diu:merged-ut-2020-daman-silvassa",
           "source": "https://www.incredibleindia.gov.in/en/dadra-and-nagar-haveli-and-daman-and-diu/diu"
         }
@@ -574,7 +574,7 @@
         },
         {
           "title": "A French quarter beside the sea",
-          "text": "White Town, French street names and the seafront Promenade give its main city a distinctive character. Which union territory was once called Pondicherry?",
+          "text": "White Town, French street names and the seafront Promenade give its main city a distinctive character. Which union territory is it?",
           "factKey": "puducherry:white-town-pondicherry",
           "source": "https://www.incredibleindia.gov.in/en/puducherry"
         }
@@ -605,7 +605,7 @@
           "source": "https://www.incredibleindia.gov.in/en/lakshadweep"
         },
         {
-          "title": "Look west of Kerala",
+          "title": "Coral islands in the west",
           "text": "Kavaratti is its capital, and its coral islands lie in the Arabian Sea. Which union territory are we looking for?",
           "factKey": "lakshadweep:kavaratti-arabian-sea",
           "source": "https://www.incredibleindia.gov.in/en/lakshadweep"
@@ -638,7 +638,7 @@
         },
         {
           "title": "An island chain in the east",
-          "text": "These islands lie in the Bay of Bengal. Their capital, once called Port Blair, is now named Sri Vijaya Puram. Which union territory is it?",
+          "text": "These islands lie off India’s eastern coast. Their capital, once called Port Blair, is now named Sri Vijaya Puram. Which union territory is it?",
           "factKey": "andaman-and-nicobar-islands:bay-bengal-sri-vijaya-puram",
           "source": "https://www.incredibleindia.gov.in/en/andaman-and-nicobar-islands"
         }
@@ -734,7 +734,7 @@
         },
         {
           "title": "Raipur is the key",
-          "text": "Its capital is Raipur, and it became a separate state from Madhya Pradesh in 2000. Can you name it?",
+          "text": "Its capital is Raipur, and it became a separate state in 2000. Can you name it?",
           "factKey": "chhattisgarh:raipur-formed-2000",
           "source": "https://www.incredibleindia.gov.in/en/chhattisgarh"
         }
@@ -760,7 +760,7 @@
         },
         {
           "title": "Sculpture comes to life",
-          "text": "Odissi is a classical dance form deeply associated with this state’s temple and performance traditions. Which state is it?",
+          "text": "A classical dance form deeply associated with this state’s temples brings sculptural poses to life. Which state is it?",
           "factKey": "odisha:odissi-dance",
           "source": "https://www.incredibleindia.gov.in/en/odisha"
         },
@@ -797,8 +797,8 @@
           "source": "https://www.olympedia.org/athletes/130576"
         },
         {
-          "title": "The dance gives it away",
-          "text": "Its name is shared with Manipuri, the graceful classical dance tradition known for Raas Leela performances. Which state gives this dance its name?",
+          "title": "A graceful classical dance",
+          "text": "A graceful classical dance tradition here is known for Raas Leela performances. Which northeastern state is its home?",
           "factKey": "manipur:manipuri-raas-leela",
           "source": "https://manipurtourism.gov.in/art-culture/"
         }
@@ -996,7 +996,7 @@
         },
         {
           "title": "A festival named after a bird",
-          "text": "The Hornbill Festival brings together the cultures of many Naga communities. Which state hosts it?",
+          "text": "The Hornbill Festival brings together the cultures of many local communities. Which state hosts it?",
           "factKey": "nagaland:hornbill-festival",
           "source": "https://www.incredibleindia.gov.in/en/nagaland"
         },
