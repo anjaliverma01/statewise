@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "bankVersion": "2026-11-initial",
-  "scheduleTimezone": "player-local",
+  "scheduleTimezone": "Asia/Kolkata",
   "questions": [
     {
       "id": "ladakh-001",

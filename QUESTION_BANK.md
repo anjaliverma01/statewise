@@ -4,7 +4,7 @@ The public site is https://anjaliverma01.github.io/statewise/ and the authoritat
 
 ## Daily format
 
-Each calendar day has exactly 3 different answers, selected from different geographic pools. Each answer has exactly 3 original quiz-style clues ordered unusual → more recognizable → familiar. Score is 500/300/100, with a separate 120-second clock per question; daily maximum 1,500. Daily date is the player's local calendar date. All 28 states and 8 union territories can be selected, and each 36-question editorial batch must cover all 36 exactly once, across 12 daily sets.
+Each calendar day has exactly 3 different answers, selected from different geographic pools. Each answer has exactly 3 original quiz-style clues ordered unusual → more recognizable → familiar. Score is 500/300/100, with a separate 120-second clock per question; daily maximum 1,500. The daily date is the calendar date in Asia/Kolkata. All players receive the next set at 12:00 am India Standard Time (UTC+05:30), independent of device timezone. All 28 states and 8 union territories can be selected, and each 36-question editorial batch must cover all 36 exactly once, across 12 daily sets.
 
 ## Append-only bank
 
