@@ -176,3 +176,19 @@ body.daily-complete:not(.show-results) .answer-bar button{min-height:44px;font-s
  body.quiz-screen:not(.show-results) #clue-list{overflow-y:auto;overflow-x:hidden;overscroll-behavior:contain;scrollbar-width:thin}
  body.quiz-screen:not(.show-results) #clue-list .previous-revealed{margin-bottom:10px}
 }
+
+/* Keep the completed map, brand header and results action in one mobile view. */
+@media(max-width:650px){
+ body.daily-complete:not(.show-results){min-height:100dvh}
+ body.daily-complete:not(.show-results) header{height:64px}
+ body.daily-complete:not(.show-results) main{height:calc(100dvh - 64px);min-height:490px;padding:8px 12px 12px;display:flex;flex-direction:column}
+ body.daily-complete:not(.show-results) .home-screen{padding:15px 14px;flex-shrink:0}
+ body.daily-complete:not(.show-results) .home-screen .eyebrow{font-size:8px;margin-bottom:8px}
+ body.daily-complete:not(.show-results) .home-screen h1{font-size:25px;line-height:1.15}
+ body.daily-complete:not(.show-results) .game{display:flex;flex-direction:column;flex:1;min-height:0}
+ body.daily-complete:not(.show-results) .map-panel{display:flex;flex-direction:column;flex:1;min-height:0}
+ body.daily-complete:not(.show-results) .map-canvas{height:auto;min-height:240px;flex:1}
+ body.daily-complete:not(.show-results) .answer-bar{flex-shrink:0;padding:10px 14px;gap:10px}
+ body.daily-complete:not(.show-results) .answer-bar .eyebrow{margin-bottom:4px}
+ body.daily-complete:not(.show-results) footer{display:none}
+}

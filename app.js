@@ -55,14 +55,14 @@ function showPin(name,xy){
 function renderHome(){
  clearInterval(timerInterval);timerInterval=null;document.body.classList.remove('quiz-screen','show-results');document.body.classList.add('daily-complete');
  $('.game').hidden=false;$('#daily-results').hidden=true;$('#result').hidden=true;$('#result').innerHTML='';$('#clue-list').innerHTML='';clearMap();setZoom(1);
- $('#home').hidden=false;$('#home').innerHTML=`<p class="eyebrow">TODAY’S DISCOVERY COMPLETE</p><h1 id="home-title" tabindex="-1">A little more of India, discovered.</h1><p class="home-score">${Core.totalScore(progress.results).toLocaleString('en-IN')} <span>/ 1,500 points</span></p>`;
+ $('#home').hidden=false;$('#home').innerHTML=`<p class="eyebrow">TODAY’S DISCOVERY COMPLETE</p><h1 id="home-title" tabindex="-1">A little more of India, discovered.</h1>`;
  $('#completed-review').hidden=true;$('#completed-review').open=false;$('.answer-bar .eyebrow').textContent='TODAY’S SCORE';$('#selection').textContent=Core.totalScore(progress.results).toLocaleString('en-IN')+' / 1,500';$('#hover-label').textContent='Explore India. A fresh discovery arrives tomorrow.';
  $('#submit').disabled=false;$('#submit').innerHTML='View today’s results <span>↗</span>';
 }
 function returnHome(updateHistory=true){
  if(!isDailyComplete())return;progress.summaryDismissed=true;save();if($('#round-dialog').open)$('#round-dialog').close();renderHome();
  if(updateHistory&&window.location.hash==='#results')window.history.pushState(null,'',window.location.pathname+window.location.search);
- $('#submit').focus({preventScroll:true});$('#home').scrollIntoView({behavior:'instant',block:'start'});
+ $('#submit').focus({preventScroll:true});window.scrollTo({top:0,behavior:'instant'});
 }
 
 async function copyScore(){
