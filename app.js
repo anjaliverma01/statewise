@@ -5,13 +5,44 @@ const shapes=new Map(),anchors=new Map();
 let bank,questions=[],progress,key,zoom=1,timerInterval=null,rolloverTimeout=null,storageAvailable=true;
 const current=()=>questions[progress.index],isFinished=()=>progress.results.length>progress.index;
 const difficulties=['Hard','Medium','Easy'],isDailyComplete=()=>progress?.results.length===3;
-function save(){if(!progress)return;try{localStorage.setItem('statewise:daily:'+key,JSON.stringify(progress));}catch{storageAvailable=false;}}
-function readSaved(){try{return localStorage.getItem('statewise:daily:'+key);}catch{storageAvailable=false;return null;}}
+const progressKey=()=> 'statewise:daily:'+key,completionKey=()=> 'statewise:completed:'+key;
+function readSaved(){
+ try{const daily=Core.restoreProgress(localStorage.getItem(progressKey()),key,questions),completed=Core.restoreProgress(localStorage.getItem(completionKey()),key,questions);return JSON.stringify(Core.preserveProgress(completed,daily));}
+ catch{storageAvailable=false;return null;}
+}
+function save(){
+ if(!progress)return false;
+ try{
+  const saved=readSaved();if(saved===null)return false;
+  progress=Core.preserveProgress(Core.restoreProgress(saved,key,questions),progress);
+  // Keep a separate completion record so stale tabs cannot erase a finished day.
+  if(isDailyComplete())localStorage.setItem(completionKey(),JSON.stringify(progress));
+  localStorage.setItem(progressKey(),JSON.stringify(progress));storageAvailable=true;return true;
+ }catch{storageAvailable=false;return false;}
+}
+function syncProgress(){
+ if(!progress||!key||!questions.length)return false;
+ const saved=Core.preserveProgress(Core.restoreProgress(readSaved(),key,questions),progress);
+ if(Core.progressStamp(saved)===Core.progressStamp(progress))return false;
+ progress=saved;clearInterval(timerInterval);timerInterval=null;clearMap();if($('#round-dialog').open)$('#round-dialog').close();render();
+ if(isDailyComplete()){if(window.location.hash==='#results'||!progress.summaryDismissed)showDailySummary(false);}
+ else if(isFinished())showRoundDialog();
+ else if(progress.started){if(progress.selected)showPin(progress.selected,anchors.get(progress.selected));updateTimer();if(!isFinished()){beginInterval();revealCurrentClue();}}
+ return true;
+}
+function runDailyAction(action){
+ const expected=progress&&Core.progressStamp(progress);
+ const apply=()=>{if(checkDailyRollover()||syncProgress()||!progress||Core.progressStamp(progress)!==expected)return;action();};
+ // Serialize changes made by different tabs where Web Locks are supported.
+ if(window.navigator?.locks?.request)return window.navigator.locks.request('statewise:attempt:'+key,apply);
+ apply();
+}
+
 function timerDisplay(seconds){$('#time-left').textContent=`${Math.floor(seconds/60)}:${String(seconds%60).padStart(2,'0')}`;$('#timer').classList.toggle('urgent',seconds<=10&&progress.started&&!isFinished());}
 function updateTimer(){if(!progress||!progress.started||isFinished())return;const seconds=Core.remainingSeconds(progress.deadline);timerDisplay(seconds);if(seconds===0)finish(false,true);}
-function beginInterval(){clearInterval(timerInterval);timerInterval=setInterval(updateTimer,250);}
-function canPlay(){if(!progress?.started||isFinished())return false;updateTimer();return !isFinished();}
-function startQuestion(){if(!progress||progress.started||isFinished())return;progress.started=true;progress.deadline=Date.now()+120000;save();render();revealCurrentClue();updateTimer();beginInterval();}
+function beginInterval(){clearInterval(timerInterval);timerInterval=setInterval(()=>runDailyAction(updateTimer),250);}
+function canPlay(){if(syncProgress())return false;if(!progress?.started||isFinished())return false;updateTimer();return !isFinished();}
+function startQuestion(){if(syncProgress())return;if(!progress||progress.started||isFinished())return;progress.started=true;progress.deadline=Date.now()+120000;if(!save()){progress.started=false;progress.deadline=0;render();return;}render();revealCurrentClue();updateTimer();beginInterval();}
 function fitCurrentClue(){
  const clue=$('#current-clue'),area=$('#clue-list');if(!clue)return;
  if(window.matchMedia('(max-width: 650px)').matches){area.style.height=clue.offsetHeight+'px';area.scrollTop+=clue.getBoundingClientRect().top-area.getBoundingClientRect().top;}else area.style.height='';
@@ -35,12 +66,12 @@ function render(){
  $('#daily-progress').innerHTML=questions.map((item,i)=>{const result=progress.results[i];return `<li class="${result?'complete':i===progress.index?'current':''}" ${i===progress.index?'aria-current="step"':''}><span class="progress-dot">${result?(result.won?'✓':'×'):i+1}</span><span>${result?item.answer:'Mystery '+(i+1)}<small>${result?result.score+' pts':i===progress.index?'Your current question':'Coming up'}</small></span></li>`;}).join('');
  if(isDailyComplete()){renderHome();return;}
  $('#home').hidden=true;$('.game').hidden=false;
- $('#clue-list').innerHTML=!progress.started?`<article class="clue ready ready-round-${progress.index}"><span class="mystery-number" aria-hidden="true">0${progress.index+1}</span><div class="clue-tag">MYSTERY ${progress.index+1} OF 3 · TWO MINUTES</div><h2>${['Your first discovery','A new place awaits','One last mystery'][progress.index]}</h2><p>${['Guess each state or UT from up to three clues. Fewer clues earn more points. Pin your choice, then lock it in. Three mysteries daily, two minutes each.','A different place, fresh clues and a fresh two-minute timer. Your daily score carries forward. Ready for the next discovery?','The final stop for today. Three fresh clues and two minutes to find one more place. Make this discovery count.'][progress.index]}</p><button id="start-question" class="start-question">${['Start mystery 1','Start mystery 2','Start the final mystery'][progress.index]}<span>2:00 ↗</span></button></article>`:q.clues.slice(0,level+1).map(clueCard).join('');
+ $('#clue-list').innerHTML=!progress.started?`<article class="clue ready ready-round-${progress.index}"><span class="mystery-number" aria-hidden="true">0${progress.index+1}</span><div class="clue-tag">MYSTERY ${progress.index+1} OF 3 · TWO MINUTES</div><h2>${['Your first discovery','A new place awaits','One last mystery'][progress.index]}</h2><p>${['Guess each state or UT from up to three clues. Fewer clues earn more points. Pin your choice, then lock it in. Three mysteries daily, two minutes each.','A different place, fresh clues and a fresh two-minute timer. Your daily score carries forward. Ready for the next discovery?','The final stop for today. Three fresh clues and two minutes to find one more place. Make this discovery count.'][progress.index]}</p>${!storageAvailable?'<p class="storage-warning" role="alert">Enable browser storage to save your daily attempt and play.</p>':''}<button id="start-question" class="start-question" ${!storageAvailable?'disabled':''}>${['Start mystery 1','Start mystery 2','Start the final mystery'][progress.index]}<span>2:00 ↗</span></button></article>`:q.clues.slice(0,level+1).map(clueCard).join('');
  $('#next').style.display=!progress.started||level===2||done?'none':'flex';
  const nextPoints=points[level+1]??points[level],cost=points[level]-nextPoints;
  $('#next').innerHTML=`Reveal clue ${level+2}<span>−${cost} pts · ${nextPoints} if correct ↗</span>`;
  $('#next').setAttribute('aria-label',`Reveal clue ${level+2}. Reduces available points by ${cost}, to ${nextPoints}.`);
- $('#note').textContent=!storageAvailable?'Browser storage is unavailable. Keep this tab open to preserve progress.':!progress.started?'Your two-minute clock starts with the first clue.':done?'A little more of India, discovered.':level===2?'Final clue. One last guess.':'One guess per clue. A miss reveals the next clue.';
+ $('#note').textContent=!storageAvailable?'Enable browser storage to play once per day.':!progress.started?'Your two-minute clock starts with the first clue.':done?'A little more of India, discovered.':level===2?'Final clue. One last guess.':'One guess per clue. A miss reveals the next clue.';
  $('#submit').disabled=!done&&(!progress.started||!progress.selected);$('#submit').innerHTML=done?'View result <span>↗</span>':'Lock in answer <span>↗</span>';
  $('#result').hidden=!done;if(done)renderResult();renderReviews();
 }
@@ -82,7 +113,7 @@ function showDailySummary(updateHistory=true){
 function showRoundDialog(){
  if(!isFinished())return;if(isDailyComplete()){showDailySummary();return;}const q=current(),r=progress.results[progress.index];
  $('#round-dialog-content').innerHTML=`<div class="round-outcome ${r.won?'won':'miss'}" aria-hidden="true">${r.won?'✓':r.timedOut?'◷':'↗'}</div><p class="eyebrow">MYSTERY ${progress.index+1} OF 3 · ${r.won?'SOLVED':r.timedOut?'TIME’S UP':'REVEALED'}</p><p class="result-answer-label">${r.won?'Correct answer':'The answer was'}</p><h2 id="round-dialog-title">${q.answer}</h2><p class="popup-points">+${r.score} <span>points</span></p><p class="popup-takeaway">${q.takeaway}</p><div class="popup-progress">${questions.map((item,i)=>`<span class="${i<=progress.index?'complete':''}">${i<progress.results.length?(progress.results[i].won?'✓':'×'):i+1}</span>`).join('')}</div><p class="popup-daily-score">Daily total: <strong>${Core.totalScore(progress.results).toLocaleString('en-IN')} / 1,500</strong></p><button id="round-next" class="start-question">Next mystery · ${progress.index+2} of 3<span>↗</span></button><button id="round-map" class="round-map">Back to the map</button><p class="popup-timer-note">Next mystery reveals its first clue and starts a fresh two-minute timer.</p>`;
- $('#round-next').onclick=advanceQuestion;$('#round-map').onclick=()=>$('#round-dialog').close();if(!$('#round-dialog').open)$('#round-dialog').showModal();
+ $('#round-next').onclick=()=>runDailyAction(advanceQuestion);$('#round-map').onclick=()=>$('#round-dialog').close();if(!$('#round-dialog').open)$('#round-dialog').showModal();
 }
 function renderReviews(){
  const review=$('#completed-review'),count=progress.results.length;review.hidden=count===0;
@@ -101,7 +132,7 @@ function clearSelection(){progress.selected='';$('#selection').textContent='Wher
 function nextClue(){if(!canPlay()||progress.level>=2)return;progress.level++;clearSelection();save();render();revealCurrentClue();}
 function submitAnswer(){if(!canPlay()||!progress.selected)return;const name=progress.selected,won=name===current().answer;progress.attempts.push(name);showAnswerMarker(name,won);if(won)finish(true);else if(progress.level<2){$('#feedback').textContent=`${name} isn’t the match. A new clue is ready above.`;nextClue();}else finish(false);}
 function finish(won,timedOut=false){
- if(isFinished())return;clearInterval(timerInterval);timerInterval=null;const q=current();
+ if(syncProgress()||isFinished())return;clearInterval(timerInterval);timerInterval=null;const q=current();
  progress.results.push({id:q.id,score:won?points[progress.level]:0,won,timedOut,finishedAt:Date.now(),remainingSeconds:Core.remainingSeconds(progress.deadline),level:progress.level,guesses:[...progress.attempts]});
  shapes.get(q.answer).classList.add('correct');$('#pin').style.display='none';$('#hover-label').textContent=q.answer;$('#selection').textContent=q.answer;
  $('#feedback').textContent=timedOut?`Time’s up! The answer was ${q.answer}.`:won?'You found it!':`The answer was ${q.answer}.`;
@@ -111,28 +142,30 @@ function sourceLinks(q){return q.sources.map(s=>`<a href="${s.url}" target="_bla
 function renderResult(){
  const q=current(),r=progress.results[progress.index];
  $('#result').innerHTML=`<p class="result-score">${r.timedOut?'TIME’S UP':r.won?'PIN PERFECT':'A NEW PLACE TO REMEMBER'} · ${r.score} / 500 POINTS</p><h2>Meet ${q.answer}.</h2><p>${q.takeaway}</p><details class="answer-explained"><summary>See all three clues & sources</summary>${q.clues.map((c,i)=>`<p><strong>Clue ${i+1} · ${difficulties[i]}: ${c.title}.</strong> ${c.text}</p>`).join('')}<p>${sourceLinks(q)}</p></details><button id="next-question">Next mystery · ${progress.index+2} of 3 ↗</button>`;
- $('#next-question').onclick=advanceQuestion;
+ $('#next-question').onclick=()=>runDailyAction(advanceQuestion);
 }
 
 function clearMap(){shapes.forEach(p=>p.classList.remove('correct','wrong','selected'));$('#answer-markers').replaceChildren();$('#pin').style.display='none';$('#hover-label').textContent='Tap a state or UT to place your pin';$('#selection').textContent='Where will you land?';}
-function advanceQuestion(){if(!isFinished()||progress.index>=2)return;$('#round-dialog').close();progress.index++;progress.level=0;progress.started=false;progress.deadline=0;progress.selected='';progress.attempts=[];clearMap();$('#feedback').textContent='';setZoom(1);$('#clue-list').scrollTop=0;save();startQuestion();}
+function advanceQuestion(){if(syncProgress())return;if(!isFinished()||progress.index>=2)return;$('#round-dialog').close();progress.index++;progress.level=0;progress.started=false;progress.deadline=0;progress.selected='';progress.attempts=[];clearMap();$('#feedback').textContent='';setZoom(1);$('#clue-list').scrollTop=0;save();startQuestion();}
 const project=([lon,lat])=>[(lon-67)*18+8,(38-lat)*18+15];
 function pathData(g){const polys=g.type==='Polygon'?[g.coordinates]:g.coordinates;return polys.map(poly=>poly.map(ring=>ring.map((c,i)=>(i?'L':'M')+project(c).map(n=>n.toFixed(2)).join(',')).join('')+'Z').join('')).join('');}
 function buildMap(d){for(const f of d.features){const name=f.properties.name,p=document.createElementNS(NS,'path');p.setAttribute('d',pathData(f.geometry));p.setAttribute('fill-rule','evenodd');p.classList.add('state');p.dataset.name=name;const title=document.createElementNS(NS,'title');title.textContent=name+(uts.has(name)?' · Union territory':'');p.append(title);if(uts.has(name))p.classList.add('ut');p.setAttribute('tabindex','0');p.setAttribute('role','button');p.setAttribute('aria-label',name);
- p.onclick=e=>{const pt=$('#map').createSVGPoint();pt.x=e.clientX;pt.y=e.clientY;const xy=pt.matrixTransform($('#map').getScreenCTM().inverse());select(name,[xy.x,xy.y]);};p.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();select(name);}};p.onmouseenter=()=>{$('#hover-label').textContent=name+(uts.has(name)?' · Union territory':'');};p.onmouseleave=()=>{$('#hover-label').textContent=isDailyComplete()?'Explore India. New mysteries at 12:00 am IST.':progress?.selected||'Tap a state or UT to place your pin';};$('#regions').append(p);shapes.set(name,p);anchors.set(name,project(f.properties.labelPoint));}
+ p.onclick=e=>{const pt=$('#map').createSVGPoint();pt.x=e.clientX;pt.y=e.clientY;const xy=pt.matrixTransform($('#map').getScreenCTM().inverse());runDailyAction(()=>select(name,[xy.x,xy.y]));};p.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();runDailyAction(()=>select(name));}};p.onmouseenter=()=>{$('#hover-label').textContent=name+(uts.has(name)?' · Union territory':'');};p.onmouseleave=()=>{$('#hover-label').textContent=isDailyComplete()?'Explore India. New mysteries at 12:00 am IST.':progress?.selected||'Tap a state or UT to place your pin';};$('#regions').append(p);shapes.set(name,p);anchors.set(name,project(f.properties.labelPoint));}
 }
 function setZoom(z){zoom=Math.max(1,Math.min(2.5,z));const size=650/zoom;$('#map').setAttribute('viewBox',`${325-size/2} ${325-size/2} ${size} ${size}`);$('#zoom-in').disabled=zoom>=2.5;$('#zoom-out').disabled=zoom<=1;}
 function modal(html){$('#modal-content').innerHTML=html;$('#modal').showModal();}
 window.addEventListener('resize',()=>{if(progress?.started&&!isDailyComplete())fitCurrentClue();});
 window.addEventListener('popstate',()=>{if(isDailyComplete()){if(window.location.hash==='#results')showDailySummary(false);else returnHome(false);}});
-$('#clue-list').addEventListener('click',e=>{if(e.target.closest('#start-question'))startQuestion();});$('#next').onclick=()=>{$('#feedback').textContent='';nextClue();};$('#submit').onclick=()=>{if(!progress)return;if(isDailyComplete())showDailySummary();else if(isFinished())showRoundDialog();else submitAnswer();};
+$('#clue-list').addEventListener('click',e=>{if(e.target.closest('#start-question'))runDailyAction(startQuestion);});$('#next').onclick=()=>runDailyAction(()=>{$('#feedback').textContent='';nextClue();});$('#submit').onclick=()=>runDailyAction(()=>{if(!progress)return;if(isDailyComplete())showDailySummary();else if(isFinished())showRoundDialog();else submitAnswer();});
 $('#zoom-in').onclick=()=>setZoom(zoom+.3);$('#zoom-out').onclick=()=>setZoom(zoom-.3);$('#reset-map').onclick=()=>setZoom(1);$('#close-modal').onclick=()=>$('#modal').close();$('#modal').onclick=e=>{if(e.target===$('#modal')){const r=$('#modal').getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)$('#modal').close();}};
-$('#help').onclick=()=>modal('<p class="eyebrow">WELCOME TO STATEWISE</p><h2>Three places. Nine stories.</h2><p>Every day brings three different states or union territories. Each question has three clues, moving from an unusual fact to a more familiar story, then a clear landmark or capital.</p><ol><li>Press Start question beneath the ready message. You have two minutes for that question, shared across all its clues.</li><li>Choose a region on the map, then lock in your answer.</li><li>A correct answer earns <strong>500</strong> points on clue 1, <strong>300</strong> on clue 2, or <strong>100</strong> on clue 3. Revealing each extra clue reduces the available points by 200. Clues are labelled Hard, Medium and Easy. A wrong guess also reveals the next clue; a final miss or timeout earns zero.</li><li>After each mystery, the result popup shows the answer and your points. Press Next mystery when you’re ready; it reveals the next first clue and starts that question’s two-minute timer. After the third mystery, today’s results show the total score, all three answers and their clues and sources. Return home takes you back to the map. Choose View today’s results to revisit them anytime. The daily maximum is <strong>1,500 points</strong>.</li></ol><p>Map feedback disappears after three seconds; the result popup stays until you choose what to do next; the revealed answer stays dark green until you move on. All 28 states and 8 union territories are selectable. The daily set changes for everyone at 12:00 am India Standard Time (IST). Your progress is saved in this browser, including the clock if you leave or reload. No sign-in required.</p>');
+$('#help').onclick=()=>modal('<p class="eyebrow">WELCOME TO STATEWISE</p><h2>Three places. Nine stories.</h2><p>Every day brings three different states or union territories. Each question has three clues, moving from an unusual fact to a more familiar story, then a clear landmark or capital.</p><ol><li>Press Start question beneath the ready message. You have two minutes for that question, shared across all its clues.</li><li>Choose a region on the map, then lock in your answer.</li><li>A correct answer earns <strong>500</strong> points on clue 1, <strong>300</strong> on clue 2, or <strong>100</strong> on clue 3. Revealing each extra clue reduces the available points by 200. Clues are labelled Hard, Medium and Easy. A wrong guess also reveals the next clue; a final miss or timeout earns zero.</li><li>After each mystery, the result popup shows the answer and your points. Press Next mystery when you’re ready; it reveals the next first clue and starts that question’s two-minute timer. After the third mystery, today’s results show the total score, all three answers and their clues and sources. Return home takes you back to the map. Choose View today’s results to revisit them anytime. The daily maximum is <strong>1,500 points</strong>.</li></ol><p>Map feedback disappears after three seconds; the result popup stays until you choose what to do next; the revealed answer stays dark green until you move on. All 28 states and 8 union territories are selectable. The daily set changes for everyone at 12:00 am India Standard Time (IST). You get one daily attempt in this browser. Progress and completed results stay saved across tabs, closing and reloading, until the next IST day. No sign-in required.</p>');
 $('#sources').onclick=()=>modal('<p class="eyebrow">THE READING ROOM</p><h2>Curiosity, with sources.</h2><p>Each reveal includes the sources behind its clues. The daily calendar uses different places and never reuses a question set. New clue sets are added to an append-only bank; past days remain preserved.</p><p>Map: <a href="https://github.com/udit-001/india-maps-data" target="_blank" rel="noopener">udit-001 / india-maps-data</a>, merged from districts and simplified for this educational game. The map is a general reference, not a survey map.</p><p>DM Sans and Libre Caslon Display via Google Fonts. Statewise is an independent game.</p>');
 function checkDailyRollover(){if(key&&Core.dateKey()!==key){window.location.reload();return true;}return false;}
 function scheduleDailyRollover(){clearTimeout(rolloverTimeout);rolloverTimeout=setTimeout(()=>{if(!checkDailyRollover())scheduleDailyRollover();},Core.millisecondsUntilNextDay(Date.now()));}
-document.addEventListener('visibilitychange',()=>{if(!document.hidden){if(checkDailyRollover())return;scheduleDailyRollover();}updateTimer();});
-window.addEventListener('focus',()=>{if(!checkDailyRollover())scheduleDailyRollover();});
+document.addEventListener('visibilitychange',()=>{if(!document.hidden){if(checkDailyRollover())return;scheduleDailyRollover();syncProgress();}runDailyAction(updateTimer);});
+window.addEventListener('focus',()=>{if(!checkDailyRollover()){scheduleDailyRollover();syncProgress();}});
+window.addEventListener('pageshow',()=>{if(!checkDailyRollover())syncProgress();});
+window.addEventListener('storage',e=>{if(!checkDailyRollover()&&(e.key===null||e.key===progressKey()||e.key===completionKey()))syncProgress();});
 
 async function init(){try{
  const [mapData,bankData]=await Promise.all([fetch('india.geojson?v=1').then(r=>{if(!r.ok)throw Error('Map unavailable');return r.json();}),fetch('questions.json?date='+Core.dateKey(),{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('Questions unavailable');return r.json();})]);
@@ -140,7 +173,7 @@ async function init(){try{
  if(!questions.length){$('#clue-list').innerHTML='<article class="clue ready"><h2>The next set is on its way.</h2><p>We’re preparing new questions. Please check back shortly — previously used questions won’t be recycled.</p><button class="start-question" onclick="window.location.reload()">Check for new questions ↻</button></article>';$('#next').style.display='none';$('#note').textContent='New questions only. No recycled daily sets.';return;}
  progress=Core.restoreProgress(readSaved(),key,questions);render();for(const name of progress.attempts)if(name!==current().answer)shapes.get(name)?.classList.add('wrong');
  if(isDailyComplete()){if(window.location.hash==='#results'||!progress.summaryDismissed)showDailySummary();}else if(isFinished()){shapes.get(current().answer).classList.add('correct');$('#selection').textContent=current().answer;showRoundDialog();}else if(progress.started){updateTimer();if(!isFinished()){if(progress.selected&&shapes.has(progress.selected))select(progress.selected);beginInterval();revealCurrentClue();}}
- setZoom(1);save();
+ setZoom(1);if(!save())render();
 }catch(e){$('#clue-list').innerHTML='<article class="clue ready"><h2>We couldn’t load today’s quiz.</h2><p>Please check your connection and reload to try again.</p><button class="start-question" onclick="window.location.reload()">Try again ↻</button></article>';$('#next').style.display='none';$('#feedback').textContent='The daily quiz is unavailable right now.';console.error(e);}}
 setInterval(checkDailyRollover,30000);
 init();
