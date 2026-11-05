@@ -36,8 +36,20 @@ function restoreProgress(raw,key,questions){
  for(let i=0;i<p.results.length;i++){const r=p.results[i];if(r.id!==fresh.ids[i]||!Number.isInteger(r.level)||r.level<0||r.level>2||typeof r.won!=='boolean'||typeof r.timedOut!=='boolean'||r.score!==(r.won?POINTS[r.level]:0)||!Array.isArray(r.guesses))return fresh;}
  return p;}catch{return fresh;}
 }
+// Existing results are final; older tabs may never move a day's progress backwards.
+function progressStamp(p){return JSON.stringify([p.date,p.ids,p.index,p.started,p.deadline,p.level,p.attempts,p.results]);}
+function preserveProgress(saved,incoming){
+ if(saved.date!==incoming.date||JSON.stringify(saved.ids)!==JSON.stringify(incoming.ids))return incoming;
+ const rank=p=>[p.results.length,p.index,Number(p.started),p.level,p.attempts.length],a=rank(saved),b=rank(incoming);
+ const difference=b.map((n,i)=>n-a[i]).find(n=>n!==0)||0;
+ const merged={...(difference<0?saved:incoming)};
+ merged.results=[...saved.results,...merged.results.slice(saved.results.length)];
+ if(saved.index===incoming.index&&saved.started&&incoming.started)merged.deadline=Math.min(saved.deadline,incoming.deadline);
+ if(saved.summaryDismissed)merged.summaryDismissed=true;
+ return merged;
+}
 function remainingSeconds(deadline,now=Date.now()){return Math.max(0,Math.ceil((deadline-now)/1000));}
 function totalScore(results){return results.reduce((n,r)=>n+r.score,0);}
-const api={POINTS,DAILY_TIME_ZONE,dateKey,millisecondsUntilNextDay,normalize,clueNamesRegion,validateBank,dailyQuestions,freshProgress,restoreProgress,remainingSeconds,totalScore};
+const api={POINTS,DAILY_TIME_ZONE,dateKey,millisecondsUntilNextDay,normalize,clueNamesRegion,validateBank,dailyQuestions,freshProgress,restoreProgress,progressStamp,preserveProgress,remainingSeconds,totalScore};
 if(typeof module!=='undefined'&&module.exports)module.exports=api;else root.StatewiseCore=api;
 })(typeof window!=='undefined'?window:globalThis);

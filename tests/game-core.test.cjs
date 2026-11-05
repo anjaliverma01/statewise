@@ -35,3 +35,15 @@ test('the next IST day chooses fresh mysteries and resets saved progress',()=>{
  const saved=core.freshProgress(before,old);saved.started=true;saved.deadline=Date.parse('2026-11-03T18:31:00Z');assert.deepEqual(core.restoreProgress(JSON.stringify(saved),after,next),core.freshProgress(after,next));
  const invalid=clone();invalid.scheduleTimezone='player-local';assert.throws(()=>core.validateBank(invalid,regions),/Asia\/Kolkata/);
 });
+
+test('saved daily progress cannot go backwards or restart its timer',()=>{
+ const day=bank.days[0],q=core.dailyQuestions(bank,day.date),fresh=core.freshProgress(day.date,q),started={...fresh,started:true,deadline:10000,level:1,attempts:['Rajasthan']};
+ assert.deepEqual(core.preserveProgress(started,fresh),started);
+ const stale={...started,deadline:20000,level:0,attempts:[]};assert.equal(core.preserveProgress(started,stale).deadline,10000);assert.equal(core.preserveProgress(started,stale).level,1);
+});
+test('completed results survive a stale tab save and cannot be replaced by a better score',()=>{
+ const day=bank.days[0],q=core.dailyQuestions(bank,day.date),fresh=core.freshProgress(day.date,q);
+ const complete={...fresh,index:2,started:true,deadline:120000,results:q.map(item=>({id:item.id,score:100,won:true,timedOut:false,level:2,guesses:[]}))};
+ assert.equal(core.preserveProgress(complete,fresh).results.length,3);assert.equal(core.totalScore(core.preserveProgress(complete,{...complete,results:complete.results.map(r=>({...r,score:500,level:0}))}).results),300);
+ const next=core.freshProgress(bank.days[1].date,core.dailyQuestions(bank,bank.days[1].date));assert.deepEqual(core.preserveProgress(complete,next),next);
+});
