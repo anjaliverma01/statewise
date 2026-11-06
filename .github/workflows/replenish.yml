@@ -1,0 +1,124 @@
+name: Replenish Statewise questions
+on:
+  schedule:
+    - cron: '17 14 * * *'
+  workflow_dispatch:
+    inputs:
+      check_only:
+        description: Validate the bank and cloud setup without generating questions
+        type: boolean
+        default: true
+permissions:
+  contents: read
+concurrency:
+  group: statewise-replenishment
+  cancel-in-progress: false
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    outputs:
+      needed: ${{ steps.horizon.outputs.needed }}
+      revision: ${{ steps.horizon.outputs.revision }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node scripts/validate-bank.cjs && node --test tests/*.test.cjs
+      - id: horizon
+        run: |
+          node scripts/cloud-bank.cjs horizon >> "$GITHUB_OUTPUT"
+          echo "revision=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+      - name: Check API credential on manual setup test
+        if: github.event_name == 'workflow_dispatch'
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          if [ -z "$OPENAI_API_KEY" ]; then
+            echo '::error::Add the OPENAI_API_KEY repository Actions secret to finish cloud setup.'
+            exit 1
+          fi
+          curl --fail --silent --show-error --output /dev/null https://api.openai.com/v1/models -H "Authorization: Bearer $OPENAI_API_KEY"
+  research:
+    needs: check
+    if: needs.check.outputs.needed == 'true' && inputs.check_only != true
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ needs.check.outputs.revision }}
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Prepare research environment
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          test -n "$OPENAI_API_KEY" || { echo '::error::Missing OPENAI_API_KEY repository secret'; exit 1; }
+          mkdir -p "$RUNNER_TEMP/statewise-codex"
+          printf '[sandbox_workspace_write]\nnetwork_access = true\n' > "$RUNNER_TEMP/statewise-codex/config.toml"
+      - uses: openai/codex-action@v1
+        with:
+          openai-api-key: ${{ secrets.OPENAI_API_KEY }}
+          codex-home: ${{ runner.temp }}/statewise-codex
+          sandbox: workspace-write
+          codex-args: '["--search"]'
+          prompt-file: .github/prompts/replenish.md
+      - name: Reject unrelated edits
+        run: |
+          test "$(git diff --name-only)" = 'questions.json'
+          test -f research-report.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: researched-bank
+          path: |
+            questions.json
+            research-report.json
+          retention-days: 30
+          if-no-files-found: error
+  publish:
+    needs: [check, research]
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    permissions:
+      contents: write
+      pages: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ needs.check.outputs.revision }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/download-artifact@v4
+        with:
+          name: researched-bank
+          path: candidate
+      - name: Validate with trusted code on a fresh runner
+        run: |
+          cp questions.json "$RUNNER_TEMP/previous-questions.json"
+          node scripts/cloud-bank.cjs candidate candidate/questions.json candidate/research-report.json
+          node scripts/validate-bank.cjs candidate/questions.json "$RUNNER_TEMP/previous-questions.json"
+          cp candidate/questions.json questions.json
+          node --test tests/*.test.cjs
+      - name: Commit verified content
+        run: |
+          git fetch origin main
+          test "$(git rev-parse origin/main)" = "$(git rev-parse HEAD)" || { echo '::error::Main changed during research; rerun against the latest bank.'; exit 1; }
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add questions.json
+          git commit -m 'Extend Statewise with 36 verified question sets'
+          git push origin HEAD:main
+      - name: Build Pages explicitly and verify live bank
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh api --method POST "repos/$GITHUB_REPOSITORY/pages/builds" > /dev/null
+          node scripts/cloud-bank.cjs live
+          echo 'Published and verified 36 new question sets / 12 daily sets.' >> "$GITHUB_STEP_SUMMARY"
