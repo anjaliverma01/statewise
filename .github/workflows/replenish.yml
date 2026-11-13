@@ -32,6 +32,16 @@ jobs:
         run: |
           node scripts/cloud-bank.cjs horizon >> "$GITHUB_OUTPUT"
           echo "revision=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+      - name: Sample independent daily answers
+        if: steps.horizon.outputs.needed == 'true' && inputs.check_only != true
+        run: node scripts/plan-bank.cjs > statewise-plan.json
+      - uses: actions/upload-artifact@v4
+        if: steps.horizon.outputs.needed == 'true' && inputs.check_only != true
+        with:
+          name: refill-plan
+          path: statewise-plan.json
+          retention-days: 30
+          if-no-files-found: error
       - name: Check API credential on manual setup test
         if: github.event_name == 'workflow_dispatch'
         env:
@@ -55,6 +65,9 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
+      - uses: actions/download-artifact@v4
+        with:
+          name: refill-plan
       - name: Prepare research environment
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
@@ -99,10 +112,13 @@ jobs:
         with:
           name: researched-bank
           path: candidate
+      - uses: actions/download-artifact@v4
+        with:
+          name: refill-plan
       - name: Validate with trusted code on a fresh runner
         run: |
           cp questions.json "$RUNNER_TEMP/previous-questions.json"
-          node scripts/cloud-bank.cjs candidate candidate/questions.json candidate/research-report.json
+          node scripts/cloud-bank.cjs candidate candidate/questions.json candidate/research-report.json statewise-plan.json
           node scripts/validate-bank.cjs candidate/questions.json "$RUNNER_TEMP/previous-questions.json"
           cp candidate/questions.json questions.json
           node --test tests/*.test.cjs
