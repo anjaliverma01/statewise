@@ -2,6 +2,7 @@
 const fs=require('node:fs'),assert=require('node:assert/strict'),cp=require('node:child_process');
 const read=p=>JSON.parse(fs.readFileSync(p,'utf8'));
 const root=require('node:path').resolve(__dirname,'..');
+const {POLICY}=require('./plan-bank.cjs');
 const bank=()=>read(root+'/questions.json');
 function horizon(b,now=new Date()){
  const today=new Intl.DateTimeFormat('en-CA',{timeZone:'America/New_York',year:'numeric',month:'2-digit',day:'2-digit'}).format(now);
@@ -16,7 +17,7 @@ async function securePage(url){
   assert(r.ok,`Source failed (${r.status}): ${url}`);await r.body?.cancel();return;
  }throw Error('Too many redirects: '+url);
 }
-function extension(previous,next,report){
+function extension(previous,next,report,plan){
  assert.equal(next.questions.length,previous.questions.length+36);
  assert.equal(next.days.length,previous.days.length+12);
  assert.notEqual(next.bankVersion,previous.bankVersion);
@@ -27,11 +28,15 @@ function extension(previous,next,report){
  const assigned=next.days.slice(previous.days.length).flatMap(d=>d.questionIds);
  assert.deepEqual([...assigned].sort(),[...byId.keys()].sort(),'Schedule each new question once');
  let date=previous.days.at(-1).date;
- const previousAnswers=new Set(previous.days.at(-1).questionIds.map(id=>previous.questions.find(q=>q.id===id).answer));
+ assert.equal(plan?.selectionPolicy,POLICY,'Use the random daily selection plan');
+ assert.equal(plan.days.length,12);
+ const regions=new Set(read(root+'/india.geojson').features.map(f=>f.properties.name));
  for(const [i,day] of next.days.slice(previous.days.length).entries()){
   const d=new Date(date+'T12:00:00Z');d.setUTCDate(d.getUTCDate()+1);date=d.toISOString().slice(0,10);assert.equal(day.date,date);
-  const qs=day.questionIds.map(id=>byId.get(id));assert.equal(new Set(qs.map(q=>q.group)).size,3,'Mix three geographic groups');
-  if(i===0)assert(qs.every(q=>!previousAnswers.has(q.answer)),'Avoid cycle-boundary answer repeats');
+  const answers=day.questionIds.map(id=>byId.get(id)?.answer);
+  assert.equal(answers.length,3);assert.equal(new Set(answers).size,3,'Daily answers must be distinct');
+  assert(answers.every(answer=>regions.has(answer)),'Unknown map region');
+  assert.equal(plan.days[i].date,date);assert.deepEqual(answers,plan.days[i].answers,'Follow the sampled answers without rerolling');
  }
  assert.equal(report.semanticReviewPassed,true);assert.equal(report.clues.length,108);assert.equal(report.takeaways.length,36);
  const facts=new Set();for(const c of report.clues){const q=byId.get(c.questionId);assert(q);const clue=q.clues.find(x=>x.factKey===c.factKey);assert(clue);assert.equal(c.source,clue.source);assert(!facts.has(c.factKey));facts.add(c.factKey);assert(c.evidence?.trim()&&c.novelty?.trim());}
@@ -41,7 +46,7 @@ function extension(previous,next,report){
 async function main(){
  const mode=process.argv[2];
  if(mode==='horizon'){const h=horizon(bank());console.log('needed='+h.needed);console.error(JSON.stringify(h));return;}
- if(mode==='candidate'){const next=read(process.argv[3]),report=read(process.argv[4]),urls=extension(bank(),next,report);for(const url of urls)await securePage(url);console.log('Append-only batch, report, geographic mix and '+urls.length+' HTTPS sources verified.');return;}
+ if(mode==='candidate'){const next=read(process.argv[3]),report=read(process.argv[4]),plan=read(process.argv[5]),urls=extension(bank(),next,report,plan);for(const url of urls)await securePage(url);console.log('Append-only batch, report, random daily plan and '+urls.length+' HTTPS sources verified.');return;}
  if(mode==='live'){
   const expected=bank(),sha=cp.execFileSync('git',['rev-parse','HEAD'],{encoding:'utf8'}).trim();
   for(let attempt=0;attempt<60;attempt++){
