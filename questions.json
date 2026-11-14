@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "bankVersion": "2026-11-14-refill",
+  "bankVersion": "2026-11-14-editorial-revision",
   "scheduleTimezone": "Asia/Kolkata",
   "questions": [
     {
@@ -1185,29 +1185,37 @@
       "group": "south",
       "clues": [
         {
-          "title": "An edict in a cave",
-          "text": "The Hathigumpha inscription is a key record at a pair of ancient cave-covered hills. Which state contains this inscription?",
-          "factKey": "odisha:hathigumpha-edict",
-          "source": "https://odishatourism.gov.in/en/places/udayagiri-khandagiri-caves"
-        },
-        {
-          "title": "Royal stories in stone",
-          "text": "Rani Gumpha’s carved scenes mix royal life with mythology. Which state preserves this sculpted cave?",
-          "factKey": "odisha:rani-gumpha-sculptures",
-          "source": "https://odishatourism.gov.in/en/places/udayagiri-khandagiri-caves"
-        },
-        {
-          "title": "Two hills of Jain history",
-          "text": "Udayagiri and Khandagiri contain rock-cut retreats for Jain monks from King Kharavela’s reign. In which state are they?",
+          "title": "A king’s Jain legacy",
+          "text": "King Kharavela’s reign left rock-cut retreats for Jain monks at Udayagiri and Khandagiri. Which state preserves these ancient hills?",
           "factKey": "odisha:kharavela-jain-retreats",
           "source": "https://odishatourism.gov.in/en/places/udayagiri-khandagiri-caves"
+        },
+        {
+          "title": "Stories painted by hand",
+          "text": "At Raghurajpur, artists create Pattachitra paintings with mythological stories and vivid natural colours. Which state is home to this craft village?",
+          "factKey": "odisha:raghurajpur-pattachitra",
+          "source": "https://odishatourism.gov.in/en/places/raghurajpur-craft-village"
+        },
+        {
+          "title": "The war that changed Ashoka",
+          "text": "Dhauli’s peace pagoda overlooks the landscape associated with the Kalinga War and Emperor Ashoka’s turn towards peace. Which state is it in?",
+          "factKey": "odisha:dhauli-ashoka-kalinga-war",
+          "source": "https://odishatourism.gov.in/en/places/dhauli-shanti-stupa-dhauli-hills"
         }
       ],
-      "takeaway": "These twin hills preserve Jain retreats carved during King Kharavela’s reign.",
+      "takeaway": "Dhauli recalls Ashoka’s response to the Kalinga War; Raghurajpur keeps Pattachitra painting alive.",
       "sources": [
         {
-          "label": "Udayagiri and Khandagiri caves — official tourism or district administration",
+          "label": "odishatourism.gov.in — supporting source",
           "url": "https://odishatourism.gov.in/en/places/udayagiri-khandagiri-caves"
+        },
+        {
+          "label": "odishatourism.gov.in — supporting source",
+          "url": "https://odishatourism.gov.in/en/places/raghurajpur-craft-village"
+        },
+        {
+          "label": "odishatourism.gov.in — supporting source",
+          "url": "https://odishatourism.gov.in/en/places/dhauli-shanti-stupa-dhauli-hills"
         }
       ]
     },
@@ -1217,29 +1225,37 @@
       "group": "east",
       "clues": [
         {
-          "title": "A cave explored by a club",
-          "text": "A local adventure club fully explored this cave in the early 1980s, according to the tourism department. Which state was it in?",
-          "factKey": "mizoram:khuangchera-adventure-club-exploration",
-          "source": "https://mizoramtourism.com/top-destination/117"
+          "title": "A footballer’s home state",
+          "text": "India striker Jeje Lalpekhlua comes from Hnahthial. Which northeastern state produced this familiar name in Indian football?",
+          "factKey": "mizoram:jeje-lalpekhlua-football",
+          "source": "https://www.the-aiff.com/index.php/article/jeje-lalpekhlua-stands-watch-with-locals-to-stop-overfishing-in-mizoram"
         },
         {
-          "title": "A torch and a tunnel",
-          "text": "Local legend tells of Khuangchera carrying a bamboo torch through a hill to connect two cave mouths. Which state tells this story?",
-          "factKey": "mizoram:khuangchera-bamboo-torch-legend",
-          "source": "https://mizoramtourism.com/top-destination/117"
+          "title": "Spring after the clearing",
+          "text": "Chapchar Kut celebrates the spring break after clearing fields for jhum cultivation, with community music and dance. Which state is known for it?",
+          "factKey": "mizoram:chapchar-kut-spring-festival",
+          "source": "https://mizoramtourism.com/festivals/1"
         },
         {
-          "title": "Ailawng is your signpost",
-          "text": "Khuangchera Puk is a cave at Ailawng, near Reiek. Which northeastern state would you visit to explore it?",
-          "factKey": "mizoram:khuangchera-ailawng-reiek-location",
-          "source": "https://mizoramtourism.com/top-destination/117"
+          "title": "Find the Blue Mountain",
+          "text": "Phawngpui, also called the Blue Mountain, is this state’s highest peak. Which northeastern state are we looking for?",
+          "factKey": "mizoram:phawngpui-blue-mountain-highest-peak",
+          "source": "https://mizoramtourism.com/top-destination/104"
         }
       ],
-      "takeaway": "Khuangchera Puk combines a local exploration legend with a later adventure-club survey.",
+      "takeaway": "Football, the spring festival Chapchar Kut and the Blue Mountain are three parts of the state’s identity.",
       "sources": [
         {
-          "label": "Khuangchera Puk — official tourism or district administration",
-          "url": "https://mizoramtourism.com/top-destination/117"
+          "label": "the-aiff.com — supporting source",
+          "url": "https://www.the-aiff.com/index.php/article/jeje-lalpekhlua-stands-watch-with-locals-to-stop-overfishing-in-mizoram"
+        },
+        {
+          "label": "mizoramtourism.com — supporting source",
+          "url": "https://mizoramtourism.com/festivals/1"
+        },
+        {
+          "label": "mizoramtourism.com — supporting source",
+          "url": "https://mizoramtourism.com/top-destination/104"
         }
       ]
     },
@@ -1249,29 +1265,37 @@
       "group": "north",
       "clues": [
         {
-          "title": "A mosaic of forests",
-          "text": "One World Heritage conservation area contains 25 forest types across steep mountain valleys. Which state protects this remarkable mosaic?",
-          "factKey": "himachal-pradesh:ghnp-twenty-five-forest-types",
-          "source": "https://whc.unesco.org/en/list/1406/"
+          "title": "A handkerchief becomes an artwork",
+          "text": "Chamba Rumal turns fine embroidery into richly detailed textile art. Which Himalayan state is home to this celebrated craft?",
+          "factKey": "himachal-pradesh:chamba-rumal-embroidery",
+          "source": "https://www.incredibleindia.gov.in/en/himachal-pradesh/chamba/bhuri-singh-museum"
         },
         {
-          "title": "Where mountain rivers begin",
-          "text": "Protected glacier and snowmelt sources feed the Sainj and Tirthan rivers, tributaries of the Beas. Which state contains these headwaters?",
-          "factKey": "himachal-pradesh:ghnp-sainj-tirthan-headwaters",
-          "source": "https://whc.unesco.org/en/list/1406/"
-        },
-        {
-          "title": "A great mountain park",
-          "text": "The Great Himalayan National Park Conservation Area ranges from riverine forests to high alpine meadows and peaks. Which state is its home?",
+          "title": "A World Heritage mountain landscape",
+          "text": "The Great Himalayan National Park protects river forests, alpine meadows and high peaks. Which state contains this UNESCO World Heritage conservation area?",
           "factKey": "himachal-pradesh:ghnp-alpine-riverine-habitats",
           "source": "https://whc.unesco.org/en/list/1406/"
+        },
+        {
+          "title": "A valley gathers its deities",
+          "text": "Kullu Dussehra honours Lord Raghunath as village deities gather at Dhalpur Maidan for a week of celebrations. Which state hosts this famous festival?",
+          "factKey": "himachal-pradesh:kullu-dussehra-raghunath",
+          "source": "https://www.incredibleindia.gov.in/en/festivals-and-events/kullu-dussehra"
         }
       ],
-      "takeaway": "The conservation area protects mountain habitats and the headwaters of several Beas tributaries.",
+      "takeaway": "Chamba’s embroidered rumals and Kullu’s Dussehra celebrate living traditions alongside protected mountain landscapes.",
       "sources": [
         {
-          "label": "Great Himalayan National Park — UNESCO",
+          "label": "incredibleindia.gov.in — supporting source",
+          "url": "https://www.incredibleindia.gov.in/en/himachal-pradesh/chamba/bhuri-singh-museum"
+        },
+        {
+          "label": "whc.unesco.org — supporting source",
           "url": "https://whc.unesco.org/en/list/1406/"
+        },
+        {
+          "label": "incredibleindia.gov.in — supporting source",
+          "url": "https://www.incredibleindia.gov.in/en/festivals-and-events/kullu-dussehra"
         }
       ]
     },
@@ -1281,29 +1305,37 @@
       "group": "north",
       "clues": [
         {
-          "title": "A quiet figure by the water",
-          "text": "At one end of a lake, the Garden of Silence centres on a seated Buddha. Which union territory contains this meditative space?",
-          "factKey": "chandigarh:sukhna-garden-of-silence-buddha",
-          "source": "https://www.incredibleindia.gov.in/en/chandigarh/chandigarh/sukhna-lake"
+          "title": "Roses for a president",
+          "text": "The Rose Garden named after former President Zakir Hussain is one of this city’s best-known public gardens. Which union territory is it?",
+          "factKey": "chandigarh:zakir-hussain-rose-garden",
+          "source": "https://www.incredibleindia.gov.in/en/chandigarh/chandigarh/zakir-hussain-rose-garden"
         },
         {
-          "title": "A stream becomes a lake",
-          "text": "Damming the seasonal Sukhna Choe created a rain-fed reservoir in 1958. Which union territory is home to it?",
+          "title": "A lake made for the city",
+          "text": "Sukhna Lake was created in 1958 by damming a seasonal stream from the Shivalik Hills. Which city and union territory contains it?",
           "factKey": "chandigarh:sukhna-choe-dam-1958",
           "source": "https://www.incredibleindia.gov.in/en/chandigarh/chandigarh/sukhna-lake"
         },
         {
-          "title": "Winter visitors at Sukhna",
-          "text": "Sukhna Lake welcomes migratory ducks, storks and cranes in winter. In which city and union territory would you watch them?",
-          "factKey": "chandigarh:sukhna-winter-migratory-birds",
-          "source": "https://www.incredibleindia.gov.in/en/chandigarh/chandigarh/sukhna-lake"
+          "title": "A modernist city landmark",
+          "text": "Le Corbusier designed the Capitol Complex, whose Assembly, High Court and Secretariat are modernist landmarks. Which planned city and union territory is their home?",
+          "factKey": "chandigarh:le-corbusier-capitol-complex",
+          "source": "https://whc.unesco.org/en/list/1321/"
         }
       ],
-      "takeaway": "Sukhna is a rain-fed reservoir created by damming a seasonal stream in 1958.",
+      "takeaway": "Le Corbusier’s civic architecture, the Rose Garden and Sukhna Lake help define this planned city.",
       "sources": [
         {
-          "label": "Sukhna Lake — Ministry of Tourism",
+          "label": "incredibleindia.gov.in — supporting source",
+          "url": "https://www.incredibleindia.gov.in/en/chandigarh/chandigarh/zakir-hussain-rose-garden"
+        },
+        {
+          "label": "incredibleindia.gov.in — supporting source",
           "url": "https://www.incredibleindia.gov.in/en/chandigarh/chandigarh/sukhna-lake"
+        },
+        {
+          "label": "whc.unesco.org — supporting source",
+          "url": "https://whc.unesco.org/en/list/1321/"
         }
       ]
     },
@@ -1313,29 +1345,37 @@
       "group": "south",
       "clues": [
         {
-          "title": "A stream deep below",
-          "text": "Pataalaganga is an underground stream about 46 metres below the entrance of a cave system. Which state contains it?",
-          "factKey": "andhra-pradesh:belum-pataalaganga-underground-stream",
-          "source": "https://www.incredibleindia.gov.in/en/andhra-pradesh/kurnool"
+          "title": "Drawing on cloth",
+          "text": "Machilipatnam is known for Kalamkari textiles, decorated with intricate designs and natural dyes. Which state preserves this textile tradition?",
+          "factKey": "andhra-pradesh:machilipatnam-kalamkari",
+          "source": "https://www.incredibleindia.gov.in/en/andhra-pradesh"
         },
         {
-          "title": "Nature’s stone formations",
-          "text": "Stalactites and stalagmites line spacious chambers in the Belum cave system. Which state hides these formations underground?",
-          "factKey": "andhra-pradesh:belum-stalactites-stalagmites",
-          "source": "https://www.incredibleindia.gov.in/en/andhra-pradesh/kurnool"
-        },
-        {
-          "title": "Follow Belum’s passages",
-          "text": "Belum Caves extend for 3,229 metres and feature among the attractions around Kurnool. Which state are we exploring?",
+          "title": "A journey beneath the ground",
+          "text": "Belum Caves near Kurnool contain long underground passages and spacious chambers. Which state would you visit to explore this famous cave system?",
           "factKey": "andhra-pradesh:belum-3229-metre-passages",
           "source": "https://www.incredibleindia.gov.in/en/andhra-pradesh/kurnool"
+        },
+        {
+          "title": "Step inside a real submarine",
+          "text": "Visakhapatnam’s Kursura Submarine Museum lets visitors explore an actual decommissioned submarine. Which state contains this famous coastal city and naval landmark?",
+          "factKey": "andhra-pradesh:visakhapatnam-kursura-submarine-museum",
+          "source": "https://www.incredibleindia.gov.in/en/andhra-pradesh/visakhapatnam/kursura-submarine-museum"
         }
       ],
-      "takeaway": "Belum’s underground passages contain mineral formations and the stream at Pataalaganga.",
+      "takeaway": "Kalamkari textiles, Belum’s underground chambers and a real submarine museum reveal craft, geology and naval heritage.",
       "sources": [
         {
-          "label": "Belum Caves — Ministry of Tourism",
+          "label": "incredibleindia.gov.in — supporting source",
+          "url": "https://www.incredibleindia.gov.in/en/andhra-pradesh"
+        },
+        {
+          "label": "incredibleindia.gov.in — supporting source",
           "url": "https://www.incredibleindia.gov.in/en/andhra-pradesh/kurnool"
+        },
+        {
+          "label": "incredibleindia.gov.in — supporting source",
+          "url": "https://www.incredibleindia.gov.in/en/andhra-pradesh/visakhapatnam/kursura-submarine-museum"
         }
       ]
     },
@@ -1345,29 +1385,37 @@
       "group": "east",
       "clues": [
         {
-          "title": "A king’s centre of learning",
-          "text": "King Dharmapala established a university that flourished under the Pala dynasty. Which state preserves its ruins at Vikramshila?",
+          "title": "A university of the Pala age",
+          "text": "Pala king Dharmapala founded Vikramshila as a Buddhist centre of learning. Which state preserves the remains of this ancient university?",
           "factKey": "bihar:vikramshila-dharmapala-founder",
           "source": "https://tourism.bihar.gov.in/en/destinations/bhagalpur/ruins-of-vikramshila"
         },
         {
-          "title": "Learning among the ruins",
-          "text": "Stupas, monastery remains and meditation halls survive at this former Buddhist university. Which state contains the Vikramshila ruins?",
-          "factKey": "bihar:vikramshila-stupas-monastery-halls",
-          "source": "https://tourism.bihar.gov.in/en/destinations/bhagalpur/ruins-of-vikramshila"
+          "title": "The first president’s birthplace",
+          "text": "Dr Rajendra Prasad, independent India’s first President, was born at Ziradei in Siwan. Which state is his birthplace in?",
+          "factKey": "bihar:rajendra-prasad-ziradei",
+          "source": "https://siwan.nic.in/dr-rajendra-prasad/"
         },
         {
-          "title": "Antichak is your clue",
-          "text": "The archaeological site of Vikramshila stands at Antichak, near Bhagalpur. In which state would you find it?",
-          "factKey": "bihar:vikramshila-antichak-bhagalpur",
-          "source": "https://tourism.bihar.gov.in/en/destinations/bhagalpur/ruins-of-vikramshila"
+          "title": "Offerings to the setting and rising sun",
+          "text": "Chhath devotees stand at riverbanks to offer prayers to the setting and rising sun. Which state is especially associated with this festival?",
+          "factKey": "bihar:chhath-sun-offerings",
+          "source": "https://www.incredibleindia.gov.in/en/festivals-and-events/chhath-puja"
         }
       ],
-      "takeaway": "Vikramshila was a Buddhist centre of learning established under King Dharmapala.",
+      "takeaway": "The state connects ancient learning at Vikramshila, Rajendra Prasad’s birthplace and the living traditions of Chhath.",
       "sources": [
         {
-          "label": "Vikramshila — official tourism or district administration",
+          "label": "tourism.bihar.gov.in — supporting source",
           "url": "https://tourism.bihar.gov.in/en/destinations/bhagalpur/ruins-of-vikramshila"
+        },
+        {
+          "label": "siwan.nic.in — supporting source",
+          "url": "https://siwan.nic.in/dr-rajendra-prasad/"
+        },
+        {
+          "label": "incredibleindia.gov.in — supporting source",
+          "url": "https://www.incredibleindia.gov.in/en/festivals-and-events/chhath-puja"
         }
       ]
     },
@@ -1377,28 +1425,36 @@
       "group": "south",
       "clues": [
         {
-          "title": "An island on the horizon",
-          "text": "Beacon Island is one of the island stops described on boat journeys across Chilika. Which state contains this lagoon?",
-          "factKey": "odisha:chilika-beacon-island",
-          "source": "https://odishatourism.gov.in/en/places/chilika-lake"
+          "title": "Remembering voyages to Southeast Asia",
+          "text": "Cuttack’s Bali Jatra honours merchants who sailed to Bali, Java and Sumatra. Which state celebrates this famous maritime heritage?",
+          "factKey": "odisha:bali-jatra-cuttack-seafaring",
+          "source": "https://www.incredibleindia.gov.in/en/festivals-and-events/odisha/bali-jatra"
         },
         {
-          "title": "Look for a rounded dolphin",
-          "text": "The waters around Satapada shelter Irrawaddy dolphins. Which state would you visit for this wildlife encounter?",
+          "title": "A forest of tigers and elephants",
+          "text": "Similipal National Park is known for its forests, waterfalls, tigers and elephants. Which state contains this major wildlife landscape?",
+          "factKey": "odisha:similipal-tiger-elephant-forests",
+          "source": "https://www.incredibleindia.gov.in/en/odisha"
+        },
+        {
+          "title": "Dolphins in a lagoon",
+          "text": "Chilika Lake’s waters around Satapada shelter Irrawaddy dolphins. Which coastal state is home to this famous lagoon?",
           "factKey": "odisha:chilika-satapada-irrawaddy-dolphins",
-          "source": "https://odishatourism.gov.in/en/places/chilika-lake"
-        },
-        {
-          "title": "A vast lagoon at Barkul",
-          "text": "Chilika is a brackish-water lagoon reached from Barkul and Balugaon. Which coastal state is its home?",
-          "factKey": "odisha:chilika-barkul-brackish-lagoon",
           "source": "https://odishatourism.gov.in/en/places/chilika-lake"
         }
       ],
-      "takeaway": "Chilika’s lagoon supports island visits, birdlife and wild Irrawaddy dolphins.",
+      "takeaway": "Bali Jatra remembers maritime voyages, while Similipal and Chilika protect very different wildlife habitats.",
       "sources": [
         {
-          "label": "Chilika Lake — official tourism or district administration",
+          "label": "incredibleindia.gov.in — supporting source",
+          "url": "https://www.incredibleindia.gov.in/en/festivals-and-events/odisha/bali-jatra"
+        },
+        {
+          "label": "incredibleindia.gov.in — supporting source",
+          "url": "https://www.incredibleindia.gov.in/en/odisha"
+        },
+        {
+          "label": "odishatourism.gov.in — supporting source",
           "url": "https://odishatourism.gov.in/en/places/chilika-lake"
         }
       ]
@@ -1409,28 +1465,36 @@
       "group": "east",
       "clues": [
         {
-          "title": "Engineering that turns back",
-          "text": "Six zigzag reverses and three loops help a mountain railway gain height. Which state contains this ingenious route?",
-          "factKey": "west-bengal:dhr-six-zigzags-three-loops",
-          "source": "https://whc.unesco.org/en/list/944/"
+          "title": "Where a forest meets the tides",
+          "text": "The Sundarbans protects a vast tidal mangrove landscape in the Ganga delta, with tigers adapted to its waterways. Which Indian state contains this national park?",
+          "factKey": "west-bengal:sundarbans-tidal-mangrove-forest",
+          "source": "https://whc.unesco.org/en/list/452/"
         },
         {
-          "title": "A very narrow track",
-          "text": "The railway connecting New Jalpaiguri with Darjeeling runs on a two-foot gauge. Which state would you travel through?",
-          "factKey": "west-bengal:dhr-two-foot-gauge",
-          "source": "https://whc.unesco.org/en/list/944/"
+          "title": "A city builds a festival",
+          "text": "Durga Puja in Kolkata brings together clay idol-makers, temporary pandals and neighbourhood celebrations. Which state hosts this UNESCO-recognised cultural tradition?",
+          "factKey": "west-bengal:kolkata-durga-puja-unesco",
+          "source": "https://ich.unesco.org/en/RL/durga-puja-in-kolkata-00703"
         },
         {
-          "title": "A little railway with a long history",
-          "text": "The Darjeeling Himalayan Railway opened in 1881. Which state is home to this celebrated mountain passenger railway?",
+          "title": "The little train to Darjeeling",
+          "text": "The Darjeeling Himalayan Railway, opened in 1881, climbs the hills on its celebrated narrow-gauge route. Which state is it in?",
           "factKey": "west-bengal:dhr-opened-1881",
           "source": "https://whc.unesco.org/en/list/944/"
         }
       ],
-      "takeaway": "The railway uses loops and zigzags to climb through mountain terrain.",
+      "takeaway": "Mangrove wilderness, Durga Puja and the Darjeeling railway offer three distinct routes into the state’s heritage.",
       "sources": [
         {
-          "label": "Darjeeling Himalayan Railway — UNESCO",
+          "label": "whc.unesco.org — supporting source",
+          "url": "https://whc.unesco.org/en/list/452/"
+        },
+        {
+          "label": "ich.unesco.org — supporting source",
+          "url": "https://ich.unesco.org/en/RL/durga-puja-in-kolkata-00703"
+        },
+        {
+          "label": "whc.unesco.org — supporting source",
           "url": "https://whc.unesco.org/en/list/944/"
         }
       ]
@@ -1441,29 +1505,37 @@
       "group": "east",
       "clues": [
         {
-          "title": "A capital for a brief chapter",
-          "text": "An imperial city built by Akbar served as the Mughal capital for only about a decade. Which state contains Fatehpur Sikri?",
+          "title": "Akbar’s short-lived capital",
+          "text": "Akbar built Fatehpur Sikri as an imperial city, but it served as the Mughal capital for only a short period. Which state preserves it?",
           "factKey": "uttar-pradesh:fatehpur-sikri-capital-decade",
           "source": "https://whc.unesco.org/en/list/255/"
         },
         {
-          "title": "A mosque in an imperial complex",
-          "text": "Fatehpur Sikri’s Jama Masjid belongs to a monumental complex with a notably unified architectural style. In which state does it stand?",
-          "factKey": "uttar-pradesh:fatehpur-sikri-jama-masjid",
-          "source": "https://whc.unesco.org/en/list/255/"
+          "title": "The first sermon",
+          "text": "At Sarnath, the Buddha delivered his first sermon after enlightenment. Which state contains this important Buddhist pilgrimage site?",
+          "factKey": "uttar-pradesh:sarnath-buddha-first-sermon",
+          "source": "https://www.incredibleindia.gov.in/en/uttar-pradesh/varanasi/sarnath"
         },
         {
-          "title": "Akbar’s city of victory",
-          "text": "Fatehpur Sikri, the City of Victory, was built during the second half of the sixteenth century. Which state preserves it?",
-          "factKey": "uttar-pradesh:fatehpur-sikri-sixteenth-century-city",
-          "source": "https://whc.unesco.org/en/list/255/"
+          "title": "A turning point in 1857",
+          "text": "Meerut is remembered as the starting point of the major uprising against British rule in May 1857. Which present-day state is it in?",
+          "factKey": "uttar-pradesh:meerut-1857-uprising",
+          "source": "https://meerut.nic.in/history/"
         }
       ],
-      "takeaway": "Akbar’s planned imperial city brings palaces, courtyards and religious monuments together.",
+      "takeaway": "Fatehpur Sikri, Sarnath and Meerut mark chapters of imperial history, Buddhist teaching and the 1857 uprising.",
       "sources": [
         {
-          "label": "Fatehpur Sikri — UNESCO",
+          "label": "whc.unesco.org — supporting source",
           "url": "https://whc.unesco.org/en/list/255/"
+        },
+        {
+          "label": "incredibleindia.gov.in — supporting source",
+          "url": "https://www.incredibleindia.gov.in/en/uttar-pradesh/varanasi/sarnath"
+        },
+        {
+          "label": "meerut.nic.in — supporting source",
+          "url": "https://meerut.nic.in/history/"
         }
       ]
     },
@@ -1473,29 +1545,37 @@
       "group": "north",
       "clues": [
         {
-          "title": "An entrance left unfinished",
-          "text": "An unfinished fourth entrance helps reveal how a rock-cut temple complex was planned. Which state contains this feature at Masroor?",
-          "factKey": "himachal-pradesh:masroor-unfinished-fourth-entrance",
-          "source": "https://www.incredibleindia.gov.in/en/himachal-pradesh/chamba/masroor-temple"
-        },
-        {
-          "title": "Fifteen shrines from one rock",
-          "text": "Masroor’s ensemble of fifteen temples was carved from a single great mass of rock. Which state preserves these shrines?",
+          "title": "Temples carved from a mountain",
+          "text": "Masroor’s group of fifteen rock-cut temples was carved from a single great mass of stone. Which Himalayan state preserves this remarkable complex?",
           "factKey": "himachal-pradesh:masroor-fifteen-single-rock-temples",
           "source": "https://www.incredibleindia.gov.in/en/himachal-pradesh/chamba/masroor-temple"
         },
         {
-          "title": "A familiar trio at Masroor",
-          "text": "The main shrine at Masroor houses figures of Rama, Lakshmana and Sita. Which state’s Kangra region would you visit?",
-          "factKey": "himachal-pradesh:masroor-rama-lakshmana-sita",
-          "source": "https://www.incredibleindia.gov.in/en/himachal-pradesh/chamba/masroor-temple"
+          "title": "Tea beneath the Dhauladhar",
+          "text": "Palampur’s tea gardens spread below the snow-capped Dhauladhar mountains. Which Himalayan state would you visit to explore these tea-growing landscapes?",
+          "factKey": "himachal-pradesh:palampur-kangra-tea",
+          "source": "https://hpkangra.nic.in/tourist-place/palampur-tea-garden/"
+        },
+        {
+          "title": "Beyond Manali",
+          "text": "Rohtang Pass links the Kullu Valley around Manali with Lahaul’s mountain landscapes. Which state contains this famous high-altitude route?",
+          "factKey": "himachal-pradesh:rohtang-kullu-lahaul-pass",
+          "source": "https://www.incredibleindia.gov.in/en/trips/trip-listing/shimla-manali-leh-srinagar-circuit"
         }
       ],
-      "takeaway": "Masroor’s rock-cut temple ensemble preserves both carved shrines and unfinished work.",
+      "takeaway": "Rock-cut temples, Kangra tea and Rohtang Pass reveal different sides of this Himalayan state.",
       "sources": [
         {
-          "label": "Masroor temples — Ministry of Tourism",
+          "label": "incredibleindia.gov.in — supporting source",
           "url": "https://www.incredibleindia.gov.in/en/himachal-pradesh/chamba/masroor-temple"
+        },
+        {
+          "label": "hpkangra.nic.in — supporting source",
+          "url": "https://hpkangra.nic.in/tourist-place/palampur-tea-garden/"
+        },
+        {
+          "label": "incredibleindia.gov.in — supporting source",
+          "url": "https://www.incredibleindia.gov.in/en/trips/trip-listing/shimla-manali-leh-srinagar-circuit"
         }
       ]
     },
@@ -1505,29 +1585,37 @@
       "group": "east",
       "clues": [
         {
-          "title": "A capital before the modern one",
-          "text": "Rabdentse served as a kingdom’s second capital after Yuksom, until 1814. Which present-day state preserves the ruins?",
-          "factKey": "sikkim:rabdentse-capital-until-1814",
-          "source": "https://gyalshing.nic.in/tourist-place/rabdentse/"
+          "title": "A football icon from the hills",
+          "text": "Footballer Bhaichung Bhutia was born in Tinkitam, near Namchi. Which Himalayan state is the home of this Indian football icon?",
+          "factKey": "sikkim:bhaichung-bhutia-tinkitam",
+          "source": "https://www.the-aiff.com/index.php/article/tribute-to-bhaichung-bhutia-stadium-named-after-him-to-be-inaugurated-after-covid19-subsides"
         },
         {
-          "title": "Ruins beside a monastery",
-          "text": "A walk from Pemayangtse Monastery leads to the former capital’s wooded ruins. Which Himalayan state contains this historic pairing?",
-          "factKey": "sikkim:rabdentse-pemayangtse-walk",
-          "source": "https://gyalshing.nic.in/tourist-place/rabdentse/"
+          "title": "Farming without synthetic chemicals",
+          "text": "In 2016, this became India’s first fully organic state. Which Himalayan state made this landmark shift in agriculture?",
+          "factKey": "sikkim:first-organic-state-2016",
+          "source": "https://www.pib.gov.in/newsite/PrintRelease.aspx?lang=2&reg=48&relid=136282"
         },
         {
-          "title": "Gyalshing is your signpost",
-          "text": "The ruins of Rabdentse lie about eight kilometres from Gyalshing. Which small Himalayan state are we exploring?",
-          "factKey": "sikkim:rabdentse-gyalshing-location",
-          "source": "https://gyalshing.nic.in/tourist-place/rabdentse/"
+          "title": "A pass on the old trade route",
+          "text": "Nathu La, near Gangtok, was part of the historic Silk Route between India and Tibet. Which state contains this famous mountain pass?",
+          "factKey": "sikkim:nathu-la-silk-route",
+          "source": "https://www.incredibleindia.gov.in/en/sikkim/gangtok/nathu-la-pass"
         }
       ],
-      "takeaway": "Rabdentse’s ruins recall an earlier royal capital, before the modern seat at Gangtok.",
+      "takeaway": "The state is known for footballer Bhaichung Bhutia, organic farming and the historic Nathu La route.",
       "sources": [
         {
-          "label": "Rabdentse — official tourism or district administration",
-          "url": "https://gyalshing.nic.in/tourist-place/rabdentse/"
+          "label": "the-aiff.com — supporting source",
+          "url": "https://www.the-aiff.com/index.php/article/tribute-to-bhaichung-bhutia-stadium-named-after-him-to-be-inaugurated-after-covid19-subsides"
+        },
+        {
+          "label": "pib.gov.in — supporting source",
+          "url": "https://www.pib.gov.in/newsite/PrintRelease.aspx?lang=2&reg=48&relid=136282"
+        },
+        {
+          "label": "incredibleindia.gov.in — supporting source",
+          "url": "https://www.incredibleindia.gov.in/en/sikkim/gangtok/nathu-la-pass"
         }
       ]
     },
@@ -1537,29 +1625,37 @@
       "group": "east",
       "clues": [
         {
-          "title": "Eight sides around a mound",
-          "text": "An octagonal enclosure called a garh surrounds royal burial mounds at Charaideo. Which state preserves this funerary architecture?",
-          "factKey": "assam:moidam-octagonal-garh",
-          "source": "https://whc.unesco.org/en/list/1711/"
+          "title": "A royal seat for watching sport",
+          "text": "Rang Ghar at Sivasagar was built for Ahom royalty to watch games and festivities. Which state preserves this historic pavilion?",
+          "factKey": "assam:rang-ghar-ahom-sports-pavilion",
+          "source": "https://www.incredibleindia.gov.in/en/assam/sivasagar/rang-ghar"
         },
         {
-          "title": "Six centuries of royal remembrance",
-          "text": "Tai-Ahom rulers created a royal necropolis at Charaideo over roughly six centuries. Which state is its home?",
-          "factKey": "assam:moidam-tai-ahom-six-centuries",
-          "source": "https://whc.unesco.org/en/list/1711/"
+          "title": "Three distinctive silks",
+          "text": "Sualkuchi’s weavers work with golden Muga, white Paat and warm Eri silk. Which state is especially associated with these textiles?",
+          "factKey": "assam:sualkuchi-muga-paat-eri",
+          "source": "https://assamtourism.gov.in/Sualkuchi.php"
         },
         {
-          "title": "Mounds at the foot of the hills",
-          "text": "Charaideo’s moidams stand near the Patkai foothills. In which state would you find these royal burial mounds?",
-          "factKey": "assam:moidam-charaideo-patkai",
-          "source": "https://whc.unesco.org/en/list/1711/"
+          "title": "A hilltop centre of Shakti worship",
+          "text": "Kamakhya Temple stands on Nilachal Hill in Guwahati and is a major centre of Shakti worship. Which state is it in?",
+          "factKey": "assam:kamakhya-nilachal-hill",
+          "source": "https://www.incredibleindia.gov.in/en/assam/guwahati/kamakhya-temple"
         }
       ],
-      "takeaway": "The moidams preserve royal Tai-Ahom funerary architecture at Charaideo.",
+      "takeaway": "Ahom monuments, silk weaving and the Kamakhya temple are prominent parts of the state’s cultural landscape.",
       "sources": [
         {
-          "label": "Charaideo moidams — UNESCO",
-          "url": "https://whc.unesco.org/en/list/1711/"
+          "label": "incredibleindia.gov.in — supporting source",
+          "url": "https://www.incredibleindia.gov.in/en/assam/sivasagar/rang-ghar"
+        },
+        {
+          "label": "assamtourism.gov.in — supporting source",
+          "url": "https://assamtourism.gov.in/Sualkuchi.php"
+        },
+        {
+          "label": "incredibleindia.gov.in — supporting source",
+          "url": "https://www.incredibleindia.gov.in/en/assam/guwahati/kamakhya-temple"
         }
       ]
     },
@@ -1569,29 +1665,37 @@
       "group": "north",
       "clues": [
         {
-          "title": "Six ways to remember",
-          "text": "Archaeologists found six types of cenotaphs in the cemetery of a Harappan city. Which state contains this site at Dholavira?",
-          "factKey": "gujarat:dholavira-six-cenotaph-types",
-          "source": "https://whc.unesco.org/en/list/1645/"
-        },
-        {
-          "title": "Water in a dry landscape",
-          "text": "Two seasonal streams supplied a fortified Harappan city with a sophisticated water-management system. Which state preserves Dholavira?",
-          "factKey": "gujarat:dholavira-seasonal-stream-water-system",
-          "source": "https://whc.unesco.org/en/list/1645/"
-        },
-        {
-          "title": "A city on Khadir",
-          "text": "Dholavira is an ancient Harappan settlement on the arid island of Khadir. Which state would you visit to see it?",
+          "title": "A Harappan city on an island",
+          "text": "Dholavira, a major Harappan settlement on Khadir island, is a UNESCO World Heritage Site. Which state preserves this ancient city?",
           "factKey": "gujarat:dholavira-khadir-island-settlement",
           "source": "https://whc.unesco.org/en/list/1645/"
+        },
+        {
+          "title": "A temple dedicated to the sun",
+          "text": "Modhera’s Sun Temple is known for its carved halls and stepped ceremonial tank. Which state contains this celebrated temple?",
+          "factKey": "gujarat:modhera-sun-temple",
+          "source": "https://gujarattourism.com/north-zone/mehsana/sun-temple-modhera.html"
+        },
+        {
+          "title": "Nine nights of circular dance",
+          "text": "During Navratri, Garba dancers move in circles around a central lamp or image of the goddess. Which state is especially known for Garba?",
+          "factKey": "gujarat:garba-navratri",
+          "source": "https://ich.unesco.org/en/RL/garba-of-gujarat-01962"
         }
       ],
-      "takeaway": "Dholavira’s Harappan settlement adapted to a dry island with carefully managed water.",
+      "takeaway": "Harappan archaeology, the Sun Temple at Modhera and Garba connect ancient and living heritage.",
       "sources": [
         {
-          "label": "Dholavira — UNESCO",
+          "label": "whc.unesco.org — supporting source",
           "url": "https://whc.unesco.org/en/list/1645/"
+        },
+        {
+          "label": "gujarattourism.com — supporting source",
+          "url": "https://gujarattourism.com/north-zone/mehsana/sun-temple-modhera.html"
+        },
+        {
+          "label": "ich.unesco.org — supporting source",
+          "url": "https://ich.unesco.org/en/RL/garba-of-gujarat-01962"
         }
       ]
     },
@@ -1601,29 +1705,33 @@
       "group": "north",
       "clues": [
         {
-          "title": "Tables written from the sky",
-          "text": "Observations at this royal observatory contributed to astronomical tables called Zij. Which state contains Jaipur’s Jantar Mantar?",
-          "factKey": "rajasthan:jantar-mantar-zij-tables",
-          "source": "https://whc.unesco.org/en/list/1338/"
-        },
-        {
-          "title": "Astronomy without a telescope",
-          "text": "Monumental masonry instruments were designed to observe celestial positions with the naked eye. Which state preserves this observatory in Jaipur?",
+          "title": "Reading the sky in stone",
+          "text": "Jaipur’s Jantar Mantar uses large masonry instruments for naked-eye astronomy. Which state contains this UNESCO-listed observatory?",
           "factKey": "rajasthan:jantar-mantar-naked-eye-masonry",
           "source": "https://whc.unesco.org/en/list/1338/"
         },
         {
-          "title": "A ruler who studied the stars",
-          "text": "Jai Singh II created the Jantar Mantar observatory in Jaipur in the early eighteenth century. Which state is it in?",
-          "factKey": "rajasthan:jantar-mantar-jai-singh-ii",
-          "source": "https://whc.unesco.org/en/list/1338/"
+          "title": "A fort above a lake",
+          "text": "Amber Fort overlooks Maota Lake and is celebrated for its courtyards, gateways and palace rooms. Which state’s royal heritage are we exploring?",
+          "factKey": "rajasthan:amber-fort-maota-lake",
+          "source": "https://www.incredibleindia.gov.in/en/rajasthan/jaipur"
+        },
+        {
+          "title": "A palace with a honeycomb façade",
+          "text": "Jaipur’s Hawa Mahal, the Palace of Winds, let royal women watch street life from behind its many small windows. Which state is it in?",
+          "factKey": "rajasthan:hawa-mahal-palace-of-winds",
+          "source": "https://www.incredibleindia.gov.in/en/rajasthan/jaipur"
         }
       ],
-      "takeaway": "This observatory turns masonry structures into instruments for observing the sky.",
+      "takeaway": "Jaipur’s observatory, Amber Fort and Hawa Mahal reflect astronomy, defence and royal life.",
       "sources": [
         {
-          "label": "Jantar Mantar, Jaipur — UNESCO",
+          "label": "whc.unesco.org — supporting source",
           "url": "https://whc.unesco.org/en/list/1338/"
+        },
+        {
+          "label": "incredibleindia.gov.in — supporting source",
+          "url": "https://www.incredibleindia.gov.in/en/rajasthan/jaipur"
         }
       ]
     },
@@ -1633,29 +1741,37 @@
       "group": "east",
       "clues": [
         {
-          "title": "A river through protected forest",
-          "text": "The Teirei is among the rivers associated with the forests of Dampa Tiger Reserve. Which state contains this reserve?",
-          "factKey": "mizoram:dampa-teirei-river",
-          "source": "https://mizoramtourism.com/top-destination/119"
+          "title": "A textile for weddings and festivals",
+          "text": "Puanchei is a colourful woven wrap worn by women for weddings, festivals and ceremonial dances. Which northeastern state is home to this tradition?",
+          "factKey": "mizoram:puanchei-festive-textile",
+          "source": "https://mistic.mizoram.gov.in/gi-no-583-pawnchei/"
         },
         {
-          "title": "Cats above the forest floor",
-          "text": "Dampa is important habitat for clouded leopards and primates such as hoolock gibbons. Which northeastern state protects these forests?",
-          "factKey": "mizoram:dampa-clouded-leopard-primates",
-          "source": "https://mizoramtourism.com/top-destination/119"
+          "title": "A lake in the southern hills",
+          "text": "Palak Dil, near Phura, is the state’s largest natural lake, surrounded by forested hills. Which northeastern state contains it?",
+          "factKey": "mizoram:palak-natural-lake",
+          "source": "https://mizoramtourism.com/top-destination/96"
         },
         {
-          "title": "A tiger reserve since 1994",
-          "text": "Dampa in Mamit district joined Project Tiger in 1994. Which state would you visit to explore its forests?",
-          "factKey": "mizoram:dampa-project-tiger-1994",
-          "source": "https://mizoramtourism.com/top-destination/119"
+          "title": "A new state in 1987",
+          "text": "This northeastern state attained statehood on 20 February 1987 after previously being a union territory. Which state are we looking for?",
+          "factKey": "mizoram:statehood-20-february-1987",
+          "source": "https://mizoramassembly.in/storage/Assembly/Gazette/EO/GZEO16ISS_014.pdf"
         }
       ],
-      "takeaway": "Dampa’s forests protect clouded leopards and several kinds of primate.",
+      "takeaway": "Puanchei textiles, Palak Lake and statehood in 1987 connect culture, geography and political history.",
       "sources": [
         {
-          "label": "Dampa Tiger Reserve — official tourism or district administration",
-          "url": "https://mizoramtourism.com/top-destination/119"
+          "label": "mistic.mizoram.gov.in — supporting source",
+          "url": "https://mistic.mizoram.gov.in/gi-no-583-pawnchei/"
+        },
+        {
+          "label": "mizoramtourism.com — supporting source",
+          "url": "https://mizoramtourism.com/top-destination/96"
+        },
+        {
+          "label": "mizoramassembly.in — supporting source",
+          "url": "https://mizoramassembly.in/storage/Assembly/Gazette/EO/GZEO16ISS_014.pdf"
         }
       ]
     },
@@ -1665,29 +1781,29 @@
       "group": "south",
       "clues": [
         {
-          "title": "A storm written on the shore",
-          "text": "A bank of coral debris on Kalpeni is believed to record a powerful storm in 1847. Which union territory contains it?",
-          "factKey": "lakshadweep:kalpeni-1847-storm-debris",
-          "source": "https://www.incredibleindia.gov.in/en/lakshadweep/kavaratti/kalpeni"
+          "title": "Dances of the islands",
+          "text": "Kolkali and Parichakali are traditional folk dances of this island community. Which union territory preserves these performance traditions?",
+          "factKey": "lakshadweep:kolkali-parichakali-island-dances",
+          "source": "https://www.incredibleindia.gov.in/en/lakshadweep"
         },
         {
-          "title": "Three islands, one atoll",
-          "text": "Kalpeni and the small islets Tilakkam and Pitti form a single atoll. Which island union territory are we exploring?",
-          "factKey": "lakshadweep:kalpeni-tilakkam-pitti-atoll",
-          "source": "https://www.incredibleindia.gov.in/en/lakshadweep/kavaratti/kalpeni"
+          "title": "An island for nesting seabirds",
+          "text": "Pitti Bird Sanctuary protects nesting seabirds, including sooty terns, near Kavaratti. Which island union territory contains this sanctuary?",
+          "factKey": "lakshadweep:pitti-seabird-sanctuary",
+          "source": "https://www.incredibleindia.gov.in/en/lakshadweep"
         },
         {
-          "title": "The northern tip of Kalpeni",
-          "text": "Tip Beach lies at Kalpeni’s northern end. Which union territory would you visit to walk along this island shore?",
-          "factKey": "lakshadweep:kalpeni-tip-beach-north",
-          "source": "https://www.incredibleindia.gov.in/en/lakshadweep/kavaratti/kalpeni"
+          "title": "Thirty-six islands",
+          "text": "This small union territory is an archipelago of 36 islands off India’s southwestern coast. Which island group are we looking for?",
+          "factKey": "lakshadweep:archipelago-thirty-six-islands",
+          "source": "https://www.incredibleindia.gov.in/en/lakshadweep"
         }
       ],
-      "takeaway": "Kalpeni shares an atoll with smaller islets and has a storm bank linked to an 1847 tempest.",
+      "takeaway": "The archipelago’s identity includes island dances, seabird colonies and a group of 36 islands.",
       "sources": [
         {
-          "label": "Kalpeni — Ministry of Tourism",
-          "url": "https://www.incredibleindia.gov.in/en/lakshadweep/kavaratti/kalpeni"
+          "label": "incredibleindia.gov.in — supporting source",
+          "url": "https://www.incredibleindia.gov.in/en/lakshadweep"
         }
       ]
     },
@@ -1697,29 +1813,33 @@
       "group": "north",
       "clues": [
         {
-          "title": "Bridges to a garden island",
-          "text": "Japanese-style bridges link a lake’s central island to the surrounding garden. Which union territory contains Vanganga Lake Garden?",
-          "factKey": "dadra-and-nagar-haveli-and-daman-and-diu:vanganga-japanese-bridges-island",
-          "source": "https://ddd.gov.in/places-centres/vanganga-lake-garden/"
+          "title": "Paintings of community life",
+          "text": "Warli painting is part of the tribal artistic heritage found around Silvassa. Which union territory would you visit to encounter this tradition?",
+          "factKey": "dadra-and-nagar-haveli-and-daman-and-diu:warli-painting-silvassa",
+          "source": "https://www.incredibleindia.gov.in/en/dadra-and-nagar-haveli-and-daman-and-diu"
         },
         {
-          "title": "A little forest around a lake",
-          "text": "Vanganga Lake Garden covers about 7.58 hectares with a wooded, mini-forest setting. Which union territory is it in?",
-          "factKey": "dadra-and-nagar-haveli-and-daman-and-diu:vanganga-758-hectare-garden",
-          "source": "https://ddd.gov.in/places-centres/vanganga-lake-garden/"
+          "title": "Everyday objects tell a story",
+          "text": "Silvassa’s Tribal Museum displays traditional ornaments, musical instruments, fishing tools and household objects. Which union territory preserves these local histories?",
+          "factKey": "dadra-and-nagar-haveli-and-daman-and-diu:silvassa-tribal-museum",
+          "source": "https://ddd.gov.in/places-centres/tribal-museum-silvassa/"
         },
         {
-          "title": "A fountain that performs",
-          "text": "Vanganga Lake Garden has a floating musical dancing fountain. In which western union territory would you find it?",
-          "factKey": "dadra-and-nagar-haveli-and-daman-and-diu:vanganga-floating-musical-fountain",
-          "source": "https://ddd.gov.in/places-centres/vanganga-lake-garden/"
+          "title": "Boats on Dudhni Lake",
+          "text": "Dudhni Lake is a popular boating destination in the wooded countryside near Silvassa. Which western union territory contains it?",
+          "factKey": "dadra-and-nagar-haveli-and-daman-and-diu:dudhni-lake-boating",
+          "source": "https://www.incredibleindia.gov.in/en/dadra-and-nagar-haveli-and-daman-and-diu"
         }
       ],
-      "takeaway": "Vanganga’s bridges connect a central island to a garden around the lake.",
+      "takeaway": "Silvassa’s Tribal Museum, local Warli art and Dudhni Lake connect the territory’s culture and landscape.",
       "sources": [
         {
-          "label": "Vanganga Lake Garden — official tourism or district administration",
-          "url": "https://ddd.gov.in/places-centres/vanganga-lake-garden/"
+          "label": "incredibleindia.gov.in — supporting source",
+          "url": "https://www.incredibleindia.gov.in/en/dadra-and-nagar-haveli-and-daman-and-diu"
+        },
+        {
+          "label": "ddd.gov.in — supporting source",
+          "url": "https://ddd.gov.in/places-centres/tribal-museum-silvassa/"
         }
       ]
     },
@@ -1729,29 +1849,33 @@
       "group": "north",
       "clues": [
         {
-          "title": "A wetland with water controls",
-          "text": "Water from Ajan Bandh and a system of dykes and sluices help manage a famous bird wetland. Which state contains Keoladeo?",
-          "factKey": "rajasthan:keoladeo-ajan-bandh-water",
-          "source": "https://whc.unesco.org/en/list/340/"
+          "title": "A revered Sufi shrine",
+          "text": "Ajmer Sharif is the shrine of Khwaja Moinuddin Chishti and draws visitors of many faiths. Which state contains this famous pilgrimage site?",
+          "factKey": "rajasthan:ajmer-moinuddin-chishti",
+          "source": "https://www.incredibleindia.gov.in/en/rajasthan/ajmer/ajmer-sharif"
         },
         {
-          "title": "From hunting to protection",
-          "text": "Keoladeo was once a maharaja’s duck-hunting reserve before becoming a protected bird haven. Which state preserves this landscape?",
-          "factKey": "rajasthan:keoladeo-duck-hunting-history",
-          "source": "https://whc.unesco.org/en/list/340/"
+          "title": "A famous tiger landscape",
+          "text": "Ranthambore National Park is one of India’s best-known destinations for seeing wild tigers. Which state is home to this celebrated wildlife landscape?",
+          "factKey": "rajasthan:ranthambore-tiger-landscape",
+          "source": "https://www.incredibleindia.gov.in/en/rajasthan"
         },
         {
-          "title": "Birds arrive for winter",
-          "text": "Keoladeo National Park provides winter habitat for waterbirds arriving from Central Asia and beyond. Which state is its home?",
-          "factKey": "rajasthan:keoladeo-winter-waterbirds",
-          "source": "https://whc.unesco.org/en/list/340/"
+          "title": "The Blue City",
+          "text": "Jodhpur’s blue-painted houses spread below the imposing Mehrangarh Fort. Which state contains this famously colourful city?",
+          "factKey": "rajasthan:jodhpur-blue-houses-mehrangarh",
+          "source": "https://www.incredibleindia.gov.in/en/rajasthan"
         }
       ],
-      "takeaway": "Keoladeo’s wetland habitats depend on managed water as well as seasonal bird migration.",
+      "takeaway": "Ajmer’s Sufi shrine, Ranthambore’s tigers and Jodhpur’s blue houses are widely recognised landmarks.",
       "sources": [
         {
-          "label": "Keoladeo National Park — UNESCO",
-          "url": "https://whc.unesco.org/en/list/340/"
+          "label": "incredibleindia.gov.in — supporting source",
+          "url": "https://www.incredibleindia.gov.in/en/rajasthan/ajmer/ajmer-sharif"
+        },
+        {
+          "label": "incredibleindia.gov.in — supporting source",
+          "url": "https://www.incredibleindia.gov.in/en/rajasthan"
         }
       ]
     },
@@ -1761,29 +1885,37 @@
       "group": "south",
       "clues": [
         {
-          "title": "A small symbol with a big idea",
-          "text": "A carving at the Chaturbhuj temple is famous for an early written zero. Which state contains this temple within Gwalior Fort?",
-          "factKey": "madhya-pradesh:gwalior-chaturbhuj-zero-inscription",
-          "source": "https://whc.unesco.org/en/tentativelists/6730/"
+          "title": "A musician in Akbar’s court",
+          "text": "Tansen, one of the nine jewels of Akbar’s court, is closely associated with Gwalior’s musical tradition. Which state shares this famous musical legacy?",
+          "factKey": "madhya-pradesh:tansen-gwalior-musical-legacy",
+          "source": "https://www.mptourism.com/the-legend-of-tansen.html"
         },
         {
-          "title": "A palace dressed in tiles",
-          "text": "Glazed tiles adorn the façade of Man Mandir Palace in Gwalior Fort. Which state preserves this colourful palace?",
-          "factKey": "madhya-pradesh:gwalior-man-mandir-glazed-tiles",
-          "source": "https://whc.unesco.org/en/tentativelists/6730/"
+          "title": "A river between marble cliffs",
+          "text": "At Bhedaghat near Jabalpur, the Narmada flows between towering marble rocks. Which state contains this famous river landscape?",
+          "factKey": "madhya-pradesh:bhedaghat-marble-narmada",
+          "source": "https://www.mptourism.com/destination-bhedaghat.php"
         },
         {
-          "title": "A gurdwara inside the fort",
-          "text": "Gwalior Fort’s Data Bandi Chhor gurdwara commemorates Guru Hargobind Sahib. In which state does it stand?",
-          "factKey": "madhya-pradesh:gwalior-bandi-chhor-guru-hargobind",
-          "source": "https://whc.unesco.org/en/tentativelists/6730/"
+          "title": "Ujjain’s sacred landmark",
+          "text": "Ujjain is home to the Mahakaleshwar Temple, one of India’s best-known Shiva shrines. Which state would you visit?",
+          "factKey": "madhya-pradesh:ujjain-mahakaleshwar",
+          "source": "https://www.incredibleindia.gov.in/en/madhya-pradesh"
         }
       ],
-      "takeaway": "Gwalior Fort brings together palace architecture, religious monuments and an early written zero.",
+      "takeaway": "Tansen’s Gwalior, the marble cliffs of Bhedaghat and Ujjain’s Mahakaleshwar are important cultural landmarks.",
       "sources": [
         {
-          "label": "Gwalior Fort — UNESCO",
-          "url": "https://whc.unesco.org/en/tentativelists/6730/"
+          "label": "mptourism.com — supporting source",
+          "url": "https://www.mptourism.com/the-legend-of-tansen.html"
+        },
+        {
+          "label": "mptourism.com — supporting source",
+          "url": "https://www.mptourism.com/destination-bhedaghat.php"
+        },
+        {
+          "label": "incredibleindia.gov.in — supporting source",
+          "url": "https://www.incredibleindia.gov.in/en/madhya-pradesh"
         }
       ]
     },
@@ -1793,28 +1925,36 @@
       "group": "south",
       "clues": [
         {
-          "title": "Wood carried over the sea",
-          "text": "Wood brought from Mangalore and the craftsmanship of Mukri sailors are linked to Ujra Mosque’s carvings. Which union territory preserves them?",
-          "factKey": "lakshadweep:ujra-mukri-mainland-woodwork",
-          "source": "https://www.incredibleindia.gov.in/en/lakshadweep/kavaratti/ujra-mosque"
+          "title": "An island breakfast",
+          "text": "Kilanji is a thin crepe made with rice and eggs, often served with sweetened coconut milk. Which island union territory is known for it?",
+          "factKey": "lakshadweep:kilanji-rice-egg-crepe",
+          "source": "https://www.incredibleindia.gov.in/en/lakshadweep"
         },
         {
-          "title": "A mosque with a sloping roof",
-          "text": "Sloping tiled roofs and carved wooden pillars give Ujra Mosque its distinctive island architecture. Which union territory is its home?",
-          "factKey": "lakshadweep:ujra-sloping-tiled-roof",
-          "source": "https://www.incredibleindia.gov.in/en/lakshadweep/kavaratti/ujra-mosque"
+          "title": "Boats built for celebration",
+          "text": "Minicoy’s colourful Jahadhoni boats are used for racing and ceremonial welcomes. Which union territory preserves this boat-building tradition?",
+          "factKey": "lakshadweep:minicoy-jahadhoni-race-boats",
+          "source": "https://www.incredibleindia.gov.in/en/lakshadweep/kavaratti/minicoy"
         },
         {
           "title": "A historic mosque on Kavaratti",
-          "text": "Sheikh Mohammad Qasim built Ujra Mosque on Kavaratti in the seventeenth century. Which union territory would you visit?",
+          "text": "The seventeenth-century Ujra Mosque on Kavaratti is a landmark of the islands’ religious heritage. Which union territory is it in?",
           "factKey": "lakshadweep:ujra-sheikh-qasim-seventeenth-century",
           "source": "https://www.incredibleindia.gov.in/en/lakshadweep/kavaratti/ujra-mosque"
         }
       ],
-      "takeaway": "Ujra Mosque is known for carved wooden pillars, a tiled roof and a seventeenth-century foundation.",
+      "takeaway": "Island cuisine, boat-building and Ujra Mosque show a heritage extending beyond beaches.",
       "sources": [
         {
-          "label": "Ujra Mosque — Ministry of Tourism",
+          "label": "incredibleindia.gov.in — supporting source",
+          "url": "https://www.incredibleindia.gov.in/en/lakshadweep"
+        },
+        {
+          "label": "incredibleindia.gov.in — supporting source",
+          "url": "https://www.incredibleindia.gov.in/en/lakshadweep/kavaratti/minicoy"
+        },
+        {
+          "label": "incredibleindia.gov.in — supporting source",
           "url": "https://www.incredibleindia.gov.in/en/lakshadweep/kavaratti/ujra-mosque"
         }
       ]
@@ -1825,29 +1965,29 @@
       "group": "north",
       "clues": [
         {
-          "title": "Six saints at the entrance",
-          "text": "Six carved saints embellish the southern entrance of the Cathedral of Bom Jesus. Which western union territory contains it?",
-          "factKey": "dadra-and-nagar-haveli-and-daman-and-diu:bom-jesus-cathedral-six-saints",
-          "source": "https://ddd.gov.in/places-centres/church-of-bom-jesus-moti-daman/"
+          "title": "A church with elaborate woodwork",
+          "text": "St Paul’s Church is celebrated for its ornate woodwork and Portuguese-era architecture. Which western union territory preserves this coastal landmark?",
+          "factKey": "dadra-and-nagar-haveli-and-daman-and-diu:st-pauls-church-woodwork",
+          "source": "https://www.incredibleindia.gov.in/en/dadra-and-nagar-haveli-and-daman-and-diu"
         },
         {
-          "title": "Art preserved in wood",
-          "text": "The Cathedral of Bom Jesus near Vapi is noted for artistic wooden altars and ornate interiors. Which union territory preserves this church?",
-          "factKey": "dadra-and-nagar-haveli-and-daman-and-diu:bom-jesus-cathedral-wooden-altars",
-          "source": "https://ddd.gov.in/places-centres/church-of-bom-jesus-moti-daman/"
+          "title": "A maze of rock and light",
+          "text": "Naida Caves are known for their striking rock formations and open, light-filled spaces. Which western union territory contains this popular attraction?",
+          "factKey": "dadra-and-nagar-haveli-and-daman-and-diu:naida-caves-rock-landscape",
+          "source": "https://www.incredibleindia.gov.in/en/dadra-and-nagar-haveli-and-daman-and-diu"
         },
         {
-          "title": "A cathedral from 1603",
-          "text": "The Cathedral of Bom Jesus, reached from Vapi, was consecrated in 1603. Which union territory is home to this Portuguese-era shrine?",
-          "factKey": "dadra-and-nagar-haveli-and-daman-and-diu:bom-jesus-cathedral-consecrated-1603",
-          "source": "https://ddd.gov.in/places-centres/church-of-bom-jesus-moti-daman/"
+          "title": "A well-known western beach",
+          "text": "Nagoa Beach is a favourite seaside destination in this union territory, alongside its churches, caves and coastal forts. Which territory is it?",
+          "factKey": "dadra-and-nagar-haveli-and-daman-and-diu:nagoa-beach",
+          "source": "https://www.incredibleindia.gov.in/en/dadra-and-nagar-haveli-and-daman-and-diu"
         }
       ],
-      "takeaway": "This cathedral’s southern entrance features six saints above an ornate interior.",
+      "takeaway": "St Paul’s Church, Naida Caves and Nagoa Beach are distinctive coastal attractions of the territory.",
       "sources": [
         {
-          "label": "Cathedral of Bom Jesus — official tourism or district administration",
-          "url": "https://ddd.gov.in/places-centres/church-of-bom-jesus-moti-daman/"
+          "label": "incredibleindia.gov.in — supporting source",
+          "url": "https://www.incredibleindia.gov.in/en/dadra-and-nagar-haveli-and-daman-and-diu"
         }
       ]
     },
@@ -1857,29 +1997,37 @@
       "group": "east",
       "clues": [
         {
-          "title": "The architect behind the monument",
-          "text": "Mir Muhammad Aliwal Khan designed Sher Shah Suri’s red-sandstone mausoleum. Which state contains this tomb?",
-          "factKey": "bihar:sher-shah-tomb-aliwal-architect",
-          "source": "https://rohtas.nic.in/tourist-place/sher-shah-suri-tomb/"
-        },
-        {
-          "title": "Eight sides beneath a dome",
-          "text": "Sher Shah Suri’s tomb has an octagonal plan crowned by a large dome. In which state would you see this design?",
-          "factKey": "bihar:sher-shah-tomb-octagonal-plan",
-          "source": "https://rohtas.nic.in/tourist-place/sher-shah-suri-tomb/"
-        },
-        {
-          "title": "A tomb surrounded by water",
-          "text": "Sher Shah Suri’s mausoleum stands in an artificial lake at Sasaram. Which state would you visit to see it?",
+          "title": "A ruler’s tomb in a lake",
+          "text": "Sher Shah Suri’s grand mausoleum stands in an artificial lake at Sasaram. Which state preserves this landmark of the Suri dynasty?",
           "factKey": "bihar:sher-shah-tomb-sasaram-artificial-lake",
           "source": "https://rohtas.nic.in/tourist-place/sher-shah-suri-tomb/"
+        },
+        {
+          "title": "The tenth Guru’s birthplace",
+          "text": "Guru Gobind Singh was born in Patna, where Takhat Sri Harmandir Sahib honours his birthplace. Which state contains this important Sikh pilgrimage site?",
+          "factKey": "bihar:guru-gobind-singh-birthplace",
+          "source": "https://tourism.bihar.gov.in/en/circuits/sikh-circuit"
+        },
+        {
+          "title": "A taste of the region",
+          "text": "Litti—wheat balls filled with spiced sattu—is traditionally served with chokha made from mashed vegetables. Which state is especially famous for this dish?",
+          "factKey": "bihar:litti-chokha-sattu",
+          "source": "https://tourism.bihar.gov.in/en/experiences/food-and-cuisine/main-course/litti-chokha"
         }
       ],
-      "takeaway": "The octagonal tomb at Sasaram stands on a stone platform in an artificial lake.",
+      "takeaway": "Sasaram’s royal tomb, Guru Gobind Singh’s birthplace and litti-chokha represent history, faith and food.",
       "sources": [
         {
-          "label": "Sher Shah Suri’s tomb — official tourism or district administration",
+          "label": "rohtas.nic.in — supporting source",
           "url": "https://rohtas.nic.in/tourist-place/sher-shah-suri-tomb/"
+        },
+        {
+          "label": "tourism.bihar.gov.in — supporting source",
+          "url": "https://tourism.bihar.gov.in/en/circuits/sikh-circuit"
+        },
+        {
+          "label": "tourism.bihar.gov.in — supporting source",
+          "url": "https://tourism.bihar.gov.in/en/experiences/food-and-cuisine/main-course/litti-chokha"
         }
       ]
     },
@@ -1889,28 +2037,28 @@
       "group": "south",
       "clues": [
         {
-          "title": "A village with its own name",
-          "text": "On this island, traditional villages are called Avah and homes feature colourful wooden swing cots. Which union territory contains these communities?",
+          "title": "A distinctive village tradition",
+          "text": "Minicoy’s traditional villages are called Avah, and its homes are known for colourful wooden swing cots. Which union territory contains these communities?",
           "factKey": "lakshadweep:minicoy-avah-villages",
           "source": "https://www.incredibleindia.gov.in/en/lakshadweep/kavaratti/minicoy"
         },
         {
-          "title": "Boats built for celebration",
-          "text": "Colourful Jahadhoni boats race, welcome guests and carry island picnickers. Which union territory preserves this boat-building tradition on Minicoy?",
-          "factKey": "lakshadweep:minicoy-jahadhoni-race-boats",
+          "title": "Dance from Minicoy",
+          "text": "Lava is the energetic traditional dance closely associated with Minicoy. Which island union territory is home to this performance tradition?",
+          "factKey": "lakshadweep:minicoy-lava-dance",
           "source": "https://www.incredibleindia.gov.in/en/lakshadweep/kavaratti/minicoy"
         },
         {
-          "title": "A rhythm from Minicoy",
-          "text": "Lava is a traditional dance closely associated with Minicoy. Which island union territory is home to this performance?",
-          "factKey": "lakshadweep:minicoy-lava-dance",
+          "title": "At the southern end of the islands",
+          "text": "Minicoy lies at the southern end of this island group and is known for its distinctive maritime culture. Which Indian union territory contains it?",
+          "factKey": "lakshadweep:minicoy-southernmost-inhabited-island",
           "source": "https://www.incredibleindia.gov.in/en/lakshadweep/kavaratti/minicoy"
         }
       ],
-      "takeaway": "Minicoy’s heritage includes Avah villages, Jahadhoni race boats and Lava dance.",
+      "takeaway": "Minicoy has a distinctive village organisation and performance culture within this island union territory.",
       "sources": [
         {
-          "label": "Minicoy’s living traditions — Ministry of Tourism",
+          "label": "incredibleindia.gov.in — supporting source",
           "url": "https://www.incredibleindia.gov.in/en/lakshadweep/kavaratti/minicoy"
         }
       ]
@@ -1921,28 +2069,36 @@
       "group": "east",
       "clues": [
         {
-          "title": "Four rivers around a village",
-          "text": "The official district account describes four rivers flowing through Longwa: two in India and two in Myanmar. Which state contains this village?",
-          "factKey": "nagaland:longwa-four-rivers",
-          "source": "https://mon.nic.in/tourist-place/longwa-village/"
+          "title": "The captain at London 1948",
+          "text": "Talimeren Ao, from Changki village, captained India’s football team at the 1948 London Olympics. Which present-day state was his home?",
+          "factKey": "nagaland:talimeren-ao-1948-football-captain",
+          "source": "https://ipr.nagaland.gov.in/niis-news/cm-dr-neiphiu-rio-graced-the-closing-ceremony-of-25th-edition-of-dr-t-ao-trophy"
         },
         {
-          "title": "A house across a border",
-          "text": "At Longwa, the Angh’s house lies partly in India and partly in Myanmar. Which Indian state contains this border village?",
+          "title": "A spring festival of the Konyaks",
+          "text": "The Konyak community celebrates Aoleang in April, with feasting and traditional performances. Which northeastern state is especially associated with this festival?",
+          "factKey": "nagaland:konyak-aoleang-festival",
+          "source": "https://tourism.nagaland.gov.in/tribes/"
+        },
+        {
+          "title": "One house, two countries",
+          "text": "At Longwa, the Angh’s house lies partly in India and partly in Myanmar. Which Indian state contains this famous border village?",
           "factKey": "nagaland:longwa-angh-house-border",
-          "source": "https://mon.nic.in/tourist-place/longwa-village/"
-        },
-        {
-          "title": "Longwa is your signpost",
-          "text": "Longwa is a village in Mon district governed by a traditional chief called the Angh. Which state is it in?",
-          "factKey": "nagaland:longwa-mon-chief",
           "source": "https://mon.nic.in/tourist-place/longwa-village/"
         }
       ],
-      "takeaway": "Longwa’s Angh’s house famously straddles the India–Myanmar border.",
+      "takeaway": "Footballer Talimeren Ao, Konyak festivals and Longwa’s border-straddling house reveal different aspects of the state.",
       "sources": [
         {
-          "label": "Longwa village — official tourism or district administration",
+          "label": "ipr.nagaland.gov.in — supporting source",
+          "url": "https://ipr.nagaland.gov.in/niis-news/cm-dr-neiphiu-rio-graced-the-closing-ceremony-of-25th-edition-of-dr-t-ao-trophy"
+        },
+        {
+          "label": "tourism.nagaland.gov.in — supporting source",
+          "url": "https://tourism.nagaland.gov.in/tribes/"
+        },
+        {
+          "label": "mon.nic.in — supporting source",
           "url": "https://mon.nic.in/tourist-place/longwa-village/"
         }
       ]
@@ -1953,29 +2109,37 @@
       "group": "south",
       "clues": [
         {
-          "title": "A stone held between stones",
-          "text": "A boulder wedged between two larger rocks forms the shelter called Edakkal. Which state contains this unusual formation?",
-          "factKey": "kerala:edakkal-wedged-boulder-shelter",
-          "source": "https://www.incredibleindia.gov.in/en/kerala/wayanad/edakkal-caves"
-        },
-        {
-          "title": "Figures from an ancient world",
-          "text": "Human and animal figures are engraved into the rock at Edakkal. Which state preserves these prehistoric markings?",
+          "title": "Stories carved into rock",
+          "text": "Edakkal’s prehistoric rock engravings include human and animal figures. Which state preserves this archaeological landmark in Wayanad?",
           "factKey": "kerala:edakkal-human-animal-engravings",
           "source": "https://www.incredibleindia.gov.in/en/kerala/wayanad/edakkal-caves"
         },
         {
-          "title": "High in the hills of Wayanad",
-          "text": "Edakkal Caves stand in the Ambukuthi Hills of Wayanad. Which state would you visit for this archaeological site?",
-          "factKey": "kerala:edakkal-ambukuthi-wayanad",
-          "source": "https://www.incredibleindia.gov.in/en/kerala/wayanad/edakkal-caves"
+          "title": "A king’s yearly homecoming",
+          "text": "Onam celebrates the legendary return of King Mahabali, with flower carpets, feasts and community festivities. Which state is especially known for it?",
+          "factKey": "kerala:onam-mahabali-homecoming",
+          "source": "https://www.keralatourism.org/onam/history/mahabali-legend"
+        },
+        {
+          "title": "A famous waterfall in the forest",
+          "text": "Athirappilly Falls cascades across the Chalakudy River amid green forest. Which state contains this much-loved waterfall?",
+          "factKey": "kerala:athirappilly-chalakudy-waterfall",
+          "source": "https://www.incredibleindia.gov.in/en/kerala/thrissur/athirappilly-waterfalls"
         }
       ],
-      "takeaway": "Edakkal is a natural rock shelter bearing prehistoric engravings in the Ambukuthi Hills.",
+      "takeaway": "Prehistoric rock art, Onam traditions and Athirappilly’s waterfall offer three distinct clues to the state.",
       "sources": [
         {
-          "label": "Edakkal Caves — Ministry of Tourism",
+          "label": "incredibleindia.gov.in — supporting source",
           "url": "https://www.incredibleindia.gov.in/en/kerala/wayanad/edakkal-caves"
+        },
+        {
+          "label": "keralatourism.org — supporting source",
+          "url": "https://www.keralatourism.org/onam/history/mahabali-legend"
+        },
+        {
+          "label": "incredibleindia.gov.in — supporting source",
+          "url": "https://www.incredibleindia.gov.in/en/kerala/thrissur/athirappilly-waterfalls"
         }
       ]
     },
@@ -1985,29 +2149,37 @@
       "group": "east",
       "clues": [
         {
-          "title": "A river beside the rainforest",
-          "text": "The Noa-Dihing River flows through the landscape around Namdapha’s forests. Which state contains this protected area?",
-          "factKey": "arunachal-pradesh:namdapha-noa-dihing-river",
-          "source": "https://changlang.nic.in/tourist-place/namdapha-national-park/"
+          "title": "The sun and the moon",
+          "text": "Donyi-Polo traditions revere the sun and moon and are followed by several indigenous communities. Which northeastern state is especially associated with this belief?",
+          "factKey": "arunachal-pradesh:donyi-polo-sun-moon",
+          "source": "https://arunachaltourism.com/culture-2/"
         },
         {
-          "title": "A reserve joins Project Tiger",
-          "text": "Namdapha was declared a tiger reserve in 1983. Which state protects this forest near the international border?",
-          "factKey": "arunachal-pradesh:namdapha-project-tiger-1983",
-          "source": "https://changlang.nic.in/tourist-place/namdapha-national-park/"
+          "title": "A river changes its name",
+          "text": "The river known as the Tsangpo in Tibet flows through this state as the Siang before becoming the Brahmaputra downstream. Which state is it?",
+          "factKey": "arunachal-pradesh:siang-tsangpo-brahmaputra",
+          "source": "https://arunachaltourism.com/facts/"
         },
         {
-          "title": "Miao points the way",
-          "text": "Namdapha National Park is near Miao in Changlang district. Which northeastern state are we exploring?",
-          "factKey": "arunachal-pradesh:namdapha-miao-changlang",
-          "source": "https://changlang.nic.in/tourist-place/namdapha-national-park/"
+          "title": "The high road to Tawang",
+          "text": "Sela Pass is the famous mountain crossing on the route to Tawang. Which state contains this high Himalayan landscape?",
+          "factKey": "arunachal-pradesh:sela-pass-tawang-route",
+          "source": "https://www.incredibleindia.gov.in/en/arunachal-pradesh"
         }
       ],
-      "takeaway": "Namdapha’s forests lie near Miao and the Noa-Dihing River.",
+      "takeaway": "Sun-and-moon traditions, the Siang River and Sela Pass connect cultural identity with Himalayan geography.",
       "sources": [
         {
-          "label": "Namdapha — official tourism or district administration",
-          "url": "https://changlang.nic.in/tourist-place/namdapha-national-park/"
+          "label": "arunachaltourism.com — supporting source",
+          "url": "https://arunachaltourism.com/culture-2/"
+        },
+        {
+          "label": "arunachaltourism.com — supporting source",
+          "url": "https://arunachaltourism.com/facts/"
+        },
+        {
+          "label": "incredibleindia.gov.in — supporting source",
+          "url": "https://www.incredibleindia.gov.in/en/arunachal-pradesh"
         }
       ]
     },
@@ -2017,29 +2189,37 @@
       "group": "east",
       "clues": [
         {
-          "title": "Two rings of water",
-          "text": "An inner and an outer moat survive among the relics of Kangla. Which state preserves this former royal complex?",
-          "factKey": "manipur:kangla-inner-outer-moats",
-          "source": "https://imphalwest.nic.in/tourist-place/kangla/"
+          "title": "The roots of modern polo",
+          "text": "Modern polo traces its origins to the traditional game Sagol Kangjei. Which northeastern state is recognised as its birthplace?",
+          "factKey": "manipur:sagol-kangjei-modern-polo",
+          "source": "https://manipurtourism.gov.in/exclusive-destination/"
         },
         {
-          "title": "A royal seat until 1891",
-          "text": "Kangla remained the seat of royal power until 1891. Which present-day state regards it as a major historic landmark?",
+          "title": "The old royal seat",
+          "text": "Kangla served as the seat of royal power until 1891. Which present-day state preserves this historic complex?",
           "factKey": "manipur:kangla-seat-of-power-1891",
           "source": "https://imphalwest.nic.in/tourist-place/kangla/"
         },
         {
-          "title": "An old temple within Kangla",
-          "text": "The old Govindajee temple is one of Kangla’s surviving landmarks. Which state would you visit to explore this heritage complex?",
-          "factKey": "manipur:kangla-old-govindajee-temple",
-          "source": "https://imphalwest.nic.in/tourist-place/kangla/"
+          "title": "A market run by mothers",
+          "text": "At Ima Keithel, or Mothers’ Market, women run the stalls selling food, textiles and everyday goods. Which state is home to this famous market?",
+          "factKey": "manipur:ima-keithel-women-market",
+          "source": "https://manipurtourism.gov.in/places-to-see/"
         }
       ],
-      "takeaway": "Kangla preserves a royal seat, defensive moats and the old Govindajee temple.",
+      "takeaway": "Modern polo’s roots, Kangla’s royal history and women-run Ima Keithel are defining parts of the state’s heritage.",
       "sources": [
         {
-          "label": "Kangla — official tourism or district administration",
+          "label": "manipurtourism.gov.in — supporting source",
+          "url": "https://manipurtourism.gov.in/exclusive-destination/"
+        },
+        {
+          "label": "imphalwest.nic.in — supporting source",
           "url": "https://imphalwest.nic.in/tourist-place/kangla/"
+        },
+        {
+          "label": "manipurtourism.gov.in — supporting source",
+          "url": "https://manipurtourism.gov.in/places-to-see/"
         }
       ]
     },
@@ -2049,29 +2229,37 @@
       "group": "east",
       "clues": [
         {
-          "title": "A rare cat in an enclosure",
-          "text": "Sepahijala is known for a clouded leopard enclosure. Which state would you visit to see this wildlife centre?",
+          "title": "A composer with royal roots",
+          "text": "Legendary film composer S D Burman belonged to this state’s erstwhile royal family. Which northeastern state shares this connection to Indian cinema?",
+          "factKey": "tripura:sd-burman-royal-family",
+          "source": "https://rashtraparv.mod.gov.in/files/field-event-program-schedule/mod_army_repbulc_day_parade_26_jan_2010.pdf"
+        },
+        {
+          "title": "A rare forest cat",
+          "text": "Sepahijala’s wildlife centre is known for its clouded leopard enclosure. Which northeastern state contains this well-known wildlife destination?",
           "factKey": "tripura:sepahijala-clouded-leopard-enclosure",
           "source": "https://sepahijala.nic.in/tourist-place/sepahijala-wildlife-santuary/"
         },
         {
-          "title": "Water and a garden",
-          "text": "An artificial lake and a botanical garden are among Sepahijala’s features. Which state contains this wildlife destination?",
-          "factKey": "tripura:sepahijala-lake-botanical-garden",
-          "source": "https://sepahijala.nic.in/tourist-place/sepahijala-wildlife-santuary/"
-        },
-        {
-          "title": "Near Bishalgarh",
-          "text": "Sepahijala Wildlife Sanctuary lies near Bishalgarh. Which northeastern state is home to this sanctuary?",
-          "factKey": "tripura:sepahijala-bishalgarh-location",
-          "source": "https://sepahijala.nic.in/tourist-place/sepahijala-wildlife-santuary/"
+          "title": "A royal palace becomes a museum",
+          "text": "Ujjayanta Palace in Agartala now houses a museum celebrating the region’s history and cultures. Which state is its home?",
+          "factKey": "tripura:ujjayanta-palace-museum",
+          "source": "https://www.incredibleindia.gov.in/en/tripura"
         }
       ],
-      "takeaway": "Sepahijala brings together wildlife enclosures, an artificial lake and a botanical garden.",
+      "takeaway": "S D Burman’s royal family connection, Sepahijala’s wildlife and Ujjayanta Palace link music, nature and history.",
       "sources": [
         {
-          "label": "Sepahijala — official tourism or district administration",
+          "label": "rashtraparv.mod.gov.in — supporting source",
+          "url": "https://rashtraparv.mod.gov.in/files/field-event-program-schedule/mod_army_repbulc_day_parade_26_jan_2010.pdf"
+        },
+        {
+          "label": "sepahijala.nic.in — supporting source",
           "url": "https://sepahijala.nic.in/tourist-place/sepahijala-wildlife-santuary/"
+        },
+        {
+          "label": "incredibleindia.gov.in — supporting source",
+          "url": "https://www.incredibleindia.gov.in/en/tripura"
         }
       ]
     },
@@ -2081,29 +2269,37 @@
       "group": "south",
       "clues": [
         {
-          "title": "Memories in a small museum",
-          "text": "A museum named Smritika displays photographs and antiques from a colonial island settlement. Which union territory contains it?",
-          "factKey": "andaman-and-nicobar-islands:bose-island-smritika-museum",
-          "source": "https://southandaman.nic.in/tourist-place/netaji-subhash-chandra-bose-island/"
-        },
-        {
           "title": "Ruins of an island headquarters",
-          "text": "Netaji Subhash Chandra Bose Island was once the seat of British administration for the surrounding islands. Which union territory preserves its ruins?",
+          "text": "The island now named after Netaji Subhas Chandra Bose once housed the British administrative headquarters. Which union territory preserves these ruins?",
           "factKey": "andaman-and-nicobar-islands:bose-island-colonial-seat",
           "source": "https://southandaman.nic.in/tourist-place/netaji-subhash-chandra-bose-island/"
         },
         {
-          "title": "A ferry from Aberdeen",
-          "text": "A ferry from Aberdeen Jetty reaches Netaji Subhash Chandra Bose Island. Which union territory would you visit for this trip?",
-          "factKey": "andaman-and-nicobar-islands:bose-island-aberdeen-jetty",
-          "source": "https://southandaman.nic.in/tourist-place/netaji-subhash-chandra-bose-island/"
+          "title": "Netaji’s flag on Indian soil",
+          "text": "On 30 December 1943, Netaji Subhas Chandra Bose hoisted a national flag at Port Blair. Which present-day union territory did he visit?",
+          "factKey": "andaman-and-nicobar-islands:netaji-flag-hoisting-1943",
+          "source": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1786189&lang=2&reg=48"
+        },
+        {
+          "title": "A famous island beach",
+          "text": "Radhanagar, also called Beach No. 7, is a famous white-sand beach on Swaraj Dweep. Which island union territory contains it?",
+          "factKey": "andaman-and-nicobar-islands:radhanagar-swaraj-dweep-beach",
+          "source": "https://www.incredibleindia.gov.in/en/andaman-and-nicobar-islands/sri-vijaya-puram/10-best-things-to-do-in-the-andamans"
         }
       ],
-      "takeaway": "This former colonial administrative island now preserves ruins and the Smritika museum.",
+      "takeaway": "Colonial island ruins, Netaji’s 1943 visit and Radhanagar Beach reveal different chapters of the islands.",
       "sources": [
         {
-          "label": "Netaji Subhash Chandra Bose Island — official tourism or district administration",
+          "label": "southandaman.nic.in — supporting source",
           "url": "https://southandaman.nic.in/tourist-place/netaji-subhash-chandra-bose-island/"
+        },
+        {
+          "label": "pib.gov.in — supporting source",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1786189&lang=2&reg=48"
+        },
+        {
+          "label": "incredibleindia.gov.in — supporting source",
+          "url": "https://www.incredibleindia.gov.in/en/andaman-and-nicobar-islands/sri-vijaya-puram/10-best-things-to-do-in-the-andamans"
         }
       ]
     },
@@ -2113,29 +2309,37 @@
       "group": "east",
       "clues": [
         {
-          "title": "Leave even the smallest twig",
-          "text": "Visitors may take nothing from this sacred forest, not even a pebble or twig. Which state preserves this custom at Mawphlang?",
-          "factKey": "meghalaya:mawphlang-no-removal-rule",
-          "source": "https://www.meghalayatourism.in/explore/destinations/by-interest/sacred-groves-%26-forest-sanctuaries/mawphlang/"
+          "title": "A harvest celebrated with drums",
+          "text": "Wangala is the Garo community’s harvest thanksgiving, widely known through the Hundred Drums festival. Which state is especially associated with this celebration?",
+          "factKey": "meghalaya:wangala-garo-harvest-drums",
+          "source": "https://eastgarohills.gov.in/grt/festivals-2/"
         },
         {
-          "title": "A forest unlike its surroundings",
-          "text": "A dark canopy and soft humus distinguish Mawphlang’s sacred forest from the surrounding meadows and pines. Which state contains it?",
-          "factKey": "meghalaya:mawphlang-dark-canopy-humus",
-          "source": "https://www.meghalayatourism.in/explore/destinations/by-interest/sacred-groves-%26-forest-sanctuaries/mawphlang/"
+          "title": "A waterfall near Sohra",
+          "text": "Nohkalikai Falls plunges from the green plateau near Sohra, also known as Cherrapunji. Which state contains this famous waterfall?",
+          "factKey": "meghalaya:nohkalikai-sohra-waterfall",
+          "source": "https://www.meghalayatourism.in/explore/destinations/by-region/khasi-hills/nohkalikai/"
         },
         {
-          "title": "A museum of everyday heritage",
-          "text": "Mawphlang Heritage Museum displays traditional Khasi huts and tools. Which northeastern state would you visit to see this collection?",
-          "factKey": "meghalaya:mawphlang-heritage-museum-huts-tools",
-          "source": "https://www.meghalayatourism.in/explore/destinations/by-interest/sacred-groves-%26-forest-sanctuaries/mawphlang/"
+          "title": "A lake made by a dam",
+          "text": "Umiam Lake was created by a hydroelectric dam near Shillong. Which state is home to this popular lake and boating destination?",
+          "factKey": "meghalaya:umiam-hydel-lake",
+          "source": "https://www.meghalayatourism.in/explore/destinations/by-region/khasi-hills/umiam-lake/"
         }
       ],
-      "takeaway": "Khasi traditions protect the sacred forest at Mawphlang, including a rule against removing anything.",
+      "takeaway": "Garo harvest celebrations, Nohkalikai Falls and Umiam Lake are recognisable parts of the state’s identity.",
       "sources": [
         {
-          "label": "Mawphlang Sacred Grove — official tourism or district administration",
-          "url": "https://www.meghalayatourism.in/explore/destinations/by-interest/sacred-groves-%26-forest-sanctuaries/mawphlang/"
+          "label": "eastgarohills.gov.in — supporting source",
+          "url": "https://eastgarohills.gov.in/grt/festivals-2/"
+        },
+        {
+          "label": "meghalayatourism.in — supporting source",
+          "url": "https://www.meghalayatourism.in/explore/destinations/by-region/khasi-hills/nohkalikai/"
+        },
+        {
+          "label": "meghalayatourism.in — supporting source",
+          "url": "https://www.meghalayatourism.in/explore/destinations/by-region/khasi-hills/umiam-lake/"
         }
       ]
     },
@@ -2145,29 +2349,37 @@
       "group": "east",
       "clues": [
         {
-          "title": "Listen for the looms",
-          "text": "Hand-operated looms called taatxaal produce a familiar click-clack in Sualkuchi’s homes. Which state contains this weaving centre?",
-          "factKey": "assam:sualkuchi-taatxaal-looms",
-          "source": "https://assamtourism.gov.in/Sualkuchi.php"
+          "title": "Royal mounds at Charaideo",
+          "text": "The Ahom rulers built royal burial mounds, or moidams, at Charaideo over several centuries. Which state preserves this UNESCO World Heritage Site?",
+          "factKey": "assam:moidam-tai-ahom-six-centuries",
+          "source": "https://whc.unesco.org/en/list/1711/"
         },
         {
-          "title": "Gold, white and warmth",
-          "text": "Sualkuchi’s weavers work with golden Muga, white Paat and warm Eri silk. Which state is closely associated with these fabrics?",
-          "factKey": "assam:sualkuchi-muga-paat-eri",
-          "source": "https://assamtourism.gov.in/Sualkuchi.php"
+          "title": "A commander on the Brahmaputra",
+          "text": "Lachit Borphukan led the Ahom forces against the Mughals at the Battle of Saraighat in 1671. Which present-day state remembers this victory?",
+          "factKey": "assam:lachit-borphukan-saraighat-1671",
+          "source": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1878446&lang=2&reg=48"
         },
         {
-          "title": "A museum of weaving life",
-          "text": "Vastra Udyaan at Sualkuchi houses a museum about life in this weaving town. Which state would you visit?",
-          "factKey": "assam:sualkuchi-vastra-udyaan-museum",
-          "source": "https://assamtourism.gov.in/Sualkuchi.php"
+          "title": "A town built around oil",
+          "text": "Digboi is famous for its early oil wells and its place in India’s petroleum history. Which state contains this historic oil town?",
+          "factKey": "assam:digboi-oil-industry-heritage",
+          "source": "https://www.incredibleindia.gov.in/en/assam"
         }
       ],
-      "takeaway": "Sualkuchi’s silk-weaving heritage includes household looms, several silk types and a local museum.",
+      "takeaway": "Charaideo’s royal burials, Lachit Borphukan’s victory and Digboi’s oil heritage span very different periods of history.",
       "sources": [
         {
-          "label": "Sualkuchi — official tourism or district administration",
-          "url": "https://assamtourism.gov.in/Sualkuchi.php"
+          "label": "whc.unesco.org — supporting source",
+          "url": "https://whc.unesco.org/en/list/1711/"
+        },
+        {
+          "label": "pib.gov.in — supporting source",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1878446&lang=2&reg=48"
+        },
+        {
+          "label": "incredibleindia.gov.in — supporting source",
+          "url": "https://www.incredibleindia.gov.in/en/assam"
         }
       ]
     },
@@ -2177,29 +2389,37 @@
       "group": "east",
       "clues": [
         {
-          "title": "Two names for stone memorials",
-          "text": "Moo Shynrang are upright stones, while Moo Kynthai lie horizontally. Which state uses these terms for Nartiang’s monoliths?",
+          "title": "A forest protected by custom",
+          "text": "At Mawphlang Sacred Grove, tradition forbids removing even a twig or pebble from the forest. Which state preserves this community-led conservation custom?",
+          "factKey": "meghalaya:mawphlang-no-removal-rule",
+          "source": "https://www.meghalayatourism.in/explore/destinations/by-interest/sacred-groves-%26-forest-sanctuaries/mawphlang/"
+        },
+        {
+          "title": "History raised in stone",
+          "text": "Nartiang’s great collection of stone memorials includes upright menhirs and horizontal dolmens. Which state contains this important Jaintia Hills heritage site?",
           "factKey": "meghalaya:nartiang-moo-shynrang-kynthai",
           "source": "https://westjaintiahills.gov.in/tourist-place/nartiang-monoliths/"
         },
         {
-          "title": "Memories raised over centuries",
-          "text": "The district account dates many Nartiang monoliths to the period between 1500 and 1835. Which state preserves them?",
-          "factKey": "meghalaya:nartiang-monolith-erection-period",
-          "source": "https://westjaintiahills.gov.in/tourist-place/nartiang-monoliths/"
-        },
-        {
-          "title": "Stones north of the market",
-          "text": "A remarkable cluster of monoliths stands north of Nartiang market in the Jaintia Hills. Which state is it in?",
-          "factKey": "meghalaya:nartiang-market-monolith-cluster",
-          "source": "https://westjaintiahills.gov.in/tourist-place/nartiang-monoliths/"
+          "title": "A journey into the caves",
+          "text": "Mawsmai Caves near Sohra let visitors explore narrow passages and spot fossils in the rock formations. Which state would you visit to see them?",
+          "factKey": "meghalaya:mawsmai-cave-passages-fossils",
+          "source": "https://eastkhasihills.gov.in/places-of-interest/"
         }
       ],
-      "takeaway": "Nartiang’s stone memorials include upright menhirs and horizontal dolmens.",
+      "takeaway": "Sacred forests, ancient stone memorials and limestone caves reveal different sides of the Khasi and Jaintia Hills.",
       "sources": [
         {
-          "label": "Nartiang monoliths — official tourism or district administration",
+          "label": "meghalayatourism.in — supporting source",
+          "url": "https://www.meghalayatourism.in/explore/destinations/by-interest/sacred-groves-%26-forest-sanctuaries/mawphlang/"
+        },
+        {
+          "label": "westjaintiahills.gov.in — supporting source",
           "url": "https://westjaintiahills.gov.in/tourist-place/nartiang-monoliths/"
+        },
+        {
+          "label": "eastkhasihills.gov.in — supporting source",
+          "url": "https://eastkhasihills.gov.in/places-of-interest/"
         }
       ]
     },
@@ -2209,29 +2429,37 @@
       "group": "east",
       "clues": [
         {
-          "title": "Two foothill landscapes",
-          "text": "Bhabar and terai tracts meet in the forests of Valmiki Tiger Reserve. Which state contains this habitat combination?",
-          "factKey": "bihar:valmiki-bhabar-terai-tracts",
-          "source": "https://tourism.bihar.gov.in/en/destinations/west-champaran/valmiki-tiger-reserve"
+          "title": "A poet of Mithila",
+          "text": "Vidyapati, celebrated for his Maithili poetry and songs, belongs to the literary heritage of Mithila. Which state is most closely associated with this region?",
+          "factKey": "bihar:vidyapati-maithili-poet",
+          "source": "https://www.incredibleindia.gov.in/en/bihar"
         },
         {
-          "title": "An eastern edge of the Terai",
-          "text": "Valmiki Tiger Reserve marks the easternmost limit of India’s Himalayan Terai forests, according to the tourism department. Which state contains it?",
-          "factKey": "bihar:valmiki-eastern-terai-limit",
-          "source": "https://tourism.bihar.gov.in/en/destinations/west-champaran/valmiki-tiger-reserve"
+          "title": "Gandhi and the indigo farmers",
+          "text": "In 1917, Gandhi’s Champaran Satyagraha challenged the exploitation of indigo farmers. Which present-day state was the setting for this landmark movement?",
+          "factKey": "bihar:champaran-gandhi-1917",
+          "source": "https://tourism.bihar.gov.in/content/dam/bihar-tourism/e_brochures/gandhi/gandhi-circuit-eng.pdf"
         },
         {
-          "title": "West Champaran is your clue",
-          "text": "Valmiki Tiger Reserve lies in West Champaran. Which state would you visit to explore this forest landscape?",
-          "factKey": "bihar:valmiki-west-champaran-location",
-          "source": "https://tourism.bihar.gov.in/en/destinations/west-champaran/valmiki-tiger-reserve"
+          "title": "Art from Mithila",
+          "text": "Madhubani painting is known for intricate patterns, natural colours and scenes of community life and belief. Which state is the heartland of this art?",
+          "factKey": "bihar:madhubani-mithila-painting",
+          "source": "https://tourism.bihar.gov.in/en/experiences/art-and-craft/painting/madhubani-or-mithila-painting"
         }
       ],
-      "takeaway": "Valmiki protects a combination of bhabar and terai habitats in West Champaran.",
+      "takeaway": "Vidyapati’s poetry, the Champaran movement and Madhubani art connect literature, independence and living craft.",
       "sources": [
         {
-          "label": "Valmiki Tiger Reserve — official tourism or district administration",
-          "url": "https://tourism.bihar.gov.in/en/destinations/west-champaran/valmiki-tiger-reserve"
+          "label": "incredibleindia.gov.in — supporting source",
+          "url": "https://www.incredibleindia.gov.in/en/bihar"
+        },
+        {
+          "label": "tourism.bihar.gov.in — supporting source",
+          "url": "https://tourism.bihar.gov.in/content/dam/bihar-tourism/e_brochures/gandhi/gandhi-circuit-eng.pdf"
+        },
+        {
+          "label": "tourism.bihar.gov.in — supporting source",
+          "url": "https://tourism.bihar.gov.in/en/experiences/art-and-craft/painting/madhubani-or-mithila-painting"
         }
       ]
     },
@@ -2241,29 +2469,37 @@
       "group": "east",
       "clues": [
         {
-          "title": "Water as a sculptor",
-          "text": "Constantly falling water has shaped distinctive rock formations at Hundru. Which state contains this waterfall landscape?",
-          "factKey": "jharkhand:hundru-eroded-rock-formations",
-          "source": "https://ranchi.nic.in/tourist-place/hundru-waterfall/"
-        },
-        {
-          "title": "A long drop to the pool",
-          "text": "At Hundru, the river drops about 320 feet into a pool below. In which state would you find this waterfall?",
-          "factKey": "jharkhand:hundru-320-foot-drop",
-          "source": "https://ranchi.nic.in/tourist-place/hundru-waterfall/"
+          "title": "A captain at Amsterdam 1928",
+          "text": "Jaipal Singh, from the Khunti region, captained India’s hockey team at the 1928 Amsterdam Olympics. Which present-day state was his home?",
+          "factKey": "jharkhand:jaipal-singh-1928-olympic-captain",
+          "source": "https://www.hockeyindia.org/hall-of-fame/olympic-captains-of-india"
         },
         {
           "title": "Follow the Subarnarekha",
-          "text": "Hundru Falls lies on the Subarnarekha River near Ranchi. Which state would you visit to see it?",
+          "text": "The Subarnarekha River forms Hundru Falls near Ranchi. Which state contains this famous waterfall?",
           "factKey": "jharkhand:hundru-subarnarekha-river",
           "source": "https://ranchi.nic.in/tourist-place/hundru-waterfall/"
+        },
+        {
+          "title": "A famous pilgrimage at Deoghar",
+          "text": "Baidyanath Temple at Deoghar is revered as one of the twelve Jyotirlinga shrines. Which state would you visit for this pilgrimage?",
+          "factKey": "jharkhand:deoghar-baidyanath-shrine",
+          "source": "https://www.incredibleindia.gov.in/en/jharkhand"
         }
       ],
-      "takeaway": "At Hundru, the Subarnarekha drops over rock into a pool below.",
+      "takeaway": "An Olympic hockey captain, the Subarnarekha’s waterfalls and Deoghar’s pilgrimage heritage offer three different clues.",
       "sources": [
         {
-          "label": "Hundru Waterfall — official tourism or district administration",
+          "label": "hockeyindia.org — supporting source",
+          "url": "https://www.hockeyindia.org/hall-of-fame/olympic-captains-of-india"
+        },
+        {
+          "label": "ranchi.nic.in — supporting source",
           "url": "https://ranchi.nic.in/tourist-place/hundru-waterfall/"
+        },
+        {
+          "label": "incredibleindia.gov.in — supporting source",
+          "url": "https://www.incredibleindia.gov.in/en/jharkhand"
         }
       ]
     },
@@ -2273,29 +2509,37 @@
       "group": "east",
       "clues": [
         {
-          "title": "A cliff on a high ridge",
-          "text": "Thlazuang Kham is a dramatic cliff on the Phawngpui ridge. Which state contains this mountain landscape?",
-          "factKey": "mizoram:phawngpui-thlazuang-kham-cliff",
-          "source": "https://mizoramtourism.com/top-destination/104"
+          "title": "A peace accord that changed a state",
+          "text": "Laldenga signed a historic peace accord with the Government of India in 1986, ending a long insurgency. Which northeastern state was the accord for?",
+          "factKey": "mizoram:laldenga-peace-accord-1986",
+          "source": "https://rajbhavan.mizoram.gov.in/aijal-club-marks-the-anniversary-of-signing-of-mizoram-peace-accord-with-celebration-program/"
         },
         {
-          "title": "A clearing above the forests",
-          "text": "Far Pak is a large glade in the northern part of Phawngpui, amid a ridge of flowering trees. Which state is its home?",
-          "factKey": "mizoram:phawngpui-far-pak-glade",
-          "source": "https://mizoramtourism.com/top-destination/104"
+          "title": "A lake among the forested hills",
+          "text": "Tam Dil, near Saitual, is one of the state’s best-known lakes and picnic destinations. Which northeastern state is its home?",
+          "factKey": "mizoram:tam-dil-saitual-lake",
+          "source": "https://mizoramtourism.com/top-destination/22"
         },
         {
-          "title": "The Blue Mountain",
-          "text": "Phawngpui, known as the Blue Mountain, is this state’s highest peak. Which northeastern state are we looking for?",
-          "factKey": "mizoram:phawngpui-blue-mountain-highest-peak",
-          "source": "https://mizoramtourism.com/top-destination/104"
+          "title": "A landmark church in the hills",
+          "text": "Solomon’s Temple is one of Aizawl’s best-known modern religious landmarks. Which state would you visit to see this church?",
+          "factKey": "mizoram:solomons-temple-aizawl",
+          "source": "https://mizoramtourism.com/place-to-visit/1"
         }
       ],
-      "takeaway": "Phawngpui, also called the Blue Mountain, has cliffs, flowering ridges and a national park.",
+      "takeaway": "The 1986 peace accord, Tam Dil and Aizawl’s Solomon’s Temple connect modern history and familiar destinations.",
       "sources": [
         {
-          "label": "Phawngpui — official tourism or district administration",
-          "url": "https://mizoramtourism.com/top-destination/104"
+          "label": "rajbhavan.mizoram.gov.in — supporting source",
+          "url": "https://rajbhavan.mizoram.gov.in/aijal-club-marks-the-anniversary-of-signing-of-mizoram-peace-accord-with-celebration-program/"
+        },
+        {
+          "label": "mizoramtourism.com — supporting source",
+          "url": "https://mizoramtourism.com/top-destination/22"
+        },
+        {
+          "label": "mizoramtourism.com — supporting source",
+          "url": "https://mizoramtourism.com/place-to-visit/1"
         }
       ]
     },
@@ -2305,29 +2549,29 @@
       "group": "north",
       "clues": [
         {
-          "title": "Water hidden within a fort",
-          "text": "Underground water reservoirs formed part of Kumbhalgarh’s preparations against siege. Which state contains this hill fort?",
-          "factKey": "rajasthan:kumbhalgarh-underground-water-reservoirs",
-          "source": "https://www.incredibleindia.gov.in/en/rajasthan/udaipur/kumbhalgarh-fort"
+          "title": "A fair beside a sacred lake",
+          "text": "Pushkar is known for its annual camel fair and its Brahma Temple beside a sacred lake. Which state contains this famous pilgrimage town?",
+          "factKey": "rajasthan:pushkar-camel-fair-brahma",
+          "source": "https://www.incredibleindia.gov.in/en/rajasthan"
         },
         {
-          "title": "A palace of clouds",
-          "text": "Badal Mahal stands within Kumbhalgarh’s hilltop fort complex. Which state would you visit to see this palace?",
-          "factKey": "rajasthan:kumbhalgarh-badal-mahal-palace",
-          "source": "https://www.incredibleindia.gov.in/en/rajasthan/udaipur/kumbhalgarh-fort"
+          "title": "Palaces over the water",
+          "text": "Udaipur’s Lake Pichola and Lake Palace make it one of India’s most recognisable lake cities. Which state is its home?",
+          "factKey": "rajasthan:udaipur-lake-pichola-palaces",
+          "source": "https://www.incredibleindia.gov.in/en/rajasthan"
         },
         {
-          "title": "A fort named for its builder",
-          "text": "Rana Kumbha built Kumbhalgarh Fort in the fifteenth century. Which state preserves this hilltop stronghold?",
-          "factKey": "rajasthan:kumbhalgarh-rana-kumbha-builder",
-          "source": "https://www.incredibleindia.gov.in/en/rajasthan/udaipur/kumbhalgarh-fort"
+          "title": "The Golden City",
+          "text": "Jaisalmer is famous for its golden sandstone fort and havelis. Which state contains this desert city?",
+          "factKey": "rajasthan:jaisalmer-golden-sandstone-fort",
+          "source": "https://www.incredibleindia.gov.in/en/rajasthan"
         }
       ],
-      "takeaway": "Kumbhalgarh’s hilltop complex includes defensive gateways and the Badal Mahal palace.",
+      "takeaway": "Pushkar’s fair, Udaipur’s lakes and Jaisalmer’s golden architecture are familiar symbols of the state.",
       "sources": [
         {
-          "label": "Kumbhalgarh Fort — Ministry of Tourism",
-          "url": "https://www.incredibleindia.gov.in/en/rajasthan/udaipur/kumbhalgarh-fort"
+          "label": "incredibleindia.gov.in — supporting source",
+          "url": "https://www.incredibleindia.gov.in/en/rajasthan"
         }
       ]
     }
@@ -2541,6 +2785,411 @@
       "factKey": "manipur:imphal-loktak",
       "text": "Head to India’s northeast, along the border with Myanmar. Imphal is its capital, and Loktak Lake is a famous landmark. Which state is it?",
       "reason": "Used in the original one-question trial"
+    },
+    {
+      "factKey": "odisha:hathigumpha-edict",
+      "text": "The Hathigumpha inscription is a key record at a pair of ancient cave-covered hills. Which state contains this inscription?",
+      "reason": "Owner-requested editorial revision on 2026-11-14: replace obscure or repetitive clues with recognisable, informative facts."
+    },
+    {
+      "factKey": "odisha:rani-gumpha-sculptures",
+      "text": "Rani Gumpha’s carved scenes mix royal life with mythology. Which state preserves this sculpted cave?",
+      "reason": "Owner-requested editorial revision on 2026-11-14: replace obscure or repetitive clues with recognisable, informative facts."
+    },
+    {
+      "factKey": "mizoram:khuangchera-adventure-club-exploration",
+      "text": "A local adventure club fully explored this cave in the early 1980s, according to the tourism department. Which state was it in?",
+      "reason": "Owner-requested editorial revision on 2026-11-14: replace obscure or repetitive clues with recognisable, informative facts."
+    },
+    {
+      "factKey": "mizoram:khuangchera-bamboo-torch-legend",
+      "text": "Local legend tells of Khuangchera carrying a bamboo torch through a hill to connect two cave mouths. Which state tells this story?",
+      "reason": "Owner-requested editorial revision on 2026-11-14: replace obscure or repetitive clues with recognisable, informative facts."
+    },
+    {
+      "factKey": "mizoram:khuangchera-ailawng-reiek-location",
+      "text": "Khuangchera Puk is a cave at Ailawng, near Reiek. Which northeastern state would you visit to explore it?",
+      "reason": "Owner-requested editorial revision on 2026-11-14: replace obscure or repetitive clues with recognisable, informative facts."
+    },
+    {
+      "factKey": "himachal-pradesh:ghnp-twenty-five-forest-types",
+      "text": "One World Heritage conservation area contains 25 forest types across steep mountain valleys. Which state protects this remarkable mosaic?",
+      "reason": "Owner-requested editorial revision on 2026-11-14: replace obscure or repetitive clues with recognisable, informative facts."
+    },
+    {
+      "factKey": "himachal-pradesh:ghnp-sainj-tirthan-headwaters",
+      "text": "Protected glacier and snowmelt sources feed the Sainj and Tirthan rivers, tributaries of the Beas. Which state contains these headwaters?",
+      "reason": "Owner-requested editorial revision on 2026-11-14: replace obscure or repetitive clues with recognisable, informative facts."
+    },
+    {
+      "factKey": "chandigarh:sukhna-garden-of-silence-buddha",
+      "text": "At one end of a lake, the Garden of Silence centres on a seated Buddha. Which union territory contains this meditative space?",
+      "reason": "Owner-requested editorial revision on 2026-11-14: replace obscure or repetitive clues with recognisable, informative facts."
+    },
+    {
+      "factKey": "chandigarh:sukhna-winter-migratory-birds",
+      "text": "Sukhna Lake welcomes migratory ducks, storks and cranes in winter. In which city and union territory would you watch them?",
+      "reason": "Owner-requested editorial revision on 2026-11-14: replace obscure or repetitive clues with recognisable, informative facts."
+    },
+    {
+      "factKey": "andhra-pradesh:belum-pataalaganga-underground-stream",
+      "text": "Pataalaganga is an underground stream about 46 metres below the entrance of a cave system. Which state contains it?",
+      "reason": "Owner-requested editorial revision on 2026-11-14: replace obscure or repetitive clues with recognisable, informative facts."
+    },
+    {
+      "factKey": "andhra-pradesh:belum-stalactites-stalagmites",
+      "text": "Stalactites and stalagmites line spacious chambers in the Belum cave system. Which state hides these formations underground?",
+      "reason": "Owner-requested editorial revision on 2026-11-14: replace obscure or repetitive clues with recognisable, informative facts."
+    },
+    {
+      "factKey": "bihar:vikramshila-stupas-monastery-halls",
+      "text": "Stupas, monastery remains and meditation halls survive at this former Buddhist university. Which state contains the Vikramshila ruins?",
+      "reason": "Owner-requested editorial revision on 2026-11-14: replace obscure or repetitive clues with recognisable, informative facts."
+    },
+    {
+      "factKey": "bihar:vikramshila-antichak-bhagalpur",
+      "text": "The archaeological site of Vikramshila stands at Antichak, near Bhagalpur. In which state would you find it?",
+      "reason": "Owner-requested editorial revision on 2026-11-14: replace obscure or repetitive clues with recognisable, informative facts."
+    },
+    {
+      "factKey": "odisha:chilika-beacon-island",
+      "text": "Beacon Island is one of the island stops described on boat journeys across Chilika. Which state contains this lagoon?",
+      "reason": "Owner-requested editorial revision on 2026-11-14: replace obscure or repetitive clues with recognisable, informative facts."
+    },
+    {
+      "factKey": "odisha:chilika-barkul-brackish-lagoon",
+      "text": "Chilika is a brackish-water lagoon reached from Barkul and Balugaon. Which coastal state is its home?",
+      "reason": "Owner-requested editorial revision on 2026-11-14: replace obscure or repetitive clues with recognisable, informative facts."
+    },
+    {
+      "factKey": "west-bengal:dhr-six-zigzags-three-loops",
+      "text": "Six zigzag reverses and three loops help a mountain railway gain height. Which state contains this ingenious route?",
+      "reason": "Owner-requested editorial revision on 2026-11-14: replace obscure or repetitive clues with recognisable, informative facts."
+    },
+    {
+      "factKey": "west-bengal:dhr-two-foot-gauge",
+      "text": "The railway connecting New Jalpaiguri with Darjeeling runs on a two-foot gauge. Which state would you travel through?",
+      "reason": "Owner-requested editorial revision on 2026-11-14: replace obscure or repetitive clues with recognisable, informative facts."
+    },
+    {
+      "factKey": "uttar-pradesh:fatehpur-sikri-jama-masjid",
+      "text": "Fatehpur Sikri’s Jama Masjid belongs to a monumental complex with a notably unified architectural style. In which state does it stand?",
+      "reason": "Owner-requested editorial revision on 2026-11-14: replace obscure or repetitive clues with recognisable, informative facts."
+    },
+    {
+      "factKey": "uttar-pradesh:fatehpur-sikri-sixteenth-century-city",
+      "text": "Fatehpur Sikri, the City of Victory, was built during the second half of the sixteenth century. Which state preserves it?",
+      "reason": "Owner-requested editorial revision on 2026-11-14: replace obscure or repetitive clues with recognisable, informative facts."
+    },
+    {
+      "factKey": "himachal-pradesh:masroor-unfinished-fourth-entrance",
+      "text": "An unfinished fourth entrance helps reveal how a rock-cut temple complex was planned. Which state contains this feature at Masroor?",
+      "reason": "Owner-requested editorial revision on 2026-11-14: replace obscure or repetitive clues with recognisable, informative facts."
+    },
+    {
+      "factKey": "himachal-pradesh:masroor-rama-lakshmana-sita",
+      "text": "The main shrine at Masroor houses figures of Rama, Lakshmana and Sita. Which state’s Kangra region would you visit?",
+      "reason": "Owner-requested editorial revision on 2026-11-14: replace obscure or repetitive clues with recognisable, informative facts."
+    },
+    {
+      "factKey": "sikkim:rabdentse-capital-until-1814",
+      "text": "Rabdentse served as a kingdom’s second capital after Yuksom, until 1814. Which present-day state preserves the ruins?",
+      "reason": "Owner-requested editorial revision on 2026-11-14: replace obscure or repetitive clues with recognisable, informative facts."
+    },
+    {
+      "factKey": "sikkim:rabdentse-pemayangtse-walk",
+      "text": "A walk from Pemayangtse Monastery leads to the former capital’s wooded ruins. Which Himalayan state contains this historic pairing?",
+      "reason": "Owner-requested editorial revision on 2026-11-14: replace obscure or repetitive clues with recognisable, informative facts."
+    },
+    {
+      "factKey": "sikkim:rabdentse-gyalshing-location",
+      "text": "The ruins of Rabdentse lie about eight kilometres from Gyalshing. Which small Himalayan state are we exploring?",
+      "reason": "Owner-requested editorial revision on 2026-11-14: replace obscure or repetitive clues with recognisable, informative facts."
+    },
+    {
+      "factKey": "assam:moidam-octagonal-garh",
+      "text": "An octagonal enclosure called a garh surrounds royal burial mounds at Charaideo. Which state preserves this funerary architecture?",
+      "reason": "Owner-requested editorial revision on 2026-11-14: replace obscure or repetitive clues with recognisable, informative facts."
+    },
+    {
+      "factKey": "assam:moidam-charaideo-patkai",
+      "text": "Charaideo’s moidams stand near the Patkai foothills. In which state would you find these royal burial mounds?",
+      "reason": "Owner-requested editorial revision on 2026-11-14: replace obscure or repetitive clues with recognisable, informative facts."
+    },
+    {
+      "factKey": "gujarat:dholavira-six-cenotaph-types",
+      "text": "Archaeologists found six types of cenotaphs in the cemetery of a Harappan city. Which state contains this site at Dholavira?",
+      "reason": "Owner-requested editorial revision on 2026-11-14: replace obscure or repetitive clues with recognisable, informative facts."
+    },
+    {
+      "factKey": "gujarat:dholavira-seasonal-stream-water-system",
+      "text": "Two seasonal streams supplied a fortified Harappan city with a sophisticated water-management system. Which state preserves Dholavira?",
+      "reason": "Owner-requested editorial revision on 2026-11-14: replace obscure or repetitive clues with recognisable, informative facts."
+    },
+    {
+      "factKey": "rajasthan:jantar-mantar-zij-tables",
+      "text": "Observations at this royal observatory contributed to astronomical tables called Zij. Which state contains Jaipur’s Jantar Mantar?",
+      "reason": "Owner-requested editorial revision on 2026-11-14: replace obscure or repetitive clues with recognisable, informative facts."
+    },
+    {
+      "factKey": "rajasthan:jantar-mantar-jai-singh-ii",
+      "text": "Jai Singh II created the Jantar Mantar observatory in Jaipur in the early eighteenth century. Which state is it in?",
+      "reason": "Owner-requested editorial revision on 2026-11-14: replace obscure or repetitive clues with recognisable, informative facts."
+    },
+    {
+      "factKey": "mizoram:dampa-teirei-river",
+      "text": "The Teirei is among the rivers associated with the forests of Dampa Tiger Reserve. Which state contains this reserve?",
+      "reason": "Owner-requested editorial revision on 2026-11-14: replace obscure or repetitive clues with recognisable, informative facts."
+    },
+    {
+      "factKey": "mizoram:dampa-clouded-leopard-primates",
+      "text": "Dampa is important habitat for clouded leopards and primates such as hoolock gibbons. Which northeastern state protects these forests?",
+      "reason": "Owner-requested editorial revision on 2026-11-14: replace obscure or repetitive clues with recognisable, informative facts."
+    },
+    {
+      "factKey": "mizoram:dampa-project-tiger-1994",
+      "text": "Dampa in Mamit district joined Project Tiger in 1994. Which state would you visit to explore its forests?",
+      "reason": "Owner-requested editorial revision on 2026-11-14: replace obscure or repetitive clues with recognisable, informative facts."
+    },
+    {
+      "factKey": "lakshadweep:kalpeni-1847-storm-debris",
+      "text": "A bank of coral debris on Kalpeni is believed to record a powerful storm in 1847. Which union territory contains it?",
+      "reason": "Owner-requested editorial revision on 2026-11-14: replace obscure or repetitive clues with recognisable, informative facts."
+    },
+    {
+      "factKey": "lakshadweep:kalpeni-tilakkam-pitti-atoll",
+      "text": "Kalpeni and the small islets Tilakkam and Pitti form a single atoll. Which island union territory are we exploring?",
+      "reason": "Owner-requested editorial revision on 2026-11-14: replace obscure or repetitive clues with recognisable, informative facts."
+    },
+    {
+      "factKey": "lakshadweep:kalpeni-tip-beach-north",
+      "text": "Tip Beach lies at Kalpeni’s northern end. Which union territory would you visit to walk along this island shore?",
+      "reason": "Owner-requested editorial revision on 2026-11-14: replace obscure or repetitive clues with recognisable, informative facts."
+    },
+    {
+      "factKey": "dadra-and-nagar-haveli-and-daman-and-diu:vanganga-japanese-bridges-island",
+      "text": "Japanese-style bridges link a lake’s central island to the surrounding garden. Which union territory contains Vanganga Lake Garden?",
+      "reason": "Owner-requested editorial revision on 2026-11-14: replace obscure or repetitive clues with recognisable, informative facts."
+    },
+    {
+      "factKey": "dadra-and-nagar-haveli-and-daman-and-diu:vanganga-758-hectare-garden",
+      "text": "Vanganga Lake Garden covers about 7.58 hectares with a wooded, mini-forest setting. Which union territory is it in?",
+      "reason": "Owner-requested editorial revision on 2026-11-14: replace obscure or repetitive clues with recognisable, informative facts."
+    },
+    {
+      "factKey": "dadra-and-nagar-haveli-and-daman-and-diu:vanganga-floating-musical-fountain",
+      "text": "Vanganga Lake Garden has a floating musical dancing fountain. In which western union territory would you find it?",
+      "reason": "Owner-requested editorial revision on 2026-11-14: replace obscure or repetitive clues with recognisable, informative facts."
+    },
+    {
+      "factKey": "rajasthan:keoladeo-ajan-bandh-water",
+      "text": "Water from Ajan Bandh and a system of dykes and sluices help manage a famous bird wetland. Which state contains Keoladeo?",
+      "reason": "Owner-requested editorial revision on 2026-11-14: replace obscure or repetitive clues with recognisable, informative facts."
+    },
+    {
+      "factKey": "rajasthan:keoladeo-duck-hunting-history",
+      "text": "Keoladeo was once a maharaja’s duck-hunting reserve before becoming a protected bird haven. Which state preserves this landscape?",
+      "reason": "Owner-requested editorial revision on 2026-11-14: replace obscure or repetitive clues with recognisable, informative facts."
+    },
+    {
+      "factKey": "rajasthan:keoladeo-winter-waterbirds",
+      "text": "Keoladeo National Park provides winter habitat for waterbirds arriving from Central Asia and beyond. Which state is its home?",
+      "reason": "Owner-requested editorial revision on 2026-11-14: replace obscure or repetitive clues with recognisable, informative facts."
+    },
+    {
+      "factKey": "madhya-pradesh:gwalior-chaturbhuj-zero-inscription",
+      "text": "A carving at the Chaturbhuj temple is famous for an early written zero. Which state contains this temple within Gwalior Fort?",
+      "reason": "Owner-requested editorial revision on 2026-11-14: replace obscure or repetitive clues with recognisable, informative facts."
+    },
+    {
+      "factKey": "madhya-pradesh:gwalior-man-mandir-glazed-tiles",
+      "text": "Glazed tiles adorn the façade of Man Mandir Palace in Gwalior Fort. Which state preserves this colourful palace?",
+      "reason": "Owner-requested editorial revision on 2026-11-14: replace obscure or repetitive clues with recognisable, informative facts."
+    },
+    {
+      "factKey": "madhya-pradesh:gwalior-bandi-chhor-guru-hargobind",
+      "text": "Gwalior Fort’s Data Bandi Chhor gurdwara commemorates Guru Hargobind Sahib. In which state does it stand?",
+      "reason": "Owner-requested editorial revision on 2026-11-14: replace obscure or repetitive clues with recognisable, informative facts."
+    },
+    {
+      "factKey": "lakshadweep:ujra-mukri-mainland-woodwork",
+      "text": "Wood brought from Mangalore and the craftsmanship of Mukri sailors are linked to Ujra Mosque’s carvings. Which union territory preserves them?",
+      "reason": "Owner-requested editorial revision on 2026-11-14: replace obscure or repetitive clues with recognisable, informative facts."
+    },
+    {
+      "factKey": "lakshadweep:ujra-sloping-tiled-roof",
+      "text": "Sloping tiled roofs and carved wooden pillars give Ujra Mosque its distinctive island architecture. Which union territory is its home?",
+      "reason": "Owner-requested editorial revision on 2026-11-14: replace obscure or repetitive clues with recognisable, informative facts."
+    },
+    {
+      "factKey": "dadra-and-nagar-haveli-and-daman-and-diu:bom-jesus-cathedral-six-saints",
+      "text": "Six carved saints embellish the southern entrance of the Cathedral of Bom Jesus. Which western union territory contains it?",
+      "reason": "Owner-requested editorial revision on 2026-11-14: replace obscure or repetitive clues with recognisable, informative facts."
+    },
+    {
+      "factKey": "dadra-and-nagar-haveli-and-daman-and-diu:bom-jesus-cathedral-wooden-altars",
+      "text": "The Cathedral of Bom Jesus near Vapi is noted for artistic wooden altars and ornate interiors. Which union territory preserves this church?",
+      "reason": "Owner-requested editorial revision on 2026-11-14: replace obscure or repetitive clues with recognisable, informative facts."
+    },
+    {
+      "factKey": "dadra-and-nagar-haveli-and-daman-and-diu:bom-jesus-cathedral-consecrated-1603",
+      "text": "The Cathedral of Bom Jesus, reached from Vapi, was consecrated in 1603. Which union territory is home to this Portuguese-era shrine?",
+      "reason": "Owner-requested editorial revision on 2026-11-14: replace obscure or repetitive clues with recognisable, informative facts."
+    },
+    {
+      "factKey": "bihar:sher-shah-tomb-aliwal-architect",
+      "text": "Mir Muhammad Aliwal Khan designed Sher Shah Suri’s red-sandstone mausoleum. Which state contains this tomb?",
+      "reason": "Owner-requested editorial revision on 2026-11-14: replace obscure or repetitive clues with recognisable, informative facts."
+    },
+    {
+      "factKey": "bihar:sher-shah-tomb-octagonal-plan",
+      "text": "Sher Shah Suri’s tomb has an octagonal plan crowned by a large dome. In which state would you see this design?",
+      "reason": "Owner-requested editorial revision on 2026-11-14: replace obscure or repetitive clues with recognisable, informative facts."
+    },
+    {
+      "factKey": "nagaland:longwa-four-rivers",
+      "text": "The official district account describes four rivers flowing through Longwa: two in India and two in Myanmar. Which state contains this village?",
+      "reason": "Owner-requested editorial revision on 2026-11-14: replace obscure or repetitive clues with recognisable, informative facts."
+    },
+    {
+      "factKey": "nagaland:longwa-mon-chief",
+      "text": "Longwa is a village in Mon district governed by a traditional chief called the Angh. Which state is it in?",
+      "reason": "Owner-requested editorial revision on 2026-11-14: replace obscure or repetitive clues with recognisable, informative facts."
+    },
+    {
+      "factKey": "kerala:edakkal-wedged-boulder-shelter",
+      "text": "A boulder wedged between two larger rocks forms the shelter called Edakkal. Which state contains this unusual formation?",
+      "reason": "Owner-requested editorial revision on 2026-11-14: replace obscure or repetitive clues with recognisable, informative facts."
+    },
+    {
+      "factKey": "kerala:edakkal-ambukuthi-wayanad",
+      "text": "Edakkal Caves stand in the Ambukuthi Hills of Wayanad. Which state would you visit for this archaeological site?",
+      "reason": "Owner-requested editorial revision on 2026-11-14: replace obscure or repetitive clues with recognisable, informative facts."
+    },
+    {
+      "factKey": "arunachal-pradesh:namdapha-noa-dihing-river",
+      "text": "The Noa-Dihing River flows through the landscape around Namdapha’s forests. Which state contains this protected area?",
+      "reason": "Owner-requested editorial revision on 2026-11-14: replace obscure or repetitive clues with recognisable, informative facts."
+    },
+    {
+      "factKey": "arunachal-pradesh:namdapha-project-tiger-1983",
+      "text": "Namdapha was declared a tiger reserve in 1983. Which state protects this forest near the international border?",
+      "reason": "Owner-requested editorial revision on 2026-11-14: replace obscure or repetitive clues with recognisable, informative facts."
+    },
+    {
+      "factKey": "arunachal-pradesh:namdapha-miao-changlang",
+      "text": "Namdapha National Park is near Miao in Changlang district. Which northeastern state are we exploring?",
+      "reason": "Owner-requested editorial revision on 2026-11-14: replace obscure or repetitive clues with recognisable, informative facts."
+    },
+    {
+      "factKey": "manipur:kangla-inner-outer-moats",
+      "text": "An inner and an outer moat survive among the relics of Kangla. Which state preserves this former royal complex?",
+      "reason": "Owner-requested editorial revision on 2026-11-14: replace obscure or repetitive clues with recognisable, informative facts."
+    },
+    {
+      "factKey": "manipur:kangla-old-govindajee-temple",
+      "text": "The old Govindajee temple is one of Kangla’s surviving landmarks. Which state would you visit to explore this heritage complex?",
+      "reason": "Owner-requested editorial revision on 2026-11-14: replace obscure or repetitive clues with recognisable, informative facts."
+    },
+    {
+      "factKey": "tripura:sepahijala-lake-botanical-garden",
+      "text": "An artificial lake and a botanical garden are among Sepahijala’s features. Which state contains this wildlife destination?",
+      "reason": "Owner-requested editorial revision on 2026-11-14: replace obscure or repetitive clues with recognisable, informative facts."
+    },
+    {
+      "factKey": "tripura:sepahijala-bishalgarh-location",
+      "text": "Sepahijala Wildlife Sanctuary lies near Bishalgarh. Which northeastern state is home to this sanctuary?",
+      "reason": "Owner-requested editorial revision on 2026-11-14: replace obscure or repetitive clues with recognisable, informative facts."
+    },
+    {
+      "factKey": "andaman-and-nicobar-islands:bose-island-smritika-museum",
+      "text": "A museum named Smritika displays photographs and antiques from a colonial island settlement. Which union territory contains it?",
+      "reason": "Owner-requested editorial revision on 2026-11-14: replace obscure or repetitive clues with recognisable, informative facts."
+    },
+    {
+      "factKey": "andaman-and-nicobar-islands:bose-island-aberdeen-jetty",
+      "text": "A ferry from Aberdeen Jetty reaches Netaji Subhash Chandra Bose Island. Which union territory would you visit for this trip?",
+      "reason": "Owner-requested editorial revision on 2026-11-14: replace obscure or repetitive clues with recognisable, informative facts."
+    },
+    {
+      "factKey": "meghalaya:mawphlang-dark-canopy-humus",
+      "text": "A dark canopy and soft humus distinguish Mawphlang’s sacred forest from the surrounding meadows and pines. Which state contains it?",
+      "reason": "Owner-requested editorial revision on 2026-11-14: replace obscure or repetitive clues with recognisable, informative facts."
+    },
+    {
+      "factKey": "meghalaya:mawphlang-heritage-museum-huts-tools",
+      "text": "Mawphlang Heritage Museum displays traditional Khasi huts and tools. Which northeastern state would you visit to see this collection?",
+      "reason": "Owner-requested editorial revision on 2026-11-14: replace obscure or repetitive clues with recognisable, informative facts."
+    },
+    {
+      "factKey": "assam:sualkuchi-taatxaal-looms",
+      "text": "Hand-operated looms called taatxaal produce a familiar click-clack in Sualkuchi’s homes. Which state contains this weaving centre?",
+      "reason": "Owner-requested editorial revision on 2026-11-14: replace obscure or repetitive clues with recognisable, informative facts."
+    },
+    {
+      "factKey": "assam:sualkuchi-vastra-udyaan-museum",
+      "text": "Vastra Udyaan at Sualkuchi houses a museum about life in this weaving town. Which state would you visit?",
+      "reason": "Owner-requested editorial revision on 2026-11-14: replace obscure or repetitive clues with recognisable, informative facts."
+    },
+    {
+      "factKey": "meghalaya:nartiang-monolith-erection-period",
+      "text": "The district account dates many Nartiang monoliths to the period between 1500 and 1835. Which state preserves them?",
+      "reason": "Owner-requested editorial revision on 2026-11-14: replace obscure or repetitive clues with recognisable, informative facts."
+    },
+    {
+      "factKey": "meghalaya:nartiang-market-monolith-cluster",
+      "text": "A remarkable cluster of monoliths stands north of Nartiang market in the Jaintia Hills. Which state is it in?",
+      "reason": "Owner-requested editorial revision on 2026-11-14: replace obscure or repetitive clues with recognisable, informative facts."
+    },
+    {
+      "factKey": "bihar:valmiki-bhabar-terai-tracts",
+      "text": "Bhabar and terai tracts meet in the forests of Valmiki Tiger Reserve. Which state contains this habitat combination?",
+      "reason": "Owner-requested editorial revision on 2026-11-14: replace obscure or repetitive clues with recognisable, informative facts."
+    },
+    {
+      "factKey": "bihar:valmiki-eastern-terai-limit",
+      "text": "Valmiki Tiger Reserve marks the easternmost limit of India’s Himalayan Terai forests, according to the tourism department. Which state contains it?",
+      "reason": "Owner-requested editorial revision on 2026-11-14: replace obscure or repetitive clues with recognisable, informative facts."
+    },
+    {
+      "factKey": "bihar:valmiki-west-champaran-location",
+      "text": "Valmiki Tiger Reserve lies in West Champaran. Which state would you visit to explore this forest landscape?",
+      "reason": "Owner-requested editorial revision on 2026-11-14: replace obscure or repetitive clues with recognisable, informative facts."
+    },
+    {
+      "factKey": "jharkhand:hundru-eroded-rock-formations",
+      "text": "Constantly falling water has shaped distinctive rock formations at Hundru. Which state contains this waterfall landscape?",
+      "reason": "Owner-requested editorial revision on 2026-11-14: replace obscure or repetitive clues with recognisable, informative facts."
+    },
+    {
+      "factKey": "jharkhand:hundru-320-foot-drop",
+      "text": "At Hundru, the river drops about 320 feet into a pool below. In which state would you find this waterfall?",
+      "reason": "Owner-requested editorial revision on 2026-11-14: replace obscure or repetitive clues with recognisable, informative facts."
+    },
+    {
+      "factKey": "mizoram:phawngpui-thlazuang-kham-cliff",
+      "text": "Thlazuang Kham is a dramatic cliff on the Phawngpui ridge. Which state contains this mountain landscape?",
+      "reason": "Owner-requested editorial revision on 2026-11-14: replace obscure or repetitive clues with recognisable, informative facts."
+    },
+    {
+      "factKey": "mizoram:phawngpui-far-pak-glade",
+      "text": "Far Pak is a large glade in the northern part of Phawngpui, amid a ridge of flowering trees. Which state is its home?",
+      "reason": "Owner-requested editorial revision on 2026-11-14: replace obscure or repetitive clues with recognisable, informative facts."
+    },
+    {
+      "factKey": "rajasthan:kumbhalgarh-underground-water-reservoirs",
+      "text": "Underground water reservoirs formed part of Kumbhalgarh’s preparations against siege. Which state contains this hill fort?",
+      "reason": "Owner-requested editorial revision on 2026-11-14: replace obscure or repetitive clues with recognisable, informative facts."
+    },
+    {
+      "factKey": "rajasthan:kumbhalgarh-badal-mahal-palace",
+      "text": "Badal Mahal stands within Kumbhalgarh’s hilltop fort complex. Which state would you visit to see this palace?",
+      "reason": "Owner-requested editorial revision on 2026-11-14: replace obscure or repetitive clues with recognisable, informative facts."
+    },
+    {
+      "factKey": "rajasthan:kumbhalgarh-rana-kumbha-builder",
+      "text": "Rana Kumbha built Kumbhalgarh Fort in the fifteenth century. Which state preserves this hilltop stronghold?",
+      "reason": "Owner-requested editorial revision on 2026-11-14: replace obscure or repetitive clues with recognisable, informative facts."
     }
   ]
 }
