@@ -192,3 +192,11 @@ body.daily-complete:not(.show-results) .answer-bar button{min-height:44px;font-s
  body.daily-complete:not(.show-results) .answer-bar .eyebrow{margin-bottom:4px}
  body.daily-complete:not(.show-results) footer{display:none}
 }
+
+/* Enlarged island locator; the separate invisible circle supplies a touch target. */
+.state.island-marker{stroke-width:1.5;stroke:#657d58}
+.state.island-marker.selected{stroke:#a26745}
+.state.island-marker.correct{stroke:#284d3c}
+.state.island-marker.wrong{stroke:#b45d52}
+.island-hit-area{fill:transparent;stroke:none;pointer-events:all;cursor:pointer}
+
