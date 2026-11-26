@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "bankVersion": "2026-11-14-editorial-revision",
+  "bankVersion": "2026-11-26-refill",
   "scheduleTimezone": "Asia/Kolkata",
   "questions": [
     {
@@ -2574,6 +2574,1430 @@
           "url": "https://www.incredibleindia.gov.in/en/rajasthan"
         }
       ]
+    },
+    {
+      "id": "nagaland-003",
+      "answer": "Nagaland",
+      "group": "east",
+      "clues": [
+        {
+          "title": "A festival of renewal",
+          "text": "Sekrenyi is the Angami community’s festival of purification and renewal. Which northeastern state is home to this celebration?",
+          "factKey": "nagaland:sekrenyi-purification",
+          "source": "https://ipr.nagaland.gov.in/SEKRENYI-CUM-MINI-HORNBILL-2025-CELEBRATED-AT-KOHIMA"
+        },
+        {
+          "title": "Stone pillars from an old kingdom",
+          "text": "Dimapur’s Kachari ruins preserve mushroom-shaped stone pillars from a former kingdom. Which state contains this archaeological landmark?",
+          "factKey": "nagaland:dimapur-kachari-pillars",
+          "source": "https://dimapur.nic.in/tourist-place/kachari-ruins/"
+        },
+        {
+          "title": "A distinctive fermented ingredient",
+          "text": "Axone is fermented soybean used alongside bamboo shoots and smoked meat in this state’s cooking. Which northeastern state is known for these flavours?",
+          "factKey": "nagaland:axone-fermented-soybean",
+          "source": "https://nagaland.gov.in/people-culture"
+        }
+      ],
+      "takeaway": "Nagaland: Sekrenyi is the Angami community’s festival of purification and renewal.",
+      "sources": [
+        {
+          "label": "ipr.nagaland.gov.in — primary supporting source",
+          "url": "https://ipr.nagaland.gov.in/SEKRENYI-CUM-MINI-HORNBILL-2025-CELEBRATED-AT-KOHIMA"
+        },
+        {
+          "label": "dimapur.nic.in — primary supporting source",
+          "url": "https://dimapur.nic.in/tourist-place/kachari-ruins/"
+        },
+        {
+          "label": "nagaland.gov.in — primary supporting source",
+          "url": "https://nagaland.gov.in/people-culture"
+        }
+      ]
+    },
+    {
+      "id": "tripura-003",
+      "answer": "Tripura",
+      "group": "east",
+      "clues": [
+        {
+          "title": "Two faiths in ancient sculpture",
+          "text": "At Pilak, Buddhist and Hindu sculptures and terracotta plaques reveal centuries of shared artistic history. Which northeastern state preserves this site?",
+          "factKey": "tripura:pilak-buddhist-hindu-art",
+          "source": "https://southtripura.nic.in/tourist-place/pilak/"
+        },
+        {
+          "title": "Balancing while dancing",
+          "text": "In Hojagiri, women of the Reang community perform extraordinary balancing movements, including on earthen pitchers. Which state is this dance associated with?",
+          "factKey": "tripura:hojagiri-reang-balancing",
+          "source": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1480970&lang=2&reg=48"
+        },
+        {
+          "title": "A famous hilltop shrine",
+          "text": "Matabari at Udaipur is a famous hilltop Shakti pilgrimage site. Which northeastern state would you visit to see it?",
+          "factKey": "tripura:matabari-shakti-shrine",
+          "source": "https://www.incredibleindia.gov.in/en/tripura"
+        }
+      ],
+      "takeaway": "Tripura: At Pilak, Buddhist and Hindu sculptures and terracotta plaques reveal centuries of shared artistic history.",
+      "sources": [
+        {
+          "label": "southtripura.nic.in — primary supporting source",
+          "url": "https://southtripura.nic.in/tourist-place/pilak/"
+        },
+        {
+          "label": "pib.gov.in — primary supporting source",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1480970&lang=2&reg=48"
+        },
+        {
+          "label": "incredibleindia.gov.in — primary supporting source",
+          "url": "https://www.incredibleindia.gov.in/en/tripura"
+        }
+      ]
+    },
+    {
+      "id": "puducherry-002",
+      "answer": "Puducherry",
+      "group": "south",
+      "clues": [
+        {
+          "title": "A poet in refuge",
+          "text": "Poet and freedom fighter Subramania Bharati lived here while taking refuge from British rule. Which present-day union territory preserves his former home?",
+          "factKey": "puducherry:bharati-refuge-home",
+          "source": "https://pondytourism.py.gov.in/onlinebs/FAQ.aspx"
+        },
+        {
+          "title": "A transfer from French rule",
+          "text": "An agreement with France brought these settlements under Indian administration in 1954. Which present-day union territory are we tracing?",
+          "factKey": "puducherry:french-transfer-1954",
+          "source": "https://www.py.gov.in/government/"
+        },
+        {
+          "title": "Four separated regions",
+          "text": "Karaikal, Mahe and Yanam belong to this union territory even though they are geographically separated from its main region. Can you name it?",
+          "factKey": "puducherry:four-separated-regions",
+          "source": "https://www.py.gov.in/government/"
+        }
+      ],
+      "takeaway": "Puducherry: Poet and freedom fighter Subramania Bharati lived here while taking refuge from British rule.",
+      "sources": [
+        {
+          "label": "pondytourism.py.gov.in — primary supporting source",
+          "url": "https://pondytourism.py.gov.in/onlinebs/FAQ.aspx"
+        },
+        {
+          "label": "py.gov.in — primary supporting source",
+          "url": "https://www.py.gov.in/government/"
+        }
+      ]
+    },
+    {
+      "id": "arunachal-pradesh-003",
+      "answer": "Arunachal Pradesh",
+      "group": "east",
+      "clues": [
+        {
+          "title": "A road through wartime history",
+          "text": "The Allied-built Stilwell Road passes through Jairampur and Pangsau Pass on its route towards Myanmar. Which Indian state contains this historic section?",
+          "factKey": "arunachal-pradesh:stilwell-allied-road",
+          "source": "https://changlang.nic.in/stilwell-road-ledo-road/"
+        },
+        {
+          "title": "A pilgrimage by the Lohit",
+          "text": "Parshuram Kund draws pilgrims to a sacred bathing place on the Lohit River. Which northeastern state contains it?",
+          "factKey": "arunachal-pradesh:parshuram-kund-lohit",
+          "source": "https://lohit.nic.in/tourist-place/parshuram-kund/"
+        },
+        {
+          "title": "Welcoming the early sun",
+          "text": "Dong village near Walong is famous for witnessing some of India’s earliest sunrises. Which state at India’s eastern edge is its home?",
+          "factKey": "arunachal-pradesh:dong-early-sunrise",
+          "source": "https://anjaw.nic.in/tourist-place/dong/"
+        }
+      ],
+      "takeaway": "Arunachal Pradesh: The Allied-built Stilwell Road passes through Jairampur and Pangsau Pass on its route towards Myanmar.",
+      "sources": [
+        {
+          "label": "changlang.nic.in — primary supporting source",
+          "url": "https://changlang.nic.in/stilwell-road-ledo-road/"
+        },
+        {
+          "label": "lohit.nic.in — primary supporting source",
+          "url": "https://lohit.nic.in/tourist-place/parshuram-kund/"
+        },
+        {
+          "label": "anjaw.nic.in — primary supporting source",
+          "url": "https://anjaw.nic.in/tourist-place/dong/"
+        }
+      ]
+    },
+    {
+      "id": "kerala-003",
+      "answer": "Kerala",
+      "group": "south",
+      "clues": [
+        {
+          "title": "Training body and mind",
+          "text": "Kalaripayattu combines disciplined movement, combat training and weapons practice. Which southwestern state is the traditional home of this martial art?",
+          "factKey": "kerala:kalaripayattu-martial-art",
+          "source": "https://www.keralatourism.org/kalaripayattu/origin"
+        },
+        {
+          "title": "Rowing in perfect rhythm",
+          "text": "The Nehru Trophy Boat Race brings long snake boats and teams of rowers to the waters around Alappuzha. Which state hosts this celebrated race?",
+          "factKey": "kerala:nehru-trophy-snake-boats",
+          "source": "https://www.keralatourism.org/champions-boat-league/boat-races/nehru-trophy-boat-race"
+        },
+        {
+          "title": "Tea across green hills",
+          "text": "Munnar is famous for rolling tea plantations in the Western Ghats. Which state would you visit to explore these green hills?",
+          "factKey": "kerala:munnar-tea-plantations",
+          "source": "https://www.keralatourism.org/destination/munnar/202/"
+        }
+      ],
+      "takeaway": "Kerala: Kalaripayattu combines disciplined movement, combat training and weapons practice.",
+      "sources": [
+        {
+          "label": "keralatourism.org — primary supporting source",
+          "url": "https://www.keralatourism.org/kalaripayattu/origin"
+        },
+        {
+          "label": "keralatourism.org — primary supporting source",
+          "url": "https://www.keralatourism.org/champions-boat-league/boat-races/nehru-trophy-boat-race"
+        },
+        {
+          "label": "keralatourism.org — primary supporting source",
+          "url": "https://www.keralatourism.org/destination/munnar/202/"
+        }
+      ]
+    },
+    {
+      "id": "manipur-003",
+      "answer": "Manipur",
+      "group": "east",
+      "clues": [
+        {
+          "title": "A freedom fighter’s birthplace",
+          "text": "Rani Gaidinliu, who resisted British rule, was born at Luangkao in the Tamenglong region. Which present-day state was her birthplace?",
+          "factKey": "manipur:gaidinliu-luangkao-birthplace",
+          "source": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1773746&reg=48&lang=2"
+        },
+        {
+          "title": "An Asian Games boxing champion",
+          "text": "Boxer Dingko Singh brought home an Asian Games gold medal. Which northeastern state produced this sporting icon?",
+          "factKey": "manipur:dingko-asian-games-boxing",
+          "source": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=1636214&reg=48&lang=2"
+        },
+        {
+          "title": "A feast that reunites families",
+          "text": "During Ningol Chakouba, married daughters return to their parental homes for a feast and gifts. Which state is especially associated with this family festival?",
+          "factKey": "manipur:ningol-chakouba-family-reunion",
+          "source": "https://manipur.gov.in/wp-content/uploads/2014/06/tourism-policy-full-final-new.pdf"
+        }
+      ],
+      "takeaway": "Manipur: Rani Gaidinliu, who resisted British rule, was born at Luangkao in the Tamenglong region.",
+      "sources": [
+        {
+          "label": "pib.gov.in — primary supporting source",
+          "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1773746&reg=48&lang=2"
+        },
+        {
+          "label": "pib.gov.in — primary supporting source",
+          "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=1636214&reg=48&lang=2"
+        },
+        {
+          "label": "manipur.gov.in — primary supporting source",
+          "url": "https://manipur.gov.in/wp-content/uploads/2014/06/tourism-policy-full-final-new.pdf"
+        }
+      ]
+    },
+    {
+      "id": "nagaland-004",
+      "answer": "Nagaland",
+      "group": "east",
+      "clues": [
+        {
+          "title": "After the sowing is done",
+          "text": "Moatsu brings the Ao community together for feasting and celebration after agricultural work. Which northeastern state is known for this festival?",
+          "factKey": "nagaland:moatsu-ao-sowing-festival",
+          "source": "https://mokokchung.nic.in/culture-heritage/"
+        },
+        {
+          "title": "A forest-reared bovine",
+          "text": "The mithun, a large bovine reared in community forests, is this state’s official animal. Which northeastern state are we looking for?",
+          "factKey": "nagaland:mithun-state-animal",
+          "source": "https://ipr.nagaland.gov.in/index.php/MITHUN-THE-PRIDE-OF-NAGALAND"
+        },
+        {
+          "title": "A valley for trekkers",
+          "text": "Dzukou Valley near Kohima is a popular destination for trekking and camping amid green hills. Which Indian state provides this familiar approach to the valley?",
+          "factKey": "nagaland:dzukou-valley-trekking",
+          "source": "https://www.incredibleindia.gov.in/en/nagaland"
+        }
+      ],
+      "takeaway": "Nagaland: Moatsu brings the Ao community together for feasting and celebration after agricultural work.",
+      "sources": [
+        {
+          "label": "mokokchung.nic.in — primary supporting source",
+          "url": "https://mokokchung.nic.in/culture-heritage/"
+        },
+        {
+          "label": "ipr.nagaland.gov.in — primary supporting source",
+          "url": "https://ipr.nagaland.gov.in/index.php/MITHUN-THE-PRIDE-OF-NAGALAND"
+        },
+        {
+          "label": "incredibleindia.gov.in — primary supporting source",
+          "url": "https://www.incredibleindia.gov.in/en/nagaland"
+        }
+      ]
+    },
+    {
+      "id": "uttarakhand-002",
+      "answer": "Uttarakhand",
+      "group": "north",
+      "clues": [
+        {
+          "title": "An alpine garden protected by UNESCO",
+          "text": "The Valley of Flowers is celebrated for colourful alpine meadows and shares a World Heritage listing with Nanda Devi National Park. Which state contains them?",
+          "factKey": "uttarakhand:valley-flowers-nanda-devi",
+          "source": "https://whc.unesco.org/en/list/335/"
+        },
+        {
+          "title": "India’s first national park",
+          "text": "The park now named after Jim Corbett was India’s first national park and remains a famous tiger landscape. Which state contains it?",
+          "factKey": "uttarakhand:corbett-first-national-park",
+          "source": "https://www.incredibleindia.gov.in/en/uttarakhand"
+        },
+        {
+          "title": "A Himalayan shrine to Shiva",
+          "text": "Kedarnath is one of the major Char Dham pilgrimage destinations in the Himalayas. Which state contains this famous mountain shrine?",
+          "factKey": "uttarakhand:kedarnath-shiva-pilgrimage",
+          "source": "https://www.incredibleindia.gov.in/en/uttarakhand"
+        }
+      ],
+      "takeaway": "Uttarakhand: The Valley of Flowers is celebrated for colourful alpine meadows and shares a World Heritage listing with Nanda Devi National Park.",
+      "sources": [
+        {
+          "label": "whc.unesco.org — primary supporting source",
+          "url": "https://whc.unesco.org/en/list/335/"
+        },
+        {
+          "label": "incredibleindia.gov.in — primary supporting source",
+          "url": "https://www.incredibleindia.gov.in/en/uttarakhand"
+        }
+      ]
+    },
+    {
+      "id": "odisha-004",
+      "answer": "Odisha",
+      "group": "south",
+      "clues": [
+        {
+          "title": "Silver made to look like lace",
+          "text": "Cuttack’s artisans twist fine silver wire into intricate filigree jewellery and decorative objects. Which state is home to this celebrated craft?",
+          "factKey": "odisha:cuttack-silver-filigree",
+          "source": "https://odishatourism.gov.in/en/iconic-odisha"
+        },
+        {
+          "title": "A Buddhist centre of learning",
+          "text": "Ratnagiri’s monasteries, Buddha images and votive stupas preserve a major centre of Buddhist heritage. Which state contains this site?",
+          "factKey": "odisha:ratnagiri-buddhist-monastery",
+          "source": "https://odishatourism.gov.in/en/places/ratnagiri-monastery"
+        },
+        {
+          "title": "The festival of great chariots",
+          "text": "At Puri’s Ratha Jatra, Jagannath, Balabhadra and Subhadra travel in huge wooden chariots. Which state hosts this famous festival?",
+          "factKey": "odisha:puri-ratha-jatra-procession",
+          "source": "https://rathjatra.nic.in/"
+        }
+      ],
+      "takeaway": "Odisha: Cuttack’s artisans twist fine silver wire into intricate filigree jewellery and decorative objects.",
+      "sources": [
+        {
+          "label": "odishatourism.gov.in — primary supporting source",
+          "url": "https://odishatourism.gov.in/en/iconic-odisha"
+        },
+        {
+          "label": "odishatourism.gov.in — primary supporting source",
+          "url": "https://odishatourism.gov.in/en/places/ratnagiri-monastery"
+        },
+        {
+          "label": "rathjatra.nic.in — primary supporting source",
+          "url": "https://rathjatra.nic.in/"
+        }
+      ]
+    },
+    {
+      "id": "telangana-002",
+      "answer": "Telangana",
+      "group": "south",
+      "clues": [
+        {
+          "title": "Patterns tied into the thread",
+          "text": "Pochampally’s ikat weavers tie and dye yarn before weaving it into patterned cloth. Which state preserves this textile tradition?",
+          "factKey": "telangana:pochampally-ikat-weaving",
+          "source": "https://www.incredibleindia.gov.in/en/telangana/pochampally-ikat"
+        },
+        {
+          "title": "A leader remembered for resistance",
+          "text": "Komaram Bheem is remembered for resisting exploitation and defending the rights of tribal communities. Which present-day state honours his legacy?",
+          "factKey": "telangana:komaram-bheem-resistance",
+          "source": "https://newindiasamachar.pib.gov.in/WriteReadData/flipbook/2026/Oct/2nd/English/files/basic-html/page8.html"
+        },
+        {
+          "title": "A fortress of the Qutb Shahi rulers",
+          "text": "Golconda Fort near Hyderabad was a stronghold of the Qutb Shahi rulers. Which state preserves this great fortress?",
+          "factKey": "telangana:golconda-qutb-shahi-fort",
+          "source": "https://www.incredibleindia.gov.in/en/telangana/hyderabad/golconda-fort"
+        }
+      ],
+      "takeaway": "Telangana: Pochampally’s ikat weavers tie and dye yarn before weaving it into patterned cloth.",
+      "sources": [
+        {
+          "label": "incredibleindia.gov.in — primary supporting source",
+          "url": "https://www.incredibleindia.gov.in/en/telangana/pochampally-ikat"
+        },
+        {
+          "label": "newindiasamachar.pib.gov.in — primary supporting source",
+          "url": "https://newindiasamachar.pib.gov.in/WriteReadData/flipbook/2026/Oct/2nd/English/files/basic-html/page8.html"
+        },
+        {
+          "label": "incredibleindia.gov.in — primary supporting source",
+          "url": "https://www.incredibleindia.gov.in/en/telangana/hyderabad/golconda-fort"
+        }
+      ]
+    },
+    {
+      "id": "delhi-002",
+      "answer": "Delhi",
+      "group": "north",
+      "clues": [
+        {
+          "title": "A garden tomb before the Taj",
+          "text": "Humayun’s Tomb is a great Mughal garden mausoleum and a UNESCO World Heritage Site. Which union territory contains it?",
+          "factKey": "delhi:humayun-garden-tomb",
+          "source": "https://whc.unesco.org/en/list/232/"
+        },
+        {
+          "title": "A flower-shaped house of worship",
+          "text": "The Lotus Temple is a Bahá’í House of Worship whose petal-like design welcomes visitors of all faiths. Which union territory is it in?",
+          "factKey": "delhi:lotus-bahai-house-worship",
+          "source": "https://www.incredibleindia.gov.in/en/delhi/delhi/lotus-temple"
+        },
+        {
+          "title": "Remembering the Mahatma",
+          "text": "Raj Ghat’s black marble memorial marks the place where Mahatma Gandhi was cremated. Which national capital territory is its home?",
+          "factKey": "delhi:raj-ghat-gandhi-cremation",
+          "source": "https://www.incredibleindia.gov.in/en/delhi/delhi/raj-ghat"
+        }
+      ],
+      "takeaway": "Delhi: Humayun’s Tomb is a great Mughal garden mausoleum and a UNESCO World Heritage Site.",
+      "sources": [
+        {
+          "label": "whc.unesco.org — primary supporting source",
+          "url": "https://whc.unesco.org/en/list/232/"
+        },
+        {
+          "label": "incredibleindia.gov.in — primary supporting source",
+          "url": "https://www.incredibleindia.gov.in/en/delhi/delhi/lotus-temple"
+        },
+        {
+          "label": "incredibleindia.gov.in — primary supporting source",
+          "url": "https://www.incredibleindia.gov.in/en/delhi/delhi/raj-ghat"
+        }
+      ]
+    },
+    {
+      "id": "sikkim-003",
+      "answer": "Sikkim",
+      "group": "east",
+      "clues": [
+        {
+          "title": "Where a kingdom began",
+          "text": "At Yuksom in 1642, the first Chogyal, or king, was crowned. Which present-day state traces its monarchy to this historic place?",
+          "factKey": "sikkim:yuksom-first-chogyal",
+          "source": "https://gyalshing.nic.in/tourist-place/yuksom/"
+        },
+        {
+          "title": "A great Buddhist teacher on a hill",
+          "text": "Samdruptse near Namchi is crowned by a monumental statue of Guru Padmasambhava. Which Himalayan state contains this landmark?",
+          "factKey": "sikkim:samdruptse-padmasambhava",
+          "source": "https://namchi.nic.in/tourist-place/samdruptse-samdrupts/"
+        },
+        {
+          "title": "A sacred lake near Gangtok",
+          "text": "Tsomgo, also called Changu, is a high mountain lake near Gangtok, revered by local communities. Which state would you visit?",
+          "factKey": "sikkim:tsomgo-sacred-lake",
+          "source": "https://www.incredibleindia.gov.in/en/sikkim/gangtok/tsomgo-lake"
+        }
+      ],
+      "takeaway": "Sikkim: At Yuksom in 1642, the first Chogyal, or king, was crowned.",
+      "sources": [
+        {
+          "label": "gyalshing.nic.in — primary supporting source",
+          "url": "https://gyalshing.nic.in/tourist-place/yuksom/"
+        },
+        {
+          "label": "namchi.nic.in — primary supporting source",
+          "url": "https://namchi.nic.in/tourist-place/samdruptse-samdrupts/"
+        },
+        {
+          "label": "incredibleindia.gov.in — primary supporting source",
+          "url": "https://www.incredibleindia.gov.in/en/sikkim/gangtok/tsomgo-lake"
+        }
+      ]
+    },
+    {
+      "id": "sikkim-004",
+      "answer": "Sikkim",
+      "group": "east",
+      "clues": [
+        {
+          "title": "A hill remembered for saving lives",
+          "text": "Tendong Lho Rum Faat recalls the Lepcha belief that Tendong Hill sheltered their ancestors from a great flood. Which Himalayan state celebrates it?",
+          "factKey": "sikkim:tendong-flood-tradition",
+          "source": "https://www.sikkim.gov.in/department/departmentmenudetails?url=Menu%3Decclesiastical-affairs-department%2Fbuddhist-festivals"
+        },
+        {
+          "title": "Four pilgrimage places recreated",
+          "text": "Siddheshwar Dham near Namchi brings replicas of the four great Dhams together around a towering Shiva statue. Which state contains this pilgrimage complex?",
+          "factKey": "sikkim:namchi-char-dham-replicas",
+          "source": "https://www.sikkim.gov.in/department/departmentmenudetails?url=Menu%3Dtourism-civil-aviation-department%2Fpilgrimage-tourism"
+        },
+        {
+          "title": "A valley of Himalayan blooms",
+          "text": "Yumthang near Lachung is famous as a Valley of Flowers, with rhododendrons and alpine scenery. Which state contains this much-loved valley?",
+          "factKey": "sikkim:yumthang-flower-valley",
+          "source": "https://www.sikkim.gov.in/department/departmentmenudetails?url=Menu%3Dtourism-civil-aviation-department%2Fwhere-to-go"
+        }
+      ],
+      "takeaway": "Sikkim: Tendong Lho Rum Faat recalls the Lepcha belief that Tendong Hill sheltered their ancestors from a great flood.",
+      "sources": [
+        {
+          "label": "sikkim.gov.in — primary supporting source",
+          "url": "https://www.sikkim.gov.in/department/departmentmenudetails?url=Menu%3Decclesiastical-affairs-department%2Fbuddhist-festivals"
+        },
+        {
+          "label": "sikkim.gov.in — primary supporting source",
+          "url": "https://www.sikkim.gov.in/department/departmentmenudetails?url=Menu%3Dtourism-civil-aviation-department%2Fpilgrimage-tourism"
+        },
+        {
+          "label": "sikkim.gov.in — primary supporting source",
+          "url": "https://www.sikkim.gov.in/department/departmentmenudetails?url=Menu%3Dtourism-civil-aviation-department%2Fwhere-to-go"
+        }
+      ]
+    },
+    {
+      "id": "dadra-and-nagar-haveli-and-daman-and-diu-004",
+      "answer": "Dadra and Nagar Haveli and Daman and Diu",
+      "group": "north",
+      "clues": [
+        {
+          "title": "A dance of the tribal communities",
+          "text": "Tarpa is one of the traditional community dances of the tribal region around Silvassa. Which present-day union territory preserves it?",
+          "factKey": "dadra-and-nagar-haveli-and-daman-and-diu:silvassa-tarpa-dance",
+          "source": "https://dnh.gov.in/district-profile/"
+        },
+        {
+          "title": "Unusual branching palms",
+          "text": "Hoka palms, with their distinctive branching trunks, are a familiar feature of this western coastal territory. Which union territory are we looking for?",
+          "factKey": "dadra-and-nagar-haveli-and-daman-and-diu:hoka-branching-palms",
+          "source": "https://www.incredibleindia.gov.in/en/dadra-and-nagar-haveli-and-daman-and-diu"
+        },
+        {
+          "title": "A beach on the western coast",
+          "text": "Jampore Beach is a popular seaside escape in this western coastal territory. Which union territory contains it?",
+          "factKey": "dadra-and-nagar-haveli-and-daman-and-diu:jampore-beach-coast",
+          "source": "https://www.incredibleindia.gov.in/en/dadra-and-nagar-haveli-and-daman-and-diu/daman/jampore-beach"
+        }
+      ],
+      "takeaway": "Dadra and Nagar Haveli and Daman and Diu: Tarpa is one of the traditional community dances of the tribal region around Silvassa.",
+      "sources": [
+        {
+          "label": "dnh.gov.in — primary supporting source",
+          "url": "https://dnh.gov.in/district-profile/"
+        },
+        {
+          "label": "incredibleindia.gov.in — primary supporting source",
+          "url": "https://www.incredibleindia.gov.in/en/dadra-and-nagar-haveli-and-daman-and-diu"
+        },
+        {
+          "label": "incredibleindia.gov.in — primary supporting source",
+          "url": "https://www.incredibleindia.gov.in/en/dadra-and-nagar-haveli-and-daman-and-diu/daman/jampore-beach"
+        }
+      ]
+    },
+    {
+      "id": "mizoram-005",
+      "answer": "Mizoram",
+      "group": "east",
+      "clues": [
+        {
+          "title": "A young weightlifting champion",
+          "text": "Jeremy Lalrinnunga won weightlifting gold at the 2022 Commonwealth Games. Which northeastern state is the home of this young champion?",
+          "factKey": "mizoram:jeremy-youth-olympic-gold",
+          "source": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1846759&lang=2&reg=48"
+        },
+        {
+          "title": "A festival named for maize",
+          "text": "Mim Kut, also called the Maize Festival, brings music, dance and community celebration. Which northeastern state celebrates it?",
+          "factKey": "mizoram:mim-kut-maize-festival",
+          "source": "https://mizoramtourism.com/festivals/11"
+        },
+        {
+          "title": "A hill village that shares its heritage",
+          "text": "At Reiek, traditional houses introduce visitors to local ways of life beside a popular hill trek. Which northeastern state is its home?",
+          "factKey": "mizoram:reiek-heritage-village",
+          "source": "https://www.incredibleindia.gov.in/en/mizoram/aizawl/reiek-tourist-resort"
+        }
+      ],
+      "takeaway": "Mizoram: Jeremy Lalrinnunga won weightlifting gold at the 2022 Commonwealth Games.",
+      "sources": [
+        {
+          "label": "pib.gov.in — primary supporting source",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1846759&lang=2&reg=48"
+        },
+        {
+          "label": "mizoramtourism.com — primary supporting source",
+          "url": "https://mizoramtourism.com/festivals/11"
+        },
+        {
+          "label": "incredibleindia.gov.in — primary supporting source",
+          "url": "https://www.incredibleindia.gov.in/en/mizoram/aizawl/reiek-tourist-resort"
+        }
+      ]
+    },
+    {
+      "id": "dadra-and-nagar-haveli-and-daman-and-diu-005",
+      "answer": "Dadra and Nagar Haveli and Daman and Diu",
+      "group": "north",
+      "clues": [
+        {
+          "title": "Liberation before 1961",
+          "text": "The inland territory around Silvassa was freed from Portuguese rule in 1954. Which present-day union territory includes it?",
+          "factKey": "dadra-and-nagar-haveli-and-daman-and-diu:inland-liberation-1954",
+          "source": "https://dnh.gov.in/district-profile/"
+        },
+        {
+          "title": "Lions near Silvassa",
+          "text": "Vasona Lion Safari offers visitors a chance to see lions in an enclosed forest setting near Silvassa. Which union territory contains it?",
+          "factKey": "dadra-and-nagar-haveli-and-daman-and-diu:vasona-lion-safari",
+          "source": "https://dnh.gov.in/tourist-place/vasona-lion-safari/"
+        },
+        {
+          "title": "Remembering a lost naval ship",
+          "text": "A coastal memorial honours INS Khukri and the sailors lost when it sank during the 1971 war. Which western union territory contains this memorial?",
+          "factKey": "dadra-and-nagar-haveli-and-daman-and-diu:khukri-1971-memorial",
+          "source": "https://diu.gov.in/tourist-place/ins-khukri/"
+        }
+      ],
+      "takeaway": "Dadra and Nagar Haveli and Daman and Diu: The inland territory around Silvassa was freed from Portuguese rule in 1954.",
+      "sources": [
+        {
+          "label": "dnh.gov.in — primary supporting source",
+          "url": "https://dnh.gov.in/district-profile/"
+        },
+        {
+          "label": "dnh.gov.in — primary supporting source",
+          "url": "https://dnh.gov.in/tourist-place/vasona-lion-safari/"
+        },
+        {
+          "label": "diu.gov.in — primary supporting source",
+          "url": "https://diu.gov.in/tourist-place/ins-khukri/"
+        }
+      ]
+    },
+    {
+      "id": "maharashtra-002",
+      "answer": "Maharashtra",
+      "group": "north",
+      "clues": [
+        {
+          "title": "A pioneer of girls’ education",
+          "text": "Savitribai Phule and Jyotirao Phule opened a school for girls in Pune in 1848. In which state did this landmark in educational reform take place?",
+          "factKey": "maharashtra:savitribai-pune-girls-school",
+          "source": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1533868&lang=2&reg=48"
+        },
+        {
+          "title": "Stories painted inside caves",
+          "text": "Ajanta’s Buddhist caves preserve celebrated murals and rock-cut architecture. Which state contains this UNESCO World Heritage Site?",
+          "factKey": "maharashtra:ajanta-buddhist-murals",
+          "source": "https://whc.unesco.org/en/list/242/"
+        },
+        {
+          "title": "Welcoming the elephant-headed god",
+          "text": "Public Ganesh Chaturthi celebrations fill Mumbai and Pune with decorated pandals and processions. Which state is especially known for this festival?",
+          "factKey": "maharashtra:ganesh-chaturthi-public-festival",
+          "source": "https://www.incredibleindia.gov.in/en/maharashtra"
+        }
+      ],
+      "takeaway": "Maharashtra: Savitribai Phule and Jyotirao Phule opened a school for girls in Pune in 1848.",
+      "sources": [
+        {
+          "label": "pib.gov.in — primary supporting source",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1533868&lang=2&reg=48"
+        },
+        {
+          "label": "whc.unesco.org — primary supporting source",
+          "url": "https://whc.unesco.org/en/list/242/"
+        },
+        {
+          "label": "incredibleindia.gov.in — primary supporting source",
+          "url": "https://www.incredibleindia.gov.in/en/maharashtra"
+        }
+      ]
+    },
+    {
+      "id": "assam-004",
+      "answer": "Assam",
+      "group": "east",
+      "clues": [
+        {
+          "title": "A singer of the great river",
+          "text": "Bhupen Hazarika’s songs brought his home region’s culture to audiences across India. Which northeastern state is most closely associated with this singer and composer?",
+          "factKey": "assam:bhupen-hazarika-musical-legacy",
+          "source": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2307731&lang=2&reg=48"
+        },
+        {
+          "title": "A World Heritage wildlife haven",
+          "text": "Manas National Park protects forests and grasslands along the Bhutan border. Which state contains this UNESCO-listed wildlife landscape?",
+          "factKey": "assam:manas-world-heritage",
+          "source": "https://whc.unesco.org/en/list/338/"
+        },
+        {
+          "title": "The seat of government",
+          "text": "Dispur is the capital of this northeastern state. Which state are we looking for?",
+          "factKey": "assam:dispur-state-capital",
+          "source": "https://www.incredibleindia.gov.in/en/assam/guwahati"
+        }
+      ],
+      "takeaway": "Assam: Bhupen Hazarika’s songs brought his home region’s culture to audiences across India.",
+      "sources": [
+        {
+          "label": "pib.gov.in — primary supporting source",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2307731&lang=2&reg=48"
+        },
+        {
+          "label": "whc.unesco.org — primary supporting source",
+          "url": "https://whc.unesco.org/en/list/338/"
+        },
+        {
+          "label": "incredibleindia.gov.in — primary supporting source",
+          "url": "https://www.incredibleindia.gov.in/en/assam/guwahati"
+        }
+      ]
+    },
+    {
+      "id": "tamil-nadu-002",
+      "answer": "Tamil Nadu",
+      "group": "south",
+      "clues": [
+        {
+          "title": "A mathematician’s formative years",
+          "text": "Srinivasa Ramanujan studied at the Government Arts College in Kumbakonam before becoming a world-famous mathematician. Which state contains this town?",
+          "factKey": "tamil-nadu:ramanujan-kumbakonam-study",
+          "source": "https://www.tnurbantree.tn.gov.in/kumbakonam/about-city-2/"
+        },
+        {
+          "title": "Art carved by the Pallavas",
+          "text": "Mamallapuram’s rock-cut monuments include the Five Rathas and the Shore Temple. Which state preserves this UNESCO-listed Pallava heritage?",
+          "factKey": "tamil-nadu:mamallapuram-pallava-monuments",
+          "source": "https://whc.unesco.org/en/list/249/"
+        },
+        {
+          "title": "Giving thanks for the harvest",
+          "text": "Pongal celebrates the harvest with a dish of newly harvested rice cooked until it boils over. Which state is especially associated with this festival?",
+          "factKey": "tamil-nadu:pongal-harvest-rice",
+          "source": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/destinations/coimbatore/pongal-festival.html"
+        }
+      ],
+      "takeaway": "Tamil Nadu: Srinivasa Ramanujan studied at the Government Arts College in Kumbakonam before becoming a world-famous mathematician.",
+      "sources": [
+        {
+          "label": "tnurbantree.tn.gov.in — primary supporting source",
+          "url": "https://www.tnurbantree.tn.gov.in/kumbakonam/about-city-2/"
+        },
+        {
+          "label": "whc.unesco.org — primary supporting source",
+          "url": "https://whc.unesco.org/en/list/249/"
+        },
+        {
+          "label": "prod.incredibleindia.gov.in — primary supporting source",
+          "url": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/destinations/coimbatore/pongal-festival.html"
+        }
+      ]
+    },
+    {
+      "id": "nagaland-005",
+      "answer": "Nagaland",
+      "group": "east",
+      "clues": [
+        {
+          "title": "Learning from the elders",
+          "text": "Morungs traditionally served as community learning spaces, passing on folklore, crafts and social values to the young. Which northeastern state is especially associated with them?",
+          "factKey": "nagaland:morung-community-learning",
+          "source": "https://ipr.nagaland.gov.in/living-morung-shares-concepts-of-traditional-knowledge-and-cultural-heritage"
+        },
+        {
+          "title": "A loom worn by the weaver",
+          "text": "Traditional backstrap looms let a seated weaver control tension with a belt around her back. Which northeastern state is famous for the bold woven shawls made this way?",
+          "factKey": "nagaland:backstrap-loom-shawls",
+          "source": "https://ignca.gov.in/divisionss/janapada-sampada/northeastern-regional-centre/textiles-of-nagaland/"
+        },
+        {
+          "title": "A chilli with a fiery reputation",
+          "text": "King chilli, also called Raja Mircha, is a celebrated crop of Peren and is prized for its intense heat. Which state is it strongly associated with?",
+          "factKey": "nagaland:peren-king-chilli",
+          "source": "https://ipr.nagaland.gov.in/node/9685"
+        }
+      ],
+      "takeaway": "Nagaland: Morungs traditionally served as community learning spaces, passing on folklore, crafts and social values to the young.",
+      "sources": [
+        {
+          "label": "ipr.nagaland.gov.in — primary supporting source",
+          "url": "https://ipr.nagaland.gov.in/living-morung-shares-concepts-of-traditional-knowledge-and-cultural-heritage"
+        },
+        {
+          "label": "ignca.gov.in — primary supporting source",
+          "url": "https://ignca.gov.in/divisionss/janapada-sampada/northeastern-regional-centre/textiles-of-nagaland/"
+        },
+        {
+          "label": "ipr.nagaland.gov.in — primary supporting source",
+          "url": "https://ipr.nagaland.gov.in/node/9685"
+        }
+      ]
+    },
+    {
+      "id": "ladakh-002",
+      "answer": "Ladakh",
+      "group": "north",
+      "clues": [
+        {
+          "title": "A monk and a diplomat",
+          "text": "Kushok Bakula Rinpoche was both a Buddhist leader and India’s ambassador to Mongolia. Which Himalayan union territory was his home?",
+          "factKey": "ladakh:kushok-bakula-diplomat",
+          "source": "https://ladakh.gov.in/honble-union-minority-affairs-minister-kiren-rijiju-unveils-statue-of-19th-gyalsras-bakula-rinpoche-in-presence-of-honble-lt-governor-brig-dr-bd-mishra-retd-and-cec-lahdc-leh-adv/"
+        },
+        {
+          "title": "A monastery above the Indus valley",
+          "text": "Thiksey Monastery is famous for its tiered hillside buildings and great Maitreya Buddha image. Which union territory contains it?",
+          "factKey": "ladakh:thiksey-maitreya-monastery",
+          "source": "https://leh.nic.in/tourist-place/thiksey-monastery/"
+        },
+        {
+          "title": "Remembering the Kargil War",
+          "text": "The war memorial at Dras honours soldiers who fought in the 1999 Kargil War. Which present-day union territory is it in?",
+          "factKey": "ladakh:dras-kargil-war-memorial",
+          "source": "https://www.incredibleindia.gov.in/en/ladakh/kargil/kargil-war-memorial"
+        }
+      ],
+      "takeaway": "Ladakh: Kushok Bakula Rinpoche was both a Buddhist leader and India’s ambassador to Mongolia.",
+      "sources": [
+        {
+          "label": "ladakh.gov.in — primary supporting source",
+          "url": "https://ladakh.gov.in/honble-union-minority-affairs-minister-kiren-rijiju-unveils-statue-of-19th-gyalsras-bakula-rinpoche-in-presence-of-honble-lt-governor-brig-dr-bd-mishra-retd-and-cec-lahdc-leh-adv/"
+        },
+        {
+          "label": "leh.nic.in — primary supporting source",
+          "url": "https://leh.nic.in/tourist-place/thiksey-monastery/"
+        },
+        {
+          "label": "incredibleindia.gov.in — primary supporting source",
+          "url": "https://www.incredibleindia.gov.in/en/ladakh/kargil/kargil-war-memorial"
+        }
+      ]
+    },
+    {
+      "id": "andaman-and-nicobar-islands-003",
+      "answer": "Andaman and Nicobar Islands",
+      "group": "south",
+      "clues": [
+        {
+          "title": "Two islands joined by sand",
+          "text": "Ross and Smith are twin islands joined by a natural sandbar near Diglipur. Which union territory contains them?",
+          "factKey": "andaman-and-nicobar-islands:ross-smith-sandbar",
+          "source": "https://northmiddle.andaman.nic.in/tourist-place/ross-smith-island/"
+        },
+        {
+          "title": "Protecting life beneath the sea",
+          "text": "Mahatma Gandhi Marine National Park near Wandoor protects island and marine ecosystems. Which union territory is its home?",
+          "factKey": "andaman-and-nicobar-islands:wandoor-marine-national-park",
+          "source": "https://southandaman.nic.in/tourist-place/wandoor/"
+        },
+        {
+          "title": "A journey into limestone caves",
+          "text": "Baratang is famous for its limestone caves. Which island union territory would you visit to explore this well-known natural attraction?",
+          "factKey": "andaman-and-nicobar-islands:baratang-limestone-caves",
+          "source": "https://www.incredibleindia.gov.in/en/andaman-and-nicobar-islands"
+        }
+      ],
+      "takeaway": "Andaman and Nicobar Islands: Ross and Smith are twin islands joined by a natural sandbar near Diglipur.",
+      "sources": [
+        {
+          "label": "northmiddle.andaman.nic.in — primary supporting source",
+          "url": "https://northmiddle.andaman.nic.in/tourist-place/ross-smith-island/"
+        },
+        {
+          "label": "southandaman.nic.in — primary supporting source",
+          "url": "https://southandaman.nic.in/tourist-place/wandoor/"
+        },
+        {
+          "label": "incredibleindia.gov.in — primary supporting source",
+          "url": "https://www.incredibleindia.gov.in/en/andaman-and-nicobar-islands"
+        }
+      ]
+    },
+    {
+      "id": "tamil-nadu-003",
+      "answer": "Tamil Nadu",
+      "group": "south",
+      "clues": [
+        {
+          "title": "An island home for a future President",
+          "text": "A P J Abdul Kalam was born in Rameswaram and is remembered there with a memorial. Which state was the former President’s birthplace in?",
+          "factKey": "tamil-nadu:kalam-rameswaram-birthplace",
+          "source": "https://ramanathapuram.nic.in/tourist-place/dr-apj-abdul-kalams-memorial/"
+        },
+        {
+          "title": "A traditional test with bulls",
+          "text": "Jallikattu, associated with the Pongal season, involves participants attempting to hold on to a bull’s hump. Which state is home to this tradition?",
+          "factKey": "tamil-nadu:jallikattu-bull-tradition",
+          "source": "https://www.incredibleindia.gov.in/en/tamil-nadu"
+        },
+        {
+          "title": "A railway climbing to Ooty",
+          "text": "The Nilgiri Mountain Railway links Mettupalayam with the hill station of Udhagamandalam, also called Ooty. Which state contains this UNESCO-listed railway?",
+          "factKey": "tamil-nadu:nilgiri-mountain-railway",
+          "source": "https://whc.unesco.org/en/list/944/"
+        }
+      ],
+      "takeaway": "Tamil Nadu: A P J Abdul Kalam was born in Rameswaram and is remembered there with a memorial.",
+      "sources": [
+        {
+          "label": "ramanathapuram.nic.in — primary supporting source",
+          "url": "https://ramanathapuram.nic.in/tourist-place/dr-apj-abdul-kalams-memorial/"
+        },
+        {
+          "label": "incredibleindia.gov.in — primary supporting source",
+          "url": "https://www.incredibleindia.gov.in/en/tamil-nadu"
+        },
+        {
+          "label": "whc.unesco.org — primary supporting source",
+          "url": "https://whc.unesco.org/en/list/944/"
+        }
+      ]
+    },
+    {
+      "id": "odisha-005",
+      "answer": "Odisha",
+      "group": "south",
+      "clues": [
+        {
+          "title": "A rebellion before 1857",
+          "text": "Buxi Jagabandhu led the Paika uprising against British rule in 1817. Which present-day state remembers this major regional rebellion?",
+          "factKey": "odisha:paika-rebellion-jagabandhu-1817",
+          "source": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1496480&lang=2&reg=48"
+        },
+        {
+          "title": "Welcoming the new grain",
+          "text": "Nuakhai celebrates the season’s new rice, bringing families together for thanksgiving and festive food. Which state’s western districts are especially known for it?",
+          "factKey": "odisha:nuakhai-new-rice-harvest",
+          "source": "https://odishatourism.gov.in/en/festival-celebrations"
+        },
+        {
+          "title": "A great dam across the Mahanadi",
+          "text": "Hirakud Dam near Sambalpur created one of India’s best-known large reservoirs. Which state contains this major river project?",
+          "factKey": "odisha:hirakud-mahanadi-dam",
+          "source": "https://odishatourism.gov.in/en/places/hirakud-dam"
+        }
+      ],
+      "takeaway": "Odisha: Buxi Jagabandhu led the Paika uprising against British rule in 1817.",
+      "sources": [
+        {
+          "label": "pib.gov.in — primary supporting source",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1496480&lang=2&reg=48"
+        },
+        {
+          "label": "odishatourism.gov.in — primary supporting source",
+          "url": "https://odishatourism.gov.in/en/festival-celebrations"
+        },
+        {
+          "label": "odishatourism.gov.in — primary supporting source",
+          "url": "https://odishatourism.gov.in/en/places/hirakud-dam"
+        }
+      ]
+    },
+    {
+      "id": "tripura-004",
+      "answer": "Tripura",
+      "group": "east",
+      "clues": [
+        {
+          "title": "A woven symbol of identity",
+          "text": "Risa is a traditional handwoven cloth used in dress, ceremonies and as a mark of respect. Which northeastern state is especially associated with it?",
+          "factKey": "tripura:risa-handwoven-cloth",
+          "source": "https://www.pib.gov.in/FactsheetDetails.aspx?ModuleId=16&NoteId=150411&id=150411&lang=2&reg=48"
+        },
+        {
+          "title": "A festival for fourteen deities",
+          "text": "Kharchi Puja brings worshippers to the Chaturdash Devta temple to honour fourteen deities. Which state celebrates this festival?",
+          "factKey": "tripura:kharchi-fourteen-deities",
+          "source": "https://ignca.gov.in/online-digital-resources/archaeological-sites/introduction-tripura/"
+        },
+        {
+          "title": "Sculptures beside a river",
+          "text": "At Chabimura, large images of Hindu deities are carved into cliffs beside the Gomati River. Which northeastern state contains this striking site?",
+          "factKey": "tripura:chabimura-gomati-cliff-carvings",
+          "source": "https://ignca.gov.in/tripura-3/chabimura-amarpur-south-tripura/"
+        }
+      ],
+      "takeaway": "Tripura: Risa is a traditional handwoven cloth used in dress, ceremonies and as a mark of respect.",
+      "sources": [
+        {
+          "label": "pib.gov.in — primary supporting source",
+          "url": "https://www.pib.gov.in/FactsheetDetails.aspx?ModuleId=16&NoteId=150411&id=150411&lang=2&reg=48"
+        },
+        {
+          "label": "ignca.gov.in — primary supporting source",
+          "url": "https://ignca.gov.in/online-digital-resources/archaeological-sites/introduction-tripura/"
+        },
+        {
+          "label": "ignca.gov.in — primary supporting source",
+          "url": "https://ignca.gov.in/tripura-3/chabimura-amarpur-south-tripura/"
+        }
+      ]
+    },
+    {
+      "id": "mizoram-006",
+      "answer": "Mizoram",
+      "group": "east",
+      "clues": [
+        {
+          "title": "A hockey player on the world stage",
+          "text": "Lalremsiami, from Kolasib, became the first woman from her state to represent India in Olympic hockey. Which northeastern state is her home?",
+          "factKey": "mizoram:lalremsiami-olympic-hockey",
+          "source": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1818768&lang=2&reg=48"
+        },
+        {
+          "title": "Celebrating the completed harvest",
+          "text": "Pawl Kut is a thanksgiving festival after the harvest, traditionally bringing feasting and community celebration. Which state celebrates it?",
+          "factKey": "mizoram:pawl-kut-harvest-thanksgiving",
+          "source": "https://mizoramtourism.com/festivals/6"
+        },
+        {
+          "title": "A hilltop celebration",
+          "text": "Hmuifang, south of Aizawl, is known for its forested hills and the Thalfavang Kut celebration linked to the farming calendar. Which state contains it?",
+          "factKey": "mizoram:hmuifang-thalfavang-kut",
+          "source": "https://www.incredibleindia.gov.in/en/mizoram/aizawl/hmuifang-mountain-peak"
+        }
+      ],
+      "takeaway": "Mizoram: Lalremsiami, from Kolasib, became the first woman from her state to represent India in Olympic hockey.",
+      "sources": [
+        {
+          "label": "pib.gov.in — primary supporting source",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1818768&lang=2&reg=48"
+        },
+        {
+          "label": "mizoramtourism.com — primary supporting source",
+          "url": "https://mizoramtourism.com/festivals/6"
+        },
+        {
+          "label": "incredibleindia.gov.in — primary supporting source",
+          "url": "https://www.incredibleindia.gov.in/en/mizoram/aizawl/hmuifang-mountain-peak"
+        }
+      ]
+    },
+    {
+      "id": "ladakh-003",
+      "answer": "Ladakh",
+      "group": "north",
+      "clues": [
+        {
+          "title": "A white dome above Leh",
+          "text": "The white-domed Shanti Stupa above Leh is a well-known Buddhist peace monument. Which high-altitude union territory contains it?",
+          "factKey": "ladakh:leh-shanti-stupa-peace",
+          "source": "https://www.incredibleindia.gov.in/en/ladakh"
+        },
+        {
+          "title": "Life on a high plateau",
+          "text": "The Changpa community makes its home in the high-altitude landscapes of Changthang. Which union territory is associated with this distinctive plateau culture?",
+          "factKey": "ladakh:changpa-changthang-community",
+          "source": "https://www.incredibleindia.gov.in/en/ladakh/leh/changthang-wildlife-sanctuary"
+        },
+        {
+          "title": "A famous pass above Leh",
+          "text": "Khardung La is the celebrated high mountain pass on the route from Leh towards Nubra. Which union territory contains it?",
+          "factKey": "ladakh:khardung-la-nubra-route",
+          "source": "https://www.incredibleindia.gov.in/en/ladakh"
+        }
+      ],
+      "takeaway": "Ladakh: The white-domed Shanti Stupa above Leh is a well-known Buddhist peace monument.",
+      "sources": [
+        {
+          "label": "incredibleindia.gov.in — primary supporting source",
+          "url": "https://www.incredibleindia.gov.in/en/ladakh"
+        },
+        {
+          "label": "incredibleindia.gov.in — primary supporting source",
+          "url": "https://www.incredibleindia.gov.in/en/ladakh/leh/changthang-wildlife-sanctuary"
+        }
+      ]
+    },
+    {
+      "id": "west-bengal-003",
+      "answer": "West Bengal",
+      "group": "east",
+      "clues": [
+        {
+          "title": "A landmark of world cinema",
+          "text": "Satyajit Ray’s Pather Panchali follows Apu’s childhood and launched a celebrated film trilogy. Which state is most closely associated with this filmmaker’s cinema?",
+          "factKey": "west-bengal:ray-pather-panchali",
+          "source": "https://satyajitray.org/biography/"
+        },
+        {
+          "title": "A horse shaped in clay",
+          "text": "Bankura’s long-necked terracotta horse is a celebrated symbol of regional craft. Which state is home to this pottery tradition?",
+          "factKey": "west-bengal:bankura-terracotta-horse",
+          "source": "https://bankura.gov.in/handicrafts/"
+        },
+        {
+          "title": "A white marble landmark",
+          "text": "Kolkata’s Victoria Memorial was built in memory of Queen Victoria and now houses a museum. Which state is it in?",
+          "factKey": "west-bengal:victoria-memorial-queen",
+          "source": "https://victoriamemorial-cal.org/"
+        }
+      ],
+      "takeaway": "West Bengal: Satyajit Ray’s Pather Panchali follows Apu’s childhood and launched a celebrated film trilogy.",
+      "sources": [
+        {
+          "label": "satyajitray.org — primary supporting source",
+          "url": "https://satyajitray.org/biography/"
+        },
+        {
+          "label": "bankura.gov.in — primary supporting source",
+          "url": "https://bankura.gov.in/handicrafts/"
+        },
+        {
+          "label": "victoriamemorial-cal.org — primary supporting source",
+          "url": "https://victoriamemorial-cal.org/"
+        }
+      ]
+    },
+    {
+      "id": "bihar-005",
+      "answer": "Bihar",
+      "group": "east",
+      "clues": [
+        {
+          "title": "A granary built after famine",
+          "text": "Patna’s Golghar was built as a great grain store after a devastating famine. Which state preserves this famous beehive-shaped landmark?",
+          "factKey": "bihar:patna-golghar-granary",
+          "source": "https://patna.nic.in/tourist-place/gol-ghar/"
+        },
+        {
+          "title": "The Buddha on Vulture Peak",
+          "text": "Griddhakuta, or Vulture Peak, at Rajgir is remembered as a place where the Buddha taught. Which state contains this pilgrimage site?",
+          "factKey": "bihar:rajgir-vulture-peak-teachings",
+          "source": "https://www.incredibleindia.gov.in/en/bihar"
+        },
+        {
+          "title": "A fair at the meeting of rivers",
+          "text": "Sonepur’s famous fair is held near the confluence of the Ganga and Gandak. Which state hosts it?",
+          "factKey": "bihar:sonepur-fair-confluence",
+          "source": "https://tourism.bihar.gov.in/en/experiences/festivals-and-fairs/fairs/sonepur-mela"
+        }
+      ],
+      "takeaway": "Bihar: Patna’s Golghar was built as a great grain store after a devastating famine.",
+      "sources": [
+        {
+          "label": "patna.nic.in — primary supporting source",
+          "url": "https://patna.nic.in/tourist-place/gol-ghar/"
+        },
+        {
+          "label": "incredibleindia.gov.in — primary supporting source",
+          "url": "https://www.incredibleindia.gov.in/en/bihar"
+        },
+        {
+          "label": "tourism.bihar.gov.in — primary supporting source",
+          "url": "https://tourism.bihar.gov.in/en/experiences/festivals-and-fairs/fairs/sonepur-mela"
+        }
+      ]
+    },
+    {
+      "id": "haryana-002",
+      "answer": "Haryana",
+      "group": "north",
+      "clues": [
+        {
+          "title": "An Olympic javelin champion",
+          "text": "Neeraj Chopra won Olympic javelin gold at the Tokyo Games. Which northern state is this sporting champion from?",
+          "factKey": "haryana:neeraj-olympic-javelin-gold",
+          "source": "https://www.incredibleindia.gov.in/en/haryana"
+        },
+        {
+          "title": "A haven for visiting birds",
+          "text": "Sultanpur National Park near Gurugram welcomes migratory birds to its wetland. Which state protects this well-known birdwatching destination?",
+          "factKey": "haryana:sultanpur-migratory-birds",
+          "source": "https://gurugram.gov.in/tourist-place/sultanpur-national-bird-sanctuary/"
+        },
+        {
+          "title": "Craft traditions come together",
+          "text": "The Surajkund fair near Faridabad brings artisans, handlooms and performances from across India together. Which state hosts it?",
+          "factKey": "haryana:surajkund-crafts-fair",
+          "source": "https://www.incredibleindia.gov.in/en/haryana"
+        }
+      ],
+      "takeaway": "Haryana: Neeraj Chopra won Olympic javelin gold at the Tokyo Games.",
+      "sources": [
+        {
+          "label": "incredibleindia.gov.in — primary supporting source",
+          "url": "https://www.incredibleindia.gov.in/en/haryana"
+        },
+        {
+          "label": "gurugram.gov.in — primary supporting source",
+          "url": "https://gurugram.gov.in/tourist-place/sultanpur-national-bird-sanctuary/"
+        }
+      ]
+    },
+    {
+      "id": "uttar-pradesh-003",
+      "answer": "Uttar Pradesh",
+      "group": "east",
+      "clues": [
+        {
+          "title": "Embroidery as delicate as lace",
+          "text": "Chikankari is the fine embroidery tradition especially associated with Lucknow. Which state is home to this celebrated craft?",
+          "factKey": "uttar-pradesh:lucknow-chikankari",
+          "source": "https://www.india.gov.in/explore-india/odop/details/lucknow-chikan-craft-lucknow-zardozi"
+        },
+        {
+          "title": "Tigers in the Terai",
+          "text": "Dudhwa National Park protects grasslands and forests along the Nepal border, with tigers and swamp deer. Which state contains it?",
+          "factKey": "uttar-pradesh:dudhwa-terai-wildlife",
+          "source": "https://kheri.nic.in/tourist-place/dudhwa-national-park/"
+        },
+        {
+          "title": "A sacred city on the Sarayu",
+          "text": "Ayodhya’s ghats line the Sarayu, and the city is closely associated with the story of Rama. Which state is it in?",
+          "factKey": "uttar-pradesh:ayodhya-sarayu-rama",
+          "source": "https://ayodhya.nic.in/tourist-place/ram-ki-paidi/"
+        }
+      ],
+      "takeaway": "Uttar Pradesh: Chikankari is the fine embroidery tradition especially associated with Lucknow.",
+      "sources": [
+        {
+          "label": "india.gov.in — primary supporting source",
+          "url": "https://www.india.gov.in/explore-india/odop/details/lucknow-chikan-craft-lucknow-zardozi"
+        },
+        {
+          "label": "kheri.nic.in — primary supporting source",
+          "url": "https://kheri.nic.in/tourist-place/dudhwa-national-park/"
+        },
+        {
+          "label": "ayodhya.nic.in — primary supporting source",
+          "url": "https://ayodhya.nic.in/tourist-place/ram-ki-paidi/"
+        }
+      ]
+    },
+    {
+      "id": "sikkim-005",
+      "answer": "Sikkim",
+      "group": "east",
+      "clues": [
+        {
+          "title": "A spice grown on mountain slopes",
+          "text": "Large cardamom is an important cash crop in this small Himalayan state. Which state is particularly known for producing this aromatic spice?",
+          "factKey": "sikkim:large-cardamom-cash-crop",
+          "source": "https://www.sikkim.gov.in/department/departmentmenudetails?url=Menu%3Dfood-security-and-agriculture-development-department%2Fcrops"
+        },
+        {
+          "title": "A tree-dwelling state animal",
+          "text": "The red panda, a tree-dwelling Himalayan mammal with a ringed tail, is this state’s official animal. Which state is it?",
+          "factKey": "sikkim:red-panda-state-animal",
+          "source": "https://www.sikkim.gov.in/department/departmentmenudetails?url=Menu%3Dtourism-civil-aviation-department%2Fnature"
+        },
+        {
+          "title": "A sacred lake in the high north",
+          "text": "Gurudongmar Lake, near Lachen, is a famous high-altitude pilgrimage destination. Which Himalayan state contains it?",
+          "factKey": "sikkim:gurudongmar-sacred-lake",
+          "source": "https://www.sikkim.gov.in/department/departmentmenudetails?url=Menu%3Decclesiastical-affairs-department%2Fholy-lakes-in-sikkim"
+        }
+      ],
+      "takeaway": "Sikkim: Large cardamom is an important cash crop in this small Himalayan state.",
+      "sources": [
+        {
+          "label": "sikkim.gov.in — primary supporting source",
+          "url": "https://www.sikkim.gov.in/department/departmentmenudetails?url=Menu%3Dfood-security-and-agriculture-development-department%2Fcrops"
+        },
+        {
+          "label": "sikkim.gov.in — primary supporting source",
+          "url": "https://www.sikkim.gov.in/department/departmentmenudetails?url=Menu%3Dtourism-civil-aviation-department%2Fnature"
+        },
+        {
+          "label": "sikkim.gov.in — primary supporting source",
+          "url": "https://www.sikkim.gov.in/department/departmentmenudetails?url=Menu%3Decclesiastical-affairs-department%2Fholy-lakes-in-sikkim"
+        }
+      ]
+    },
+    {
+      "id": "punjab-002",
+      "answer": "Punjab",
+      "group": "north",
+      "clues": [
+        {
+          "title": "A revolutionary’s ancestral village",
+          "text": "Khatkar Kalan preserves the ancestral home and memory of Bhagat Singh. Which Indian state contains this village?",
+          "factKey": "punjab:bhagat-singh-khatkar-kalan",
+          "source": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2080598&lang=2&reg=48"
+        },
+        {
+          "title": "The founding of the Khalsa",
+          "text": "At Anandpur Sahib in 1699, Guru Gobind Singh established the Khalsa. Which present-day state contains this historic town?",
+          "factKey": "punjab:anandpur-khalsa-1699",
+          "source": "https://rupnagar.nic.in/history/"
+        },
+        {
+          "title": "Remembering a tragedy in Amritsar",
+          "text": "Jallianwala Bagh commemorates the people killed when troops fired on a gathering in April 1919. Which state contains this memorial?",
+          "factKey": "punjab:jallianwala-bagh-1919",
+          "source": "https://amritsar.nic.in/tourist-place/jallian-wala-bagh/"
+        }
+      ],
+      "takeaway": "Punjab: Khatkar Kalan preserves the ancestral home and memory of Bhagat Singh.",
+      "sources": [
+        {
+          "label": "pib.gov.in — primary supporting source",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2080598&lang=2&reg=48"
+        },
+        {
+          "label": "rupnagar.nic.in — primary supporting source",
+          "url": "https://rupnagar.nic.in/history/"
+        },
+        {
+          "label": "amritsar.nic.in — primary supporting source",
+          "url": "https://amritsar.nic.in/tourist-place/jallian-wala-bagh/"
+        }
+      ]
+    },
+    {
+      "id": "chhattisgarh-002",
+      "answer": "Chhattisgarh",
+      "group": "south",
+      "clues": [
+        {
+          "title": "A festival for women",
+          "text": "Teeja is a major festival here, when women observe rituals and return to their parental homes. Which central Indian state is especially associated with this celebration?",
+          "factKey": "chhattisgarh:teeja-women-festival",
+          "source": "https://www.incredibleindia.gov.in/en/festivals-and-events/chhattisgarh/teej-pola"
+        },
+        {
+          "title": "Dance inspired by a spiritual teacher",
+          "text": "Panthi dance is associated with the Satnami community and the teachings of Guru Ghasidas. Which state is especially known for it?",
+          "factKey": "chhattisgarh:panthi-satnami-ghasidas",
+          "source": "https://durg.gov.in/en/culture-heritage/"
+        },
+        {
+          "title": "An ancient town beside the Mahanadi",
+          "text": "Sirpur, beside the Mahanadi and near Raipur, preserves the history of an ancient royal capital. Which state contains this important archaeological destination?",
+          "factKey": "chhattisgarh:sirpur-mahanadi-ancient-capital",
+          "source": "https://mahasamund.gov.in/en/tourist-place/sirpur/"
+        }
+      ],
+      "takeaway": "Chhattisgarh: Teeja is a major festival here, when women observe rituals and return to their parental homes.",
+      "sources": [
+        {
+          "label": "incredibleindia.gov.in — primary supporting source",
+          "url": "https://www.incredibleindia.gov.in/en/festivals-and-events/chhattisgarh/teej-pola"
+        },
+        {
+          "label": "durg.gov.in — primary supporting source",
+          "url": "https://durg.gov.in/en/culture-heritage/"
+        },
+        {
+          "label": "mahasamund.gov.in — primary supporting source",
+          "url": "https://mahasamund.gov.in/en/tourist-place/sirpur/"
+        }
+      ]
+    },
+    {
+      "id": "kerala-004",
+      "answer": "Kerala",
+      "group": "south",
+      "clues": [
+        {
+          "title": "An artist from Kilimanoor",
+          "text": "Raja Ravi Varma, famous for paintings of Indian mythological subjects, was born at Kilimanoor Palace. Which state preserves this artistic connection?",
+          "factKey": "kerala:ravi-varma-kilimanoor",
+          "source": "https://www.keralatourism.org/destination/kilimanoor-palace-thiruvananthapuram/374/"
+        },
+        {
+          "title": "Vishnu reclining on the serpent",
+          "text": "Sree Padmanabhaswamy Temple in Thiruvananthapuram depicts Vishnu reclining on Anantha. Which state contains this famous shrine?",
+          "factKey": "kerala:padmanabhaswamy-reclining-vishnu",
+          "source": "https://www.keralatourism.org/campaigns/kerala365/sree-padmanabha-swamy-temple-tvm"
+        },
+        {
+          "title": "Fishing nets on a harbour shore",
+          "text": "Fort Kochi’s great cantilevered fishing nets are among the harbour’s best-known sights. Which state would you visit to see them?",
+          "factKey": "kerala:kochi-chinese-fishing-nets",
+          "source": "https://www.keralatourism.org/kochi/chinese-fishing-nets-kochi"
+        }
+      ],
+      "takeaway": "Kerala: Raja Ravi Varma, famous for paintings of Indian mythological subjects, was born at Kilimanoor Palace.",
+      "sources": [
+        {
+          "label": "keralatourism.org — primary supporting source",
+          "url": "https://www.keralatourism.org/destination/kilimanoor-palace-thiruvananthapuram/374/"
+        },
+        {
+          "label": "keralatourism.org — primary supporting source",
+          "url": "https://www.keralatourism.org/campaigns/kerala365/sree-padmanabha-swamy-temple-tvm"
+        },
+        {
+          "label": "keralatourism.org — primary supporting source",
+          "url": "https://www.keralatourism.org/kochi/chinese-fishing-nets-kochi"
+        }
+      ]
+    },
+    {
+      "id": "andaman-and-nicobar-islands-004",
+      "answer": "Andaman and Nicobar Islands",
+      "group": "south",
+      "clues": [
+        {
+          "title": "A bird found on one volcanic island",
+          "text": "The Narcondam hornbill is naturally found only on Narcondam Island. Which Indian union territory protects this remarkable endemic bird?",
+          "factKey": "andaman-and-nicobar-islands:narcondam-endemic-hornbill",
+          "source": "https://whc.unesco.org/en/tentativelists/5914/"
+        },
+        {
+          "title": "The gentle sea cow",
+          "text": "The dugong, a seagrass-eating marine mammal also called a sea cow, is this island territory’s state animal. Which union territory is it?",
+          "factKey": "andaman-and-nicobar-islands:dugong-state-animal",
+          "source": "https://forest.and.nic.in/"
+        },
+        {
+          "title": "India’s southernmost point",
+          "text": "Indira Point marks the southernmost tip of India’s territory. Which island union territory contains it?",
+          "factKey": "andaman-and-nicobar-islands:indira-point-southernmost",
+          "source": "https://nicobars.andaman.nic.in/demography/"
+        }
+      ],
+      "takeaway": "Andaman and Nicobar Islands: The Narcondam hornbill is naturally found only on Narcondam Island.",
+      "sources": [
+        {
+          "label": "whc.unesco.org — primary supporting source",
+          "url": "https://whc.unesco.org/en/tentativelists/5914/"
+        },
+        {
+          "label": "forest.and.nic.in — primary supporting source",
+          "url": "https://forest.and.nic.in/"
+        },
+        {
+          "label": "nicobars.andaman.nic.in — primary supporting source",
+          "url": "https://nicobars.andaman.nic.in/demography/"
+        }
+      ]
     }
   ],
   "days": [
@@ -2767,6 +4191,102 @@
         "jharkhand-002",
         "mizoram-004",
         "rajasthan-004"
+      ]
+    },
+    {
+      "date": "2026-11-26",
+      "questionIds": [
+        "nagaland-003",
+        "tripura-003",
+        "puducherry-002"
+      ]
+    },
+    {
+      "date": "2026-11-27",
+      "questionIds": [
+        "arunachal-pradesh-003",
+        "kerala-003",
+        "manipur-003"
+      ]
+    },
+    {
+      "date": "2026-11-28",
+      "questionIds": [
+        "nagaland-004",
+        "uttarakhand-002",
+        "odisha-004"
+      ]
+    },
+    {
+      "date": "2026-11-29",
+      "questionIds": [
+        "telangana-002",
+        "delhi-002",
+        "sikkim-003"
+      ]
+    },
+    {
+      "date": "2026-11-30",
+      "questionIds": [
+        "sikkim-004",
+        "dadra-and-nagar-haveli-and-daman-and-diu-004",
+        "mizoram-005"
+      ]
+    },
+    {
+      "date": "2026-12-01",
+      "questionIds": [
+        "dadra-and-nagar-haveli-and-daman-and-diu-005",
+        "maharashtra-002",
+        "assam-004"
+      ]
+    },
+    {
+      "date": "2026-12-02",
+      "questionIds": [
+        "tamil-nadu-002",
+        "nagaland-005",
+        "ladakh-002"
+      ]
+    },
+    {
+      "date": "2026-12-03",
+      "questionIds": [
+        "andaman-and-nicobar-islands-003",
+        "tamil-nadu-003",
+        "odisha-005"
+      ]
+    },
+    {
+      "date": "2026-12-04",
+      "questionIds": [
+        "tripura-004",
+        "mizoram-006",
+        "ladakh-003"
+      ]
+    },
+    {
+      "date": "2026-12-05",
+      "questionIds": [
+        "west-bengal-003",
+        "bihar-005",
+        "haryana-002"
+      ]
+    },
+    {
+      "date": "2026-12-06",
+      "questionIds": [
+        "uttar-pradesh-003",
+        "sikkim-005",
+        "punjab-002"
+      ]
+    },
+    {
+      "date": "2026-12-07",
+      "questionIds": [
+        "chhattisgarh-002",
+        "kerala-004",
+        "andaman-and-nicobar-islands-004"
       ]
     }
   ],
